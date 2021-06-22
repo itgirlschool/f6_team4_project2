@@ -1,7 +1,55 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/roboto-fonts/Roboto-Medium.ttf);
+}
+
 .wrapper-title-page {
-  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 99vh;
   width: 100%;
-  background: url(../images/photo-first-page.jpg) no-repeat;
-  background-size: 20%;
+  background: rgba(0, 0, 0, 0.75) url(../images/photo-first-page.jpg) no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.wrapper-title-page .content {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.wrapper-title-page .content .decoration-line {
+  border-top: 10px solid #00C7C2;
+  width: 100%;
+}
+
+.wrapper-title-page .content .title {
+  color: white;
+  font-size: 5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+.wrapper-title-page .content .slogan {
+  color: white;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
 }
 /*# sourceMappingURL=main.css.map */
