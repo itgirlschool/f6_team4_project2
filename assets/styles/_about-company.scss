@@ -1,4 +1,20 @@
-.wrapper-title-page{
+// .div-image-background{
+//     width: 94.7rem;
+// }
+
+.image-background {
+    max-width: 100%;
+    max-height: 100%;
+    z-index: -1;
+}
+
+.wrapper-title-page {
     height: 100%;
     width: 100%;
+    //background: url(../images/photo-first-page.jpg) no-repeat;
+    //background-size: 20%;
+
+    .title{
+        color: white;
+    }
 }
