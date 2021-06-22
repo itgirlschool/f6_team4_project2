@@ -1,4 +1,8 @@
 .wrapper-title-page {
   height: 100%;
   width: 100%;
-}/*# sourceMappingURL=main.css.map */
+  background: url(../images/photo-first-page.jpg) no-repeat;
+  background-size: 20%;
+}
+
+/*# sourceMappingURL=main.css.map */
