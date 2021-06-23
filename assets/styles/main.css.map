@@ -1,10 +1,1 @@
-{
-    "version": 3,
-    "mappings": "ACAA,AAAA,mBAAmB,CAAA;EACf,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;CACd",
-    "sources": [
-        "main.scss"
-        
-    ],
-    "names": [],
-    "file": "main.css"
-}
+{"version":3,"sources":["_about-company.scss","main.scss"],"names":[],"mappings":"AAAA;EACI,YAAA;EACA,WAAA;ACCJ","file":"main.css"}
