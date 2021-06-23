@@ -52,4 +52,24 @@
   font-family: "Roboto", sans-serif;
   font-weight: normal;
 }
+
+* {
+  outline: darkcyan 1px dotted;
+  font-family: "Roboto", sans-serif;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/roboto-fonts/Roboto-Medium.ttf);
+}
+
+.why-important__wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+.why-important__number {
+  font-size: 5rem;
+  color: #00C7C2;
+}
 /*# sourceMappingURL=main.css.map */
