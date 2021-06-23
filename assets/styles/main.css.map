@@ -4,9 +4,8 @@
     "sources": [
         "main.scss",
         "_variables.scss",
-        "_about-company.scss",
-        "_why-formats.scss",
-        "_page7-8-9.scss"
+        "_about-company.scss",        
+        "_page7-8-9.scss",
         "_456-why-formats.scss"
     ],
     "names": [],
