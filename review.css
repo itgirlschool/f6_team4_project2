@@ -1,0 +1,14 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  max-width: 90rem;
+  max-height: 100vh;
+  margin: 0 auto;
+}
+section .review {
+  border: 1px solid red;
+}
+section .review .review-1 {
+  border: 1px solid black;
+}/*# sourceMappingURL=review.css.map */
