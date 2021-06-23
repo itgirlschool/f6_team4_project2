@@ -5,7 +5,9 @@
         "main.scss",
         "_variables.scss",
         "_about-company.scss",
-        "_456-why-formats.scss"
+        "_456-why-formats.scss",
+        "_why-formats.scss",
+        "_page7-8-9.scss"
     ],
     "names": [],
     "file": "main.css"
