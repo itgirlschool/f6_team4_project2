@@ -7,9 +7,12 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   height: 99vh;
   width: 100%;
   background: rgba(0, 0, 0, 0.75) url(../images/photo-first-page-light.jpg) no-repeat;
@@ -21,7 +24,7 @@
 .wrapper-title-page .div-logo {
   width: 20rem;
   -ms-flex-item-align: start;
-      align-self: flex-start;
+  align-self: flex-start;
   border: 1px solid red;
 }
 
@@ -36,10 +39,10 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -ms-flex-line-pack: distribute;
-      align-content: space-around;
+  align-content: space-around;
   width: 76%;
   height: 100%;
 }
@@ -67,8 +70,72 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border: 1px solid red;
+}
+
+.wrapper-title-page .content .text-content .decoration-line {
+  border-top: 10px solid #00C7C2;
+  width: 100%;
+}
+
+.wrapper-title-page .content .text-content .title {
+  color: white;
+  font-size: 5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  border: 1px solid red;
+  margin: 20px 0;
+}
+
+.wrapper-title-page .content .text-content .slogan {
+  color: white;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  border: 1px solid red;
+  margin: 20px 0;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/roboto-fonts/Roboto-Medium.ttf);
+}
+
+.why-important__wrapper {
+  height: 100%;
+}
+
+.wrapper-title-page .content .general-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper-title-page .content .general-menu .item-general-menu {
+  text-decoration: none;
+  color: #00C7C2;
+  border: 1px solid red;
+}
+
+.wrapper-title-page .content .general-menu .item-general-menu:hover {
+  text-decoration: underline;
+}
+
+.wrapper-title-page .content .text-content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
   border: 1px solid red;
 }
 
@@ -126,7 +193,7 @@
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .wrapper-7 .container-7-left {
@@ -145,7 +212,7 @@
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .wrapper-8 .container-8-left .img_8p {
@@ -162,7 +229,7 @@
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .wrapper-9 .container-9-left {
@@ -199,13 +266,14 @@ img {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 .wrapper-intelclub .intelclub-main {
   color: white;
 }
+
 /*# sourceMappingURL=main.css.map */
