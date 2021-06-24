@@ -1,5 +1,5 @@
 * {
-    // outline: darkcyan 1px dotted;
+    //    outline: darkcyan 1px dotted; 
     font-family: "Roboto", sans-serif;
 }
 
@@ -16,7 +16,20 @@
 
 }
 
+.why-important__logo-set {}
+
+.why-important__logo {}
+
+.why-important__line {
+    border-top: 10px solid $turquoise-color;
+    width: 100%;
+}
+
 .why-important__title {}
+
+.why-important__card-set {}
+
+.why-important__card {}
 
 .why-important__number {
     font-size: 5rem;

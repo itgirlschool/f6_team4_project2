@@ -271,6 +271,11 @@
           flex-direction: column;
 }
 
+.why-important__line {
+  border-top: 10px solid #00C7C2;
+  width: 100%;
+}
+
 .why-important__number {
   font-size: 5rem;
   color: #00C7C2;
