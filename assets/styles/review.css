@@ -12,9 +12,21 @@ section .review {
 section .review .review-1 {
   border: 1px solid black;
 }
-section .review .review-2 {
+section .review .review-1 .review-text-1 {
+  display: flex;
+  justify-content: flex-end;
+}
+section .review-2 {
   border: 1px solid black;
 }
-section .review .review-3 {
+section .review-2 .review-text-2 {
+  display: flex;
+  justify-content: flex-end;
+}
+section .review-3 {
   border: 1px solid black;
+}
+section .review-3 .review-text-3 {
+  display: flex;
+  justify-content: flex-end;
 }/*# sourceMappingURL=review.css.map */

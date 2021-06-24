@@ -1,0 +1,40 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    max-width: 90rem;
+    max-height: 100vh;
+    margin: 0 auto;
+
+    .review {
+        border: 1px solid red;
+
+        .review-1 {
+            border: 1px solid black;
+
+            .review-text-1 {
+                display: flex;
+                justify-content: flex-end;
+            }
+        }
+    }
+
+    .review-2 {
+        border: 1px solid black;
+
+        .review-text-2 {
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+
+    .review-3 {
+        border: 1px solid black;
+
+        .review-text-3 {
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+
+}
