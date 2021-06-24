@@ -172,4 +172,33 @@ img {
   max-width: 100%;
   max-height: 100%;
 }
+
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/roboto-fonts/Roboto-Medium.ttf);
+}
+
+.wrapper-intelclub {
+  height: 99vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.75) url(../images/img-bg_p10.png) no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.wrapper-intelclub .intelclub-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.wrapper-intelclub .intelclub-main {
+  color: white;
+}
 /*# sourceMappingURL=main.css.map */

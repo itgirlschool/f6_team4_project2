@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/roboto-fonts/Roboto-Medium.ttf);
+}
+.wrapper-intelclub {
+   
+    height: 99vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.75) url(../images/img-bg_p10.png) no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+
+    .intelclub-header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        
+
+    }
+    .intelclub-main {
+            color:white;
+        }
+}
