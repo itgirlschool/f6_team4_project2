@@ -1,0 +1,41 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  max-width: 90rem;
+  max-height: 100vh;
+  margin: 0 auto;
+}
+
+section .review {
+  border: 1px solid red;
+}
+
+section .review .review-1 {
+  border: 1px solid black;
+}
+
+section .review .review-1 .review-text-1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+section .review-2 {
+  border: 1px solid black;
+}
+
+section .review-2 .review-text-2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+section .review-3 {
+  border: 1px solid black;
+}
+
+section .review-3 .review-text-3 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*# sourceMappingURL=review.css.map */
