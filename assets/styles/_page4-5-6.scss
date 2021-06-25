@@ -2,6 +2,7 @@
     outline: darkcyan 2px dotted;
     font-family: "Roboto", sans-serif;
     overflow: hidden;
+    // background-color: lightsalmon;
 }
 
 @font-face {
@@ -15,56 +16,60 @@
     display: flex;
     flex-direction: column;
     margin: 0 1%;
-}
 
-.why-important__logo-set {
-    display: flex;
-    width: 100%;
+    .why-important__logo-set {
+        display: flex;
+        width: 100%;
+        height: 30vh;
 
-}
+        .why-important__line {
+            border-top: 10px solid $turquoise-color;
+            width: 50%;
+            margin-top: 2.5rem;
+            flex-grow: 1;
+        }
 
-.why-important__logo {
-    height: 15vh;
-}
+        .why-important__logo {
+            height: 10vh;
+        }
+    }
 
-.why-important__line {
-    border-top: 10px solid $turquoise-color;
-    width: 50%;
-    margin-top: 1.5rem;
-    flex-grow: 1;
+    .why-important__title {
+        color: $gray-color;
+    }
 
+    .why-important__card-set {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
 
-}
+        .why-important__card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
 
-.why-important__title {}
+            width: 30%;
 
-.why-important__card-set {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+            .why-important__number {
+                color: $turquoise-color;
+                font-size: 5rem;
+                width: 6rem;
+                text-align: center;
+                background-color: lightgreen;
+                border-radius: 5rem;
+            }
 
-.why-important__card {
-    flex-direction: column;
-    height: 90%;
+            .why-important__block {
+                background-color: #eaeef1;
+                width: 60%;
+                font-size: 2.125rem;
+            }
+        }
+    }
 
-}
+    .why-important__footer {
+        margin-top: 5rem;
+    }
 
-.why-important__number {
-    color: $turquoise-color;
-    font-size: 5rem;
-    width: 6rem;
-    text-align: center;
-    background-color: lightgreen;
-    border-radius: 5rem;
-}
-
-.why-important__block {
-    background-color: #eaeef1;
-    width: 90%;
-
-}
-
-.why-important__footer {
-    margin-top: 5rem;
 }
