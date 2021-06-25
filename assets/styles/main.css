@@ -287,6 +287,7 @@
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
+  font-size: 1rem;
 }
 
 .wrapper-7 .container-7-left {
