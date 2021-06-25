@@ -1,5 +1,5 @@
 * {
-    outline: darkcyan 2px dotted;
+    // outline: darkcyan 2px dotted;
     font-family: "Roboto", sans-serif;
     overflow: hidden;
     // background-color: lightsalmon;
@@ -20,17 +20,18 @@
     .why-important__logo-set {
         display: flex;
         width: 100%;
-        height: 30vh;
+        height: 20%;
+        margin-top: 1rem;
 
         .why-important__line {
             border-top: 10px solid $turquoise-color;
             width: 50%;
-            margin-top: 2.5rem;
+            margin-top: 1rem;
             flex-grow: 1;
         }
 
         .why-important__logo {
-            height: 10vh;
+            height: 15vh;
         }
     }
 
