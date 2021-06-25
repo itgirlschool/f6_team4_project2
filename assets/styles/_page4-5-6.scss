@@ -1,6 +1,7 @@
 * {
-    //    outline: darkcyan 1px dotted; 
+    outline: darkcyan 2px dotted;
     font-family: "Roboto", sans-serif;
+    overflow: hidden;
 }
 
 @font-face {
@@ -10,32 +11,60 @@
 
 .why-important__wrapper {
     height: 100%;
-    width: 100%;
+    width: 98%;
     display: flex;
     flex-direction: column;
+    margin: 0 1%;
+}
+
+.why-important__logo-set {
+    display: flex;
+    width: 100%;
 
 }
 
-.why-important__logo-set {}
-
-.why-important__logo {}
+.why-important__logo {
+    height: 15vh;
+}
 
 .why-important__line {
     border-top: 10px solid $turquoise-color;
-    width: 100%;
+    width: 50%;
+    margin-top: 1.5rem;
+    flex-grow: 1;
+
+
 }
 
 .why-important__title {}
 
-.why-important__card-set {}
-
-.why-important__card {}
-
-.why-important__number {
-    font-size: 5rem;
-    color: $turquoise-color;
+.why-important__card-set {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.why-important__block {}
+.why-important__card {
+    flex-direction: column;
+    height: 90%;
 
-.why-important__footer {}
+}
+
+.why-important__number {
+    color: $turquoise-color;
+    font-size: 5rem;
+    width: 6rem;
+    text-align: center;
+    background-color: lightgreen;
+    border-radius: 5rem;
+}
+
+.why-important__block {
+    background-color: #eaeef1;
+    width: 90%;
+
+}
+
+.why-important__footer {
+    margin-top: 5rem;
+}
