@@ -1,6 +1,8 @@
 * {
-    //    outline: darkcyan 1px dotted; 
+    outline: darkcyan 2px dotted;
     font-family: "Roboto", sans-serif;
+    overflow: hidden;
+    // background-color: lightsalmon;
 }
 
 @font-face {
@@ -10,32 +12,64 @@
 
 .why-important__wrapper {
     height: 100%;
-    width: 100%;
+    width: 98%;
     display: flex;
     flex-direction: column;
+    margin: 0 1%;
+
+    .why-important__logo-set {
+        display: flex;
+        width: 100%;
+        height: 30vh;
+
+        .why-important__line {
+            border-top: 10px solid $turquoise-color;
+            width: 50%;
+            margin-top: 2.5rem;
+            flex-grow: 1;
+        }
+
+        .why-important__logo {
+            height: 10vh;
+        }
+    }
+
+    .why-important__title {
+        color: $gray-color;
+    }
+
+    .why-important__card-set {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .why-important__card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+
+            width: 30%;
+
+            .why-important__number {
+                color: $turquoise-color;
+                font-size: 5rem;
+                width: 6rem;
+                text-align: center;
+                background-color: lightgreen;
+                border-radius: 5rem;
+            }
+
+            .why-important__block {
+                background-color: #eaeef1;
+                width: 60%;
+                font-size: 2.125rem;
+            }
+        }
+    }
+
+    .why-important__footer {
+        margin-top: 5rem;
+    }
 
 }
-
-.why-important__logo-set {}
-
-.why-important__logo {}
-
-.why-important__line {
-    border-top: 10px solid $turquoise-color;
-    width: 100%;
-}
-
-.why-important__title {}
-
-.why-important__card-set {}
-
-.why-important__card {}
-
-.why-important__number {
-    font-size: 5rem;
-    color: $turquoise-color;
-}
-
-.why-important__block {}
-
-.why-important__footer {}
