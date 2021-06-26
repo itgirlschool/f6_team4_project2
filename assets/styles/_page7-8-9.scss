@@ -12,13 +12,6 @@
         width: 60rem;
     }
 
-    .logo7 {
-        position: absolute;
-        height: 10rem;
-        width: 15rem;
-        left: 65rem;
-    }
-
     .container-7-left {
         margin: 8rem 6rem 0 5rem;
     }
@@ -38,6 +31,7 @@
     height: 70%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    font-size: 1.3rem;
 
     .line8 {
         border-top: 7px solid $turquoise-color;
@@ -45,13 +39,6 @@
         margin-top: 3rem;
         margin-left: 5rem;
         width: 60rem;
-    }
-
-    .logo8 {
-        position: absolute;
-        height: 10rem;
-        width: 15rem;
-        left: 65rem;
     }
 
     .container-8-left {
@@ -72,6 +59,7 @@
     height: 70%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    font-size: 1.3rem;
 
     @media screen and (max-width: 767px) {
         grid-template-columns: 1fr;
@@ -85,15 +73,9 @@
         width: 60rem;
     }
 
-    .logo9 {
-        position: absolute;
-        height: 10rem;
-        width: 15rem;
-        left: 65rem;
-    }
-
     .container-9-left {
         margin: 8rem 6rem 0 5rem;
+        text-align: justify;
     }
 
     .container-9-right {
@@ -104,11 +86,16 @@
     }
 }
 
+.logo {
+    position: absolute;
+    height: 10rem;
+    width: 15rem;
+    left: 65rem;
+}
+
 img {
     max-width: 100%;
     max-height: 100%;
-
-
 }
 
 .bold {
