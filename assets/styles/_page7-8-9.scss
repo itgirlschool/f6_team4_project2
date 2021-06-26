@@ -15,11 +15,20 @@
 
     .container-7-right {
         margin-left: 5rem;
+        opacity: 0.8;
+
+        transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+
+        transition-property: opacity, transform;
+
+        &:hover {
+            transform: translate(-5rem, 0);
+            transition-duration: 2s;
+        }
 
         .img_7p {
             width: 100%;
-            /*transform: translate(-5rem, 0);
-            opacity: 0.7;*/
+
 
         }
 
@@ -39,9 +48,15 @@
     .container-8-left {
         margin-right: 5rem;
 
+        &:hover {
+            transform: translate(5rem, 0);
+            transition-duration: 2s;
+        }
+
         .img_8p {
             height: 100%;
             width: 100%;
+            opacity: 0.8;
 
         }
     }
@@ -73,8 +88,14 @@
     .container-9-right {
         margin-left: 5rem;
 
+        &:hover {
+            transform: translate(-5rem, 0);
+            transition-duration: 2s;
+        }
+
         .img_9p {
             width: 100%;
+            opacity: 0.8;
 
 
         }
