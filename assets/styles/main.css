@@ -491,6 +491,10 @@ h2 {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 0 2%;
+  background-image: url(../images/img_p5.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 40%;
 }
 
 .our-offer__wrapper .our-offer__logo-set {
