@@ -377,6 +377,7 @@
 
 @font-face {
   font-family: Roboto;
+  src: url(../fonts/roboto-fonts/Roboto-Medium.ttf);
 }
 
 h2 {
