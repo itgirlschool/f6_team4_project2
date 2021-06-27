@@ -13,7 +13,7 @@
     background: rgba(0, 0, 0, 0.75) url(../images/photo-first-page-light.jpg) no-repeat;
     background-size: cover;
     background-blend-mode: darken;
-    margin-bottom: 10px;
+    margin-bottom: 3rem;
 
     .about-company__header {
         display: grid;
@@ -78,7 +78,7 @@
         font-size: 5rem;
         font-family: "Roboto", sans-serif;
         font-weight: normal;
-        margin: 20px 0;
+        margin: 1.3rem 0;
     }
 
     .about-company__slogan {
@@ -86,7 +86,7 @@
         font-size: 2rem;
         font-family: "Roboto", sans-serif;
         font-weight: normal;
-        margin: 20px 0;
+        margin: 1.3rem 0;
     }
 }
 
@@ -100,7 +100,7 @@
     height: 98vh;
     width: 100%;
     background-size: cover;
-    margin-bottom: 10px;
+    margin-bottom: 3rem;
 }
 
 .requests-us__wrapper__two-page {
@@ -161,7 +161,7 @@
         display: flex;
         width: 3rem;
         height: 3rem;
-        border: 4px solid $turquoise-color;
+        border: 0.25rem solid $turquoise-color;
         border-radius: 50%;
         color: $turquoise-color;
         font-size: 1.5rem;
@@ -218,7 +218,6 @@
     font-weight: normal;
     color: $gray-color;
     text-align: center;
-
 }
 
 /*end two page of presentation*/
@@ -226,7 +225,7 @@
 
 /*start three page*/
 .topics__wrapper__three-page {
-    width: 100%;
+    max-width: 100%;
     height: 100vh;
     border: 1px solid red;
 
@@ -261,9 +260,14 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        border: 1px solid red;
 
         .topics__div__item {
             width: 40%;
+            height: 4rem;
+            border: 1px solid red;
+            
+            
 
             .topics__item {
                 font-family: "Roboto", sans-serif;
@@ -271,13 +275,15 @@
                 font-size: 1.4rem;
                 color: $gray-color;
                 border-left: 0.5rem solid $turquoise-color;
-                border: 1px solid red;
+                padding-left: 2rem;
+                //border: 1px solid red;
             }
         }
     }
 
     .topics__wrapper__img{
         width: 100%;
+        height: 20rem;
 
         .topics__img{
             max-width: 100%;
