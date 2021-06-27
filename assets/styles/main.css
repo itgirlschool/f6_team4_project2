@@ -378,7 +378,11 @@
 
 @font-face {
   font-family: Roboto;
-  src: url(../fonts/roboto-fonts/Roboto-Medium.ttf);
+  src: url(../fonts/roboto-fonts/Roboto-Light.ttf);
+}
+
+h2 {
+  font-size: 2.5rem;
 }
 
 .why-important__wrapper {
@@ -458,9 +462,13 @@
 }
 
 .why-important__wrapper .why-important__card-set .why-important__card .why-important__block {
-  background-color: #eaeef1;
-  width: 60%;
-  font-size: 1.5rem;
+  background-color: #979292;
+  color: #404040;
+  width: 70%;
+  font-size: 1.25rem;
+  text-align: left;
+  border-radius: 0rem 2rem 2rem 0rem;
+  padding: 2rem;
 }
 
 .why-important__wrapper .why-important__footer {
