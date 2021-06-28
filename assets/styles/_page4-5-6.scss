@@ -1,7 +1,7 @@
 // global styles
 
 * {
-    // outline: darkcyan 2px dotted;
+    outline: darkcyan 2px dotted;
     font-family: "Roboto", sans-serif;
     //overflow: hidden;
 }
@@ -18,11 +18,11 @@ h2 {
 // page 4 styles start
 
 .why-important__wrapper {
-    height: 100%;
+    height: 98%;
     width: 96%;
     display: flex;
     flex-direction: column;
-    margin: 0 2%;
+    margin: 0 2% 2% 2%;
 
     .why-important__logo-set {
         display: flex;
@@ -95,11 +95,11 @@ h2 {
 
 // page 5 styles start
 .our-offer__wrapper {
-    height: 100%;
+    height: 98%;
     width: 96%;
     display: flex;
     flex-direction: column;
-    margin: 0 2%;
+    margin: 0 2% 2% 2%;
     background-image: url(../images/img_p5.jpg);
     background-position: top right;
     background-repeat: no-repeat;
@@ -170,15 +170,13 @@ h2 {
 // page 6 styles start
 
 .book-quest__wrapper {
-    height: 100%;
+    height: 100vh;
     width: 96%;
     display: flex;
     flex-direction: column;
     margin: 0 2%;
-    // background-image: url(../images/img_p5.jpg);
-    // background-position: top right;
-    // background-repeat: no-repeat;
-    // background-size: 40%;
+    background: url(../images/img_p6_top.jpg) left top no-repeat, url(../images/img_p6_bottom.jpg) left bottom no-repeat;
+    background-size: 45%, 45%;
 
     .book-quest__logo-set {
         display: flex;
@@ -213,12 +211,17 @@ h2 {
             width: 55%;
 
             .book-quest__section {
-                .book-quest__section-title {}
+                padding: 0 1.5rem;
+                font-size: 1.25rem;
 
-                .bold {}
+                .book-quest__section-title {
+                    margin-top: 5rem;
+                }
+
+                .bold {
+                    font-weight: bold;
+                }
             }
-
-
         }
     }
 }

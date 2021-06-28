@@ -372,6 +372,7 @@
 }
 
 * {
+  outline: darkcyan 2px dotted;
   font-family: "Roboto", sans-serif;
 }
 
@@ -385,7 +386,7 @@ h2 {
 }
 
 .why-important__wrapper {
-  height: 100%;
+  height: 98%;
   width: 96%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -394,7 +395,7 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 0 2%;
+  margin: 0 2% 2% 2%;
 }
 
 .why-important__wrapper .why-important__logo-set {
@@ -481,7 +482,7 @@ h2 {
 }
 
 .our-offer__wrapper {
-  height: 100%;
+  height: 98%;
   width: 96%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -490,7 +491,7 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 0 2%;
+  margin: 0 2% 2% 2%;
   background-image: url(../images/img_p5.jpg);
   background-position: top right;
   background-repeat: no-repeat;
@@ -559,7 +560,7 @@ h2 {
 }
 
 .book-quest__wrapper {
-  height: 100%;
+  height: 100vh;
   width: 96%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -569,6 +570,8 @@ h2 {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 0 2%;
+  background: url(../images/img_p6_top.jpg) left top no-repeat, url(../images/img_p6_bottom.jpg) left bottom no-repeat;
+  background-size: 45%, 45%;
 }
 
 .book-quest__wrapper .book-quest__logo-set {
@@ -616,6 +619,19 @@ h2 {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 55%;
+}
+
+.book-quest__wrapper .book-quest__content .book-quest__text-area .book-quest__section {
+  padding: 0 1.5rem;
+  font-size: 1.25rem;
+}
+
+.book-quest__wrapper .book-quest__content .book-quest__text-area .book-quest__section .book-quest__section-title {
+  margin-top: 5rem;
+}
+
+.book-quest__wrapper .book-quest__content .book-quest__text-area .book-quest__section .bold {
+  font-weight: bold;
 }
 
 .wrapper-7 .line7 {
