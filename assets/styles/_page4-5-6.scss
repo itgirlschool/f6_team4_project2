@@ -151,16 +151,76 @@ h2 {
             }
         }
 
+        // remove this as it's obsolete
+        //     .our-offer__img-area {
+        //         position: relative;
+        //         height: 84%;
+        //         width: 40%;
 
-        .our-offer__img-area {
-            position: relative;
-            height: 84%;
-            width: 40%;
+        //         our-offer__img {
+        //             position: absolute;
+        //             clip: rect(200px, 60px, 200px, 0px);
+        //         }
+        // }
+    }
+}
 
-            our-offer__img {
-                position: absolute;
-                clip: rect(200px, 60px, 200px, 0px);
+// page 5 styles end
+
+// page 6 styles start
+
+.book-quest__wrapper {
+    height: 100%;
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 2%;
+    // background-image: url(../images/img_p5.jpg);
+    // background-position: top right;
+    // background-repeat: no-repeat;
+    // background-size: 40%;
+
+    .book-quest__logo-set {
+        display: flex;
+        width: 100%;
+        height: 16vh;
+        margin-top: 1rem;
+
+        .book-quest__line {
+            border-top: 10px solid $turquoise-color;
+            width: 50%;
+            margin-top: 1rem;
+            flex-grow: 1;
+        }
+
+        .book-quest__logo {
+            height: 15vh;
+        }
+    }
+
+    .book-quest__content {
+        display: flex;
+        flex-direction: row;
+
+        .book-quest__img-area {
+            // height: 84%;
+            width: 45%;
+        }
+
+        .book-quest__text-area {
+            display: flex;
+            flex-direction: column;
+            width: 55%;
+
+            .book-quest__section {
+                .book-quest__section-title {}
+
+                .bold {}
             }
+
+
         }
     }
 }
+
+// page 6 styles end
