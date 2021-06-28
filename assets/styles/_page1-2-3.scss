@@ -3,8 +3,58 @@
     src: url(../fonts/roboto-fonts/Roboto-Medium.ttf);
 }
 
+//start of fixed top menu
+// .about-company__header1 {
+//     position: fixed;
+//     top: 0;
+//     width: 100%;
+//     background-color: black;
+//     display: grid;
+//     grid-template-columns: 25% 75%;
+//     grid-template-rows: 1fr;
+
+
+//     .about-company__div-logo1 {
+//         grid-row: 1/2;
+//         grid-column: 1/2;
+//         width: 20rem;
+
+//         .about-company__div-logo__img1 {
+//             max-width: 100%;
+//             max-height: 100%;
+//             margin-top: 3.2rem;
+//         }
+//     }
+
+//     .about-company__nav1 {
+//         grid-row: 1/2;
+//         grid-column: 2/3;
+//         display: flex;
+//         justify-content: space-around;
+//         align-items: center;
+
+//         .about-company__nav__item1 {
+//             height: 2rem;
+//             text-decoration: none;
+//             color: $turquoise-color;
+//             font-size: 1.2rem;
+
+
+//             &:hover {
+//                 text-decoration: underline;
+//             }
+
+//             &:hover {
+//                 color: white;
+//             }
+//         }
+//     }
+// }
+//end of fixed top menu
+
 /*first page of presentation*/
 .about-company__wrapper__first-page {
+//margin-top: 10rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -13,7 +63,7 @@
     background: rgba(0, 0, 0, 0.75) url(../images/photo-first-page-light.jpg) no-repeat;
     background-size: cover;
     background-blend-mode: darken;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 
     .about-company__header {
         display: grid;
@@ -72,7 +122,6 @@
         width: 100%;
     }
 
-
     .about-company__headline {
         color: white;
         font-size: 5rem;
@@ -92,6 +141,9 @@
 
 /*end of first page*/
 
+@media screen  and (max-width: 1224px) {
+    
+}
 
 /*start two page*/
 

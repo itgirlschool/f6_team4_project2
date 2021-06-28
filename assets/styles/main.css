@@ -20,7 +20,7 @@
   background: rgba(0, 0, 0, 0.75) url(../images/photo-first-page-light.jpg) no-repeat;
   background-size: cover;
   background-blend-mode: darken;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .about-company__wrapper__first-page .about-company__header {
@@ -482,6 +482,95 @@ h2 {
 
 .why-important__wrapper .why-important__footer {
   margin-top: 3rem;
+}
+
+.our-offer__wrapper {
+  height: 100%;
+  width: 96%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 2%;
+  background-image: url(../images/img_p5.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 40%;
+}
+
+.our-offer__wrapper .our-offer__logo-set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 16vh;
+  margin-top: 1rem;
+}
+
+.our-offer__wrapper .our-offer__logo-set .our-offer__line {
+  border-top: 10px solid #00C7C2;
+  width: 50%;
+  margin-top: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.our-offer__wrapper .our-offer__logo-set .our-offer__logo {
+  height: 15vh;
+}
+
+.our-offer__wrapper .our-offer__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.our-offer__wrapper .our-offer__content .our-offer__text-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 60%;
+}
+
+.our-offer__wrapper .our-offer__content .our-offer__text-area .our-offer__title {
+  color: #424243;
+  margin: 0.1rem 0;
+}
+
+.our-offer__wrapper .our-offer__content .our-offer__text-area .bold {
+  font-weight: bold;
+}
+
+.our-offer__wrapper .our-offer__content .our-offer__text-area .our-offer__section {
+  padding: 0;
+  font-size: 1.25rem;
+}
+
+.our-offer__wrapper .our-offer__content .our-offer__text-area .our-offer__section .our-offer__section-title {
+  margin: 0;
+}
+
+.our-offer__wrapper .our-offer__content .our-offer__img-area {
+  position: relative;
+  height: 84%;
+  width: 40%;
+}
+
+.our-offer__wrapper .our-offer__content .our-offer__img-area our-offer__img {
+  position: absolute;
+  clip: rect(200px, 60px, 200px, 0px);
 }
 
 .wrapper-7 .line7 {
