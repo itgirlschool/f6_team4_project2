@@ -11,9 +11,6 @@
     src: url(../fonts/roboto-fonts/Roboto-Medium.ttf);
 }
 
-h2 {
-    font-size: 2.5rem;
-}
 
 // page 4 styles start
 
@@ -24,26 +21,9 @@ h2 {
     flex-direction: column;
     margin: 0 2% 2% 2%;
 
-    .why-important__logo-set {
-        display: flex;
-        width: 100%;
-        height: 16vh;
-        margin-top: 1rem;
-
-        .why-important__line {
-            border-top: 10px solid $turquoise-color;
-            width: 50%;
-            margin-top: 1rem;
-            flex-grow: 1;
-        }
-
-        .why-important__logo {
-            height: 15vh;
-        }
-    }
-
     .why-important__title {
         color: $gray-color;
+        font-size: 2.5rem;
     }
 
     .why-important__card-set {
@@ -90,6 +70,7 @@ h2 {
     }
 }
 
+
 // page 4 styles end
 
 
@@ -100,28 +81,11 @@ h2 {
     display: flex;
     flex-direction: column;
     margin: 0 2% 2% 2%;
-    background-image: url(../images/img_p5.jpg);
-    background-position: top right;
-    background-repeat: no-repeat;
-    background-size: 40%;
-
-    .our-offer__logo-set {
-        display: flex;
-        width: 100%;
-        height: 16vh;
-        margin-top: 1rem;
-
-        .our-offer__line {
-            border-top: 10px solid $turquoise-color;
-            width: 50%;
-            margin-top: 1rem;
-            flex-grow: 1;
-        }
-
-        .our-offer__logo {
-            height: 15vh;
-        }
-    }
+    // remove after editing
+    // background-image: url(../images/img_p5.jpg);
+    // background-position: top right;
+    // background-repeat: no-repeat;
+    // background-size: 40%;
 
     .our-offer__content {
         display: flex;
@@ -131,9 +95,11 @@ h2 {
             display: flex;
             flex-direction: column;
             width: 60%;
+            margin-right: 4rem;
 
             .our-offer__title {
                 color: $gray-color;
+                font-size: 2.5rem;
                 margin: 0.1rem 0;
             }
 
@@ -151,17 +117,25 @@ h2 {
             }
         }
 
-        // remove this as it's obsolete
-        //     .our-offer__img-area {
-        //         position: relative;
-        //         height: 84%;
-        //         width: 40%;
+        .our-offer__img-area {
+            display: flex;
+            flex-direction: row;
+            justify-items: flex-end;
+            width: 35%;
 
-        //         our-offer__img {
-        //             position: absolute;
-        //             clip: rect(200px, 60px, 200px, 0px);
-        //         }
-        // }
+            // animation
+            transition-duration: 2s;
+
+            &:hover {
+                transform: translate(-4rem, 0);
+                transition-duration: 2s;
+                transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+            }
+
+            .our-offer__img {
+                border-radius: 10rem;
+            }
+        }
     }
 }
 
@@ -175,40 +149,38 @@ h2 {
     display: flex;
     flex-direction: column;
     margin: 0 2%;
-    background: url(../images/img_p6_top.jpg) left top no-repeat, url(../images/img_p6_bottom.jpg) left bottom no-repeat;
-    background-size: 45%, 45%;
 
-    .book-quest__logo-set {
-        display: flex;
-        width: 100%;
-        height: 16vh;
-        margin-top: 1rem;
-
-        .book-quest__line {
-            border-top: 10px solid $turquoise-color;
-            width: 50%;
-            margin-top: 1rem;
-            flex-grow: 1;
-        }
-
-        .book-quest__logo {
-            height: 15vh;
-        }
-    }
 
     .book-quest__content {
         display: flex;
         flex-direction: row;
 
         .book-quest__img-area {
-            // height: 84%;
             width: 45%;
+
+            // animation
+            transition-duration: 2s;
+
+            &:hover {
+                transform: translate(4rem, 0);
+                transition-duration: 2s;
+                transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+            }
+
+            .book-quest__img-top {
+                border-radius: 10rem 10rem 0 0;
+            }
+
+            .book-quest__img-bottom {
+                border-radius: 0 0 10rem 10rem;
+            }
         }
 
         .book-quest__text-area {
             display: flex;
             flex-direction: column;
             width: 55%;
+            margin-left: 4rem;
 
             .book-quest__section {
                 padding: 0 1.5rem;
