@@ -1,0 +1,356 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/roboto-fonts/Roboto-Medium.ttf);
+}
+
+.page-14 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    max-width: 90rem;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0 2rem;
+    background: rgba(0, 0, 0, 0.1) url(../images/img_p14_bg.jpg) no-repeat;
+    background-size: cover;
+
+    .review-header {
+        display: flex;
+        align-items: center;
+        height: 5rem;
+        margin-top: 2rem;
+        padding-left: 2rem;
+    }
+
+    .review-line {
+        width: 70rem;
+        height: 0.5rem;
+        background-color: #00C7C2;
+
+    }
+
+    .review-logo {
+        background-image: url(../../assets/images/logo-light.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 5rem;
+
+
+
+
+    }
+
+    .section-title {
+        font-size: 2rem;
+        font-family: "Roboto", sans-serif;
+        font-weight: normal;
+        color: rgb(70, 66, 66);
+        padding-left: 2rem;
+    }
+
+    .review {
+        font-size: 1.3rem;
+        font-family: "Roboto", sans-serif;
+        font-weight: normal;
+        line-height: 2.5rem;
+
+        &-item {
+            border-left: rgb(70, 66, 66) solid 0.5rem;
+            padding-left: 2rem;
+        }
+
+        .review-sub-text {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            font-style: italic;
+
+        }
+
+        .review-text .review-1 {
+
+            .review-text-1 {
+                display: flex;
+                justify-content: flex-end;
+            }
+        }
+    }
+
+    .review-2 {
+
+
+        .review-text-2 {
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+
+    .review-3 {
+
+
+        .review-text-3 {
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+
+}
+
+.page-15 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    max-width: 90rem;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0 2rem;
+
+    .review-header {
+        display: flex;
+        align-items: center;
+        height: 5rem;
+        margin-top: 3rem;
+        padding-left: 2rem;
+    }
+
+    .review-line {
+        width: 70rem;
+        height: 0.5rem;
+        background-color: #00C7C2;
+
+    }
+
+    .review-logo {
+        background-image: url(../../assets/images/logo-light.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 5rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        font-family: "Roboto", sans-serif;
+        font-weight: normal;
+        color: rgb(70, 66, 66);
+        padding-left: 2rem;
+    }
+
+    .team {
+        display: flex;
+        max-width: 90rem;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .team-item {
+            display: flex;
+
+
+
+
+        }
+
+
+
+        .team-text {
+            justify-content: start;
+            margin-left: 1.8rem;
+            width: 12rem;
+        }
+
+
+
+        h2 {
+            font-size: 2rem;
+            font-family: "Roboto", sans-serif;
+            font-weight: normal;
+            color: rgb(70, 66, 66);
+
+        }
+
+        p {
+            font-size: 1.3rem;
+            font-family: "Roboto", sans-serif;
+            font-weight: normal;
+            line-height: 2.5rem;
+        }
+
+
+        .team-item-1 {
+            width: 31rem;
+            justify-content: space-between;
+            margin-bottom: 10rem;
+            margin-top: 10rem;
+
+
+            .team-img-1 {
+                background-image: url(../../assets/images/img_p15_1.png);
+                width: 12rem;
+                height: 12rem;
+                background-size: cover;
+                background-position: center;
+            }
+        }
+
+        .team-item-2 {
+            // width: 31rem;
+            // margin-top: 10rem;
+            width: 31rem;
+            justify-content: space-between;
+            margin-bottom: 10rem;
+            margin-top: 10rem;
+
+            .team-img-2 {
+                background-image: url(../../assets/images/img_p15_2.png);
+                width: 12rem;
+                height: 12rem;
+                background-size: cover;
+                background-position: center;
+            }
+        }
+
+        .team-item-3 {
+            // width: 31rem;
+            width: 31rem;
+            justify-content: space-between;
+            margin-bottom: 10rem;
+            margin-top: 10rem;
+
+            .team-img-3 {
+                background-image: url(../../assets/images/img_p15_3.png);
+                width: 12rem;
+                height: 12rem;
+                background-size: cover;
+                background-position: center;
+            }
+        }
+
+        .team-item-4 {
+            // width: 31rem;
+            width: 31rem;
+            justify-content: space-between;
+            margin-bottom: 10rem;
+            margin-top: 10rem;
+
+            .team-img-4 {
+                background-image: url(../../assets/images/img_p15_4.png);
+                width: 12rem;
+                height: 12rem;
+                background-size: cover;
+                background-position: center;
+            }
+        }
+
+
+    }
+
+}
+
+.page-16 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    max-width: 90rem;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0 2rem;
+
+
+
+    .review-header {
+        display: flex;
+        align-items: center;
+        height: 5rem;
+        margin-top: 3rem;
+        padding-left: 2rem;
+    }
+
+    .review-line {
+        width: 70rem;
+        height: 0.5rem;
+        background-color: #00C7C2;
+
+    }
+
+    .review-logo {
+        background-image: url(../../assets/images/logo-light.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 5rem;
+    }
+
+    .form {
+        display: flex;
+        min-width: 90rem;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+
+        h1 {
+            font-size: 4rem;
+            font-family: "Roboto", sans-serif;
+            font-weight: normal;
+            color: rgb(70, 66, 66);
+        }
+
+        .form-item-1 {
+            font-size: 2rem;
+            font-family: "Roboto", sans-serif;
+            font-weight: normal;
+            color: rgb(70, 66, 66);
+        }
+
+        .form-item-2 {
+            font-size: 3rem;
+            font-family: "Roboto", sans-serif;
+            font-weight: normal;
+            color: rgb(70, 66, 66);
+            margin-top: 3rem;
+        }
+
+        .form-item-3 {
+            font-size: 3rem;
+            font-family: "Roboto", sans-serif;
+            font-weight: normal;
+            color: #00C7C2;
+            margin-top: 3rem;
+        }
+
+
+    }
+
+    .form-button {
+        align-self: center;
+        position: relative;
+
+        &::after {
+            background-image: url(../../assets/images/img_p16.png);
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+            content: "";
+            display: block;
+            position: absolute;
+            right: -20px;
+            bottom: -20px;
+
+        }
+
+
+        a {
+            text-decoration: none;
+            color: #00C7C2;
+        }
+
+        border: solid 1px #00C7C2;
+        padding: 2rem 13rem;
+        border-radius: 25px;
+        font-size: 3.5rem;
+        font-weight: bold;
+        font-family: "Roboto",
+        sans-serif;
+    }
+}
