@@ -79,7 +79,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 78vh;
+  height: 100vh;
   background: rgba(0, 0, 0, 0.75) url(../images/photo-first-page-light.jpg) no-repeat;
   background-size: cover;
   background-blend-mode: darken;
@@ -262,7 +262,7 @@
 /*start two page*/
 .requests-us__phon {
   background: url(../images/phon-two-page2.jpg) rgba(192, 192, 192, 0.5) no-repeat;
-  height: 98vh;
+  height: 100vh;
   width: 100%;
   background-size: cover;
   margin-bottom: 0.5rem;
@@ -276,7 +276,7 @@
   -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   place-items: center;
-  height: 98vh;
+  height: 100vh;
   width: 100%;
   background: rgba(255, 255, 255, 0.8);
 }
