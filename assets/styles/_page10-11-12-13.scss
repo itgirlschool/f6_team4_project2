@@ -6,53 +6,17 @@
 /*start page 10*/
 
 .wrapper-intelclub {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 5fr;
     overflow: hidden;
     height: 99vh;
     max-width: 99vw;
-    background: rgba(39, 35, 35, 0.85) url(../images/img-bg_p10.png) no-repeat;
+    background: rgba(39, 35, 35, 0.85) url(../images/img-bg_p10.jpg) no-repeat;
     background-size: cover;
     background-blend-mode: darken;
 
-    .intelclub-header {
-        grid-row: 1/2;
-        grid-column: 1/3;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        width: 100%;
 
-
-
-        .intelclub-header__line {
-            border-top: 7px solid $turquoise-color;
-            position: absolute;
-            margin-top: 3rem;
-            margin-left: 5rem;
-            width: 60rem;
-        }
-
-        .intelclub-header__logo-area {
-            position: absolute;
-            height: 10rem;
-            width: 15rem;
-            left: 65rem;
-        }
-
-        .intelclub-header__logo {
-            max-width: 100%;
-            max-height: 100%;
-        }
-    }
 
     .intelclub-main {
-        grid-row: 2/6;
-        grid-column: 1/3;
-        margin-left: 5rem;
-        margin-right: 10rem;
+        margin: 3rem 10rem 1rem 5rem;
         font-family: "Roboto", sans-serif;
         font-weight: normal;
         font-size: 1.3rem;
@@ -78,67 +42,59 @@
 .wrapper-results {
     height: 99vh;
     max-width: 99vw;
+    overflow: hidden;
 
-    .results-header__line {
-        border-top: 7px solid $turquoise-color;
-        position: absolute;
-        margin-top: 3rem;
-        margin-left: 5rem;
-        width: 60rem;
-    }
-
-    .results-header__logo-area {
-        position: absolute;
-        height: 10rem;
-        width: 15rem;
-        left: 65rem;
-    }
-
-    .results-header__logo {
-        max-width: 100%;
-        overflow: hidden;
-    }
-}
-
-
-.results-main {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 2fr;
-    height: 99vh;
-    width: 98vw;
-
-    .results-main__img-area {
-        grid-row: 1/2;
-        grid-column: 1/2;
-        overflow: hidden;
+    .results-main {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 2fr;
         height: 99vh;
-        width: 100%;
-        margin-top: 5px;
-    }
+        width: 98vw;
 
-    .results-main__img {
-        max-width: 100%;
-    }
+        .results-main__img-area {
+            grid-row: 1/2;
+            grid-column: 1/2;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            justify-content: center;
+            height: 99vh;
+            width: 100%;
+            margin-top: 5px;
+
+            transition-duration: 2s;
 
 
-    .results-main__text-area {
-        grid-row: 1/2;
-        grid-column: 2/4;
-        margin: 5rem 6rem 0 2rem;
-        text-align: justify;
-        line-height: 2rem;
+            &:hover {
+                transform: translate(5rem, 0);
+                transition-duration: 2s;
+            }
 
-        .results-main__title {
-            color: $gray-color;
-            font-size: 40px;
+            .results-main__img {
+                border-radius: 10rem;
+                max-width: 100%;
+            }
         }
 
-        .results-main__text {
-            font-size: 20px;
-        }
-    }
 
+        .results-main__text-area {
+            grid-row: 1/2;
+            grid-column: 2/4;
+            margin: 2rem 5rem 0 8rem;
+            text-align: justify;
+            line-height: 1.7rem;
+
+            .results-main__title {
+                color: $gray-color;
+                font-size: 40px;
+            }
+
+            .results-main__text {
+                font-size: 20px;
+            }
+        }
+
+    }
 }
 
 /*end page 11*/
@@ -148,31 +104,11 @@
 .wrapper-mission {
     height: 99vh;
     max-width: 99vw;
-    background: rgba(255, 255, 255, 0.75) url(../images/img-bg_p12.png) no-repeat;
+    background: rgba(255, 255, 255, 0.75) url(../images/img-bg_p12.jpg) no-repeat;
     background-size: cover;
     background-blend-mode: lighten;
     margin-top: 10px;
     overflow: hidden;
-
-    .mission-header__line {
-        border-top: 7px solid $turquoise-color;
-        position: absolute;
-        margin-top: 3rem;
-        margin-left: 5rem;
-        width: 60rem;
-    }
-
-    .mission-header__logo-area {
-        position: absolute;
-        height: 10rem;
-        width: 15rem;
-        left: 65rem;
-    }
-
-    .mission-header__logo {
-        max-width: 100%;
-        overflow: hidden;
-    }
 
     .mission-main {
         display: flex;
@@ -210,26 +146,6 @@
     max-width: 99vw;
     overflow: hidden;
 
-    .advantages-header__line {
-        border-top: 7px solid $turquoise-color;
-        position: absolute;
-        margin-top: 3rem;
-        margin-left: 5rem;
-        width: 60rem;
-    }
-
-    .advantages-header__logo-area {
-        position: absolute;
-        height: 10rem;
-        width: 15rem;
-        left: 65rem;
-    }
-
-    .advantages-header__logo {
-        max-width: 100%;
-        overflow: hidden;
-    }
-
     .advantages-main {
         display: grid;
         grid-template-columns: 3fr 2fr;
@@ -238,15 +154,26 @@
         .advantages-main__text-area {
             grid-row: 1/2;
             grid-column: 1/4;
-            margin:4rem 2rem 0 2rem;
+            margin: 2rem 9rem 0 2rem;
+            line-height: 1.9rem;
+
+
         }
 
         .advantages-main__title {
+            color: $gray-color;
             font-size: 50px;
+            padding: 0 0;
+            margin: 0 0 2rem 0;
         }
 
         .advantages-main__list {
-            font-size: 17px;
+            font-size: 15px;
+
+
+            .advantages-main__list-item {
+                line-height: 1rem;
+            }
         }
 
         .advantages-main__img-area {
@@ -255,12 +182,27 @@
             overflow: hidden;
             height: 99vh;
             width: 100%;
-            margin-top: 5px;
+            margin: 0.5rem 0 0 0;
+            transition-duration: 2s;
+
+            &:hover {
+                transform: translate(-5rem, 0);
+                transition-duration: 2s;
+                transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+            }
 
             .advantages-main__img {
+                border-radius: 10rem;
                 max-width: 100%;
             }
         }
     }
 }
+
 /*end page 13*/
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+
+
+    
+}
