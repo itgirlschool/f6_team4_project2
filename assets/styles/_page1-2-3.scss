@@ -3,7 +3,7 @@
     src: url(../fonts/roboto-fonts/Roboto-Medium.ttf);
 }
 
-*{
+* {
     border: 1px solid red;
 }
 
@@ -98,7 +98,7 @@
             margin: 1.3rem 0;
 
             @media screen and (max-width: 1175px) {
-               font-size: 3.5rem;
+                font-size: 3.5rem;
             }
         }
 
@@ -523,7 +523,8 @@ element.style {
     }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
     .topics__wrapper__content {
-        margin-top: 9.5rem;}
+        margin-top: 9.5rem;
     }
+}

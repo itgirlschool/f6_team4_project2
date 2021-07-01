@@ -810,19 +810,25 @@ element.style {
 }
 
 .wrapper-7 .container-7-left {
-  margin: 8rem 6rem 0 5rem;
+  margin: 8rem 6rem 0 0;
   text-align: justify;
 }
 
 @media screen and (max-width: 767px) {
   .wrapper-7 .container-7-left {
-    margin: 0;
+    margin: 0 2rem 2rem 2rem;
   }
 }
 
 .wrapper-7 .container-7-right {
   -webkit-transition-duration: 2s;
           transition-duration: 2s;
+}
+
+@media screen and (max-width: 767px) {
+  .wrapper-7 .container-7-right {
+    margin: 0 2rem 2rem 2rem;
+  }
 }
 
 .wrapper-7 .container-7-right:hover {
@@ -836,12 +842,6 @@ element.style {
 
 .wrapper-7 .container-7-right .img_7p {
   border-radius: 10rem;
-}
-
-@media screen and (max-width: 767px) {
-  .wrapper-7 .container-7-right .img_7p {
-    margin: 0;
-  }
 }
 
 .wrapper-8 {
@@ -867,18 +867,18 @@ element.style {
 
 @media screen and (max-width: 767px) {
   .wrapper-8 .container-8-left .img_8p {
-    margin: 0;
+    display: none;
   }
 }
 
 .wrapper-8 .container-8-right {
-  margin: 8rem 6rem 0 5rem;
+  margin: 8rem 0 0 5rem;
   text-align: justify;
 }
 
 @media screen and (max-width: 767px) {
   .wrapper-8 .container-8-right {
-    margin: 0;
+    margin: 0 2rem 2rem 2rem;
   }
 }
 
@@ -888,13 +888,13 @@ element.style {
 }
 
 .wrapper-9 .container-9-left {
-  margin: 8rem 6rem 0 5rem;
+  margin: 8rem 6rem 0 0;
   text-align: justify;
 }
 
 @media screen and (max-width: 767px) {
   .wrapper-9 .container-9-left {
-    margin: 0;
+    margin: 0 2rem 2rem 2rem;
   }
 }
 
@@ -910,14 +910,14 @@ element.style {
           transition-duration: 2s;
 }
 
-.wrapper-9 .container-9-right .img_9p {
-  border-radius: 10rem;
+@media screen and (max-width: 767px) {
+  .wrapper-9 .container-9-right {
+    margin: 0 2rem 2rem 2rem;
+  }
 }
 
-@media screen and (max-width: 767px) {
-  .wrapper-9 .container-9-right .img_9p {
-    margin: 0;
-  }
+.wrapper-9 .container-9-right .img_9p {
+  border-radius: 10rem;
 }
 
 .wrapper-7,
@@ -927,8 +927,7 @@ element.style {
   display: -ms-grid;
   display: grid;
   font-size: 1.3rem;
-  margin-bottom: 3rem;
-  margin: 0 2% 0 2%;
+  margin: 0 2% 15vh 2%;
 }
 
 @media screen and (max-width: 767px) {
@@ -937,6 +936,7 @@ element.style {
   .wrapper-9 {
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
+    margin: 0;
   }
 }
 
