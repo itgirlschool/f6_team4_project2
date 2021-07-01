@@ -7,13 +7,16 @@
         text-align: justify;
 
         @media screen and (max-width: 767px) {
-            margin: 0;
+            margin: 0 2rem 2rem 2rem;
         }
     }
 
     .container-7-right {
         transition-duration: 2s;
 
+        @media screen and (max-width: 767px) {
+            margin: 0 2rem 2rem 2rem;
+        }
 
         &:hover {
             transform: translate(-5rem, 0);
@@ -23,11 +26,7 @@
 
         .img_7p {
             border-radius: 10rem;
-            margin: 0 auto;
 
-            @media screen and (max-width: 767px) {
-                margin: 0;
-            }
         }
 
     }
@@ -48,7 +47,7 @@
             border-radius: 10rem;
 
             @media screen and (max-width: 767px) {
-                margin: 0;
+                display: none;
             }
 
         }
@@ -59,7 +58,7 @@
         text-align: justify;
 
         @media screen and (max-width: 767px) {
-            margin: 0;
+            margin: 0 2rem 2rem 2rem;
         }
     }
 
@@ -74,7 +73,7 @@
         text-align: justify;
 
         @media screen and (max-width: 767px) {
-            margin: 0;
+            margin: 0 2rem 2rem 2rem;
         }
     }
 
@@ -87,12 +86,14 @@
             transition-duration: 2s;
         }
 
+        @media screen and (max-width: 767px) {
+            margin: 0 2rem 2rem 2rem;
+        }
+
         .img_9p {
             border-radius: 10rem;
 
-            @media screen and (max-width: 767px) {
-                margin: 0;
-            }
+
         }
     }
 }
@@ -105,10 +106,12 @@
 
     font-size: 1.3rem;
 
-    margin: 0 2% 20vh 2%;
+    margin: 0 2% 15vh 2%;
 
     @media screen and (max-width: 767px) {
         grid-template-columns: 100%;
+        margin: 0;
+
     }
 }
 
