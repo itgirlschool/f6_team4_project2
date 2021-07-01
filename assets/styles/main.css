@@ -7,6 +7,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  height: 6.5rem;
   background-color: rgba(46, 44, 44, 0.9);
   display: -ms-grid;
   display: grid;
@@ -14,6 +15,7 @@
       grid-template-columns: 25% 75%;
   -ms-grid-rows: 1fr;
       grid-template-rows: 1fr;
+  z-index: 6;
 }
 
 .about-company__header1 .about-company__div-logo1 {
@@ -23,13 +25,13 @@
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1/2;
-  width: 20rem;
+  width: 18rem;
 }
 
 .about-company__header1 .about-company__div-logo1 .about-company__div-logo__img1 {
   max-width: 100%;
   max-height: 100%;
-  margin-top: 3.2rem;
+  margin-top: 0.2rem;
 }
 
 .about-company__header1 .about-company__nav1 {
@@ -47,6 +49,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  z-index: 6;
+  list-style: none;
 }
 
 .about-company__header1 .about-company__nav1 .about-company__nav__item1 {
@@ -68,7 +72,6 @@
 
 /*first page of presentation*/
 .about-company__wrapper__first-page {
-  margin-top: 9.7rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -83,7 +86,6 @@
   background: rgba(0, 0, 0, 0.75) url(../images/photo-first-page-light.jpg) no-repeat;
   background-size: cover;
   background-blend-mode: darken;
-  margin-bottom: 0.5rem;
 }
 
 .about-company__wrapper__first-page .about-company__content {
@@ -95,9 +97,11 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-  margin-bottom: 5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 22rem;
+  height: 84.5vh;
 }
 
 @media screen and (max-width: 1151px) {
@@ -144,13 +148,13 @@
 }
 
 @media screen and (max-width: 1153px) {
-  .about-company__wrapper__first-page .about-company__mobile-nav {
+  .about-company__mobile-nav {
     display: block;
   }
-  .about-company__wrapper__first-page .about-company__mobile-nav .about-company__input {
+  .about-company__mobile-nav .about-company__input {
     display: none;
   }
-  .about-company__wrapper__first-page .about-company__mobile-nav .about-company__label {
+  .about-company__mobile-nav .about-company__label {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -167,28 +171,29 @@
     z-index: 3;
     width: 35px;
     height: 26px;
+    z-index: 6;
   }
-  .about-company__wrapper__first-page .about-company__mobile-nav .about-company__label > span,
-  .about-company__wrapper__first-page .about-company__mobile-nav .about-company__label > span::before,
-  .about-company__wrapper__first-page .about-company__mobile-nav .about-company__label > span::after {
+  .about-company__mobile-nav .about-company__label > span,
+  .about-company__mobile-nav .about-company__label > span::before,
+  .about-company__mobile-nav .about-company__label > span::after {
     display: block;
     width: 100%;
     height: 4px;
     background-color: #fff;
     position: absolute;
   }
-  .about-company__wrapper__first-page .about-company__mobile-nav .about-company__label > span::before {
+  .about-company__mobile-nav .about-company__label > span::before {
     content: "";
     top: -14px;
   }
-  .about-company__wrapper__first-page .about-company__mobile-nav .about-company__label > span::after {
+  .about-company__mobile-nav .about-company__label > span::after {
     content: "";
     top: -7px;
   }
-  .about-company__wrapper__first-page .about-company__mobile-nav .about-company__label > span {
+  .about-company__mobile-nav .about-company__label > span {
     margin-top: 12px;
   }
-  .about-company__wrapper__first-page .about-company__mobile-nav .about-company__mobile-menu {
+  .about-company__mobile-nav .about-company__mobile-menu {
     display: block;
     position: fixed;
     visibility: hidden;
@@ -202,9 +207,10 @@
             box-sizing: border-box;
     list-style: none;
     text-align: center;
+    z-index: 7;
     background-color: #424243;
   }
-  .about-company__wrapper__first-page .about-company__mobile-nav .about-company__mobile-menu .about-company__mobile-menu__item {
+  .about-company__mobile-nav .about-company__mobile-menu .about-company__mobile-menu__item {
     display: block;
     padding: 4px 4px;
     color: #00C7C2;
@@ -212,30 +218,35 @@
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
+    z-index: 6;
   }
-  .about-company__wrapper__first-page .about-company__mobile-nav .about-company__mobile-menu .about-company__mobile-menu__item:hover {
+  .about-company__mobile-nav .about-company__mobile-menu .about-company__mobile-menu__item:hover {
     color: white;
   }
-  .about-company__wrapper__first-page .about-company__mobile-nav .about-company__mobile-menu .about-company__mobile-menu__item:hover {
+  .about-company__mobile-nav .about-company__mobile-menu .about-company__mobile-menu__item:hover {
     background-color: black;
   }
-  .about-company__wrapper__first-page .about-company__mobile-nav .about-company__input:checked ~ .about-company__label > span {
+  .about-company__mobile-nav .about-company__input:checked ~ .about-company__label > span {
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
+    z-index: 7;
   }
-  .about-company__wrapper__first-page .about-company__mobile-nav .about-company__input:checked ~ .about-company__label > span::before {
+  .about-company__mobile-nav .about-company__input:checked ~ .about-company__label > span::before {
     top: 0;
     -webkit-transform: rotate(0);
             transform: rotate(0);
+    z-index: 7;
   }
-  .about-company__wrapper__first-page .about-company__mobile-nav .about-company__input:checked ~ .about-company__label > span::after {
+  .about-company__mobile-nav .about-company__input:checked ~ .about-company__label > span::after {
     top: 0;
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
+    z-index: 7;
   }
-  .about-company__wrapper__first-page .about-company__mobile-nav .about-company__input:checked ~ .about-company__mobile-menu {
+  .about-company__mobile-nav .about-company__input:checked ~ .about-company__mobile-menu {
     visibility: visible;
     right: 0;
+    z-index: 7;
   }
 }
 
