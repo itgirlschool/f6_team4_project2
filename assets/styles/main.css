@@ -229,7 +229,7 @@
   .about-company__mobile-nav .about-company__input:checked ~ .about-company__label > span {
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
-    z-index: 7;
+    z-index: 8;
   }
   .about-company__mobile-nav .about-company__input:checked ~ .about-company__label > span::before {
     top: 0;
@@ -774,7 +774,6 @@
 
 .wrapper-7 .container-7-right .img_7p {
   border-radius: 10rem;
-  height: 40rem;
 }
 
 @media screen and (max-width: 767px) {
@@ -802,7 +801,6 @@
 
 .wrapper-8 .container-8-left .img_8p {
   border-radius: 10rem;
-  height: 40rem;
 }
 
 @media screen and (max-width: 767px) {
@@ -852,7 +850,6 @@
 
 .wrapper-9 .container-9-right .img_9p {
   border-radius: 10rem;
-  height: 40rem;
 }
 
 @media screen and (max-width: 767px) {
