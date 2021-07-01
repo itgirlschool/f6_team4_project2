@@ -774,6 +774,36 @@ element.style {
   font-weight: bold;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .why-important__wrapper .why-important__card-set .why-important__card {
+    padding-top: 2rem;
+  }
+  .why-important__wrapper .why-important__card-set .why-important__card .why-important__number {
+    font-size: 4rem;
+    width: 5rem;
+    text-align: start;
+    border-radius: 0 0 6rem 0;
+    top: 0rem;
+    left: 0rem;
+  }
+  .why-important__wrapper .why-important__card-set .why-important__card .why-important__block {
+    width: 87%;
+    padding: 2rem 0.5rem 2rem 0.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1090px) {
+  .why-important__wrapper .why-important__card-set .why-important__card .why-important__number {
+    border-radius: 0 0 4rem 0;
+    top: 0;
+    left: 0;
+  }
+  .why-important__wrapper .why-important__card-set .why-important__card .why-important__block {
+    width: 65%;
+    border-radius: 0 3rem 3rem 0rem;
+  }
+}
+
 .wrapper-7 {
   -ms-grid-columns: 1fr 35%;
       grid-template-columns: 1fr 35%;
