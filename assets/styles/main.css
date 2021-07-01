@@ -856,6 +856,7 @@
   height: 98%;
   display: -ms-grid;
   display: grid;
+  /*justify-self: center;*/
   font-size: 1.3rem;
   margin-bottom: 3rem;
   margin: 0 2% 0 2%;
