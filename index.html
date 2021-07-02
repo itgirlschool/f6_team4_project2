@@ -7,12 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/styles/normalize.css">
     <link href="assets/styles/jquery.fullPage.css" type="text/css" rel="stylesheet">
-    
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.fullPage.js"></script>
+    <!-- <script type="text/javascript" src="assets/js/jquery.fullPage.js"></script> -->
     <script type="text/javascript" src="assets/js/jquery.slimscroll.min.js"></script>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.js"></script>
+    <!-- <script src=""></script> -->
+
     <link rel="stylesheet" type="text/css" href="assets/styles/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/_page4-5-6.scss">
     <title>ProМышление: вместе строим человеко-ориентированную среду для развития команды и успехов бизнеса</title>
 </head>
 
@@ -24,9 +28,12 @@
                 alt="logo ProМышление" />
         </div>
         <ul class="about-company__nav1" id="menu-nav">
-            <li data-menuanchor="about-company"><a class="about-company__nav__item1" href="#about-company">О компании</a></li>
-            <li data-menuanchor="format-work"><a class="about-company__nav__item1" href="#format-work">Формат работы</a></li>
-            <li data-menuanchor="our-worth"><a class="about-company__nav__item1" href="#our-worth">Наша миссия и ценности</a></li>
+            <li data-menuanchor="about-company"><a class="about-company__nav__item1" href="#about-company">О
+                    компании</a></li>
+            <li data-menuanchor="format-work"><a class="about-company__nav__item1" href="#format-work">Формат работы</a>
+            </li>
+            <li data-menuanchor="our-worth"><a class="about-company__nav__item1" href="#our-worth">Наша миссия и
+                    ценности</a></li>
             <li data-menuanchor="portfolio"><a class="about-company__nav__item1" href="#portfolio">Портфолио</a></li>
             <li data-menuanchor="team"><a class="about-company__nav__item1" href="#team">Команда</a></li>
             <li data-menuanchor="contacts"><a class="about-company__nav__item1" href="#contacts">Контакты</a></li>
@@ -48,9 +55,9 @@
         </ul>
     </nav>
     <!-- end of fixed top menu -->
-    <div id="fullpage">
+    <div id="fullpage" class="fp-responsive">
         <!--Первая страница-->
-        <div class="about-company__wrapper__first-page section"  data-anchor="about-company">
+        <div class="about-company__wrapper__first-page section" data-anchor="about-company">
             <div class="about-company__content">
                 <div class="about-company__decoration-line"></div>
                 <h1 class="about-company__headline">ProМышление</h1>
@@ -94,7 +101,7 @@
             </section>
         </div>
         <!--end two page-->
-        
+
         <!-- start three page -->
         <section class="topics__wrapper__three-page section" data-anchor="our-worth">
             <div class="topics__wrapper__content">
@@ -129,9 +136,11 @@
             </div>
         </section>
         <!-- end three page -->
+
+
     </div>
 
-    
+
     <!-- <script>
         jQuery.ajax({
             url: "page4-5-6.html",
@@ -140,17 +149,18 @@
                 document.getElementById('container1').innerHTML = response;
             }
         });
-    </script>
-    <div id="container1"></div> -->
+    </script>-->
 
-
-
-    <script> 
+    <script>
         $(document).ready(function () {
-            $('#fullpage').fullpage();
-            menu: '#menu-nav'
+            $('#fullpage').fullpage({
+                responsiveWidth: 1024,
+                // autoScrolling:false
+                continuousVertical: true
+            });
         });
     </script>
 
 </body>
+
 </html>
