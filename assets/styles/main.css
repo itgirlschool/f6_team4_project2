@@ -538,6 +538,7 @@ element.style {
 }
 
 * {
+  border: darkcyan 2px solid;
   font-family: "Roboto", sans-serif;
 }
 
@@ -923,6 +924,28 @@ element.style {
   .why-important__wrapper .why-important__card-set .why-important__card .why-important__block {
     width: 65%;
     border-radius: 0 3rem 3rem 0rem;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1289px) {
+  .our-offer__wrapper .our-offer__content .our-offer__text-area {
+    width: 65%;
+    margin-right: 3rem;
+  }
+  .our-offer__wrapper .our-offer__content .our-offer__img-area {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 35%;
+    -webkit-transition-duration: 2s;
+            transition-duration: 2s;
+  }
+  .our-offer__wrapper .our-offer__content .our-offer__img-area:hover {
+    -webkit-transform: translate(-3rem, 0);
+            transform: translate(-3rem, 0);
+  }
+  .our-offer__wrapper .our-offer__content .our-offer__img-area .our-offer__img {
+    max-height: 70%;
   }
 }
 
