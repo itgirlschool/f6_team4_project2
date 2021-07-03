@@ -644,7 +644,6 @@ element.style {
 }
 
 * {
-  outline: darkcyan 2px solid;
   font-family: "Roboto", sans-serif;
 }
 
@@ -813,7 +812,7 @@ element.style {
 }
 
 .book-quest__wrapper {
-  height: 100vh;
+  height: 98%;
   width: 96%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1033,6 +1032,52 @@ element.style {
   .why-important__wrapper .why-important__card-set .why-important__card .why-important__block {
     width: 65%;
     border-radius: 0 3rem 3rem 0rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .our-offer__wrapper {
+    height: 98%;
+    width: 96%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 2% 17vh 2%;
+  }
+  .our-offer__wrapper .our-offer__content {
+    display: block;
+  }
+  .our-offer__wrapper .our-offer__content .our-offer__text-area {
+    margin-right: 4rem;
+  }
+  .our-offer__wrapper .our-offer__content .our-offer__text-area .our-offer__title {
+    color: #424243;
+    font-size: 2.5rem;
+    margin: 0.1rem 0;
+  }
+  .our-offer__wrapper .our-offer__content .our-offer__text-area .our-offer__section {
+    padding: 0;
+    font-size: 1.25rem;
+  }
+  .our-offer__wrapper .our-offer__content .our-offer__text-area .our-offer__section .our-offer__section-title {
+    margin: 0;
+  }
+  .our-offer__wrapper .our-offer__content .our-offer__img-area {
+    float: right;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .our-offer__wrapper .our-offer__content .our-offer__img-area .our-offer__img {
+    border-radius: 10rem;
+    max-height: 100%;
+  }
+  .our-offer__wrapper .our-offer__content .no-hover456 {
+    pointer-events: none;
   }
 }
 
