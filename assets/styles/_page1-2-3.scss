@@ -60,63 +60,6 @@
     }
 }
 
-//end of fixed top menu
-
-/*first page of presentation*/
-.about-company__wrapper__first-page {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.75) url(../images/photo-first-page-light.jpg) no-repeat;
-    background-size: cover;
-    background-blend-mode: darken;
-    margin-bottom: 0.5rem;
-
-    .about-company__content {
-        width: 82%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-left: 22%;
-        height: 84.5vh;
-
-        @media screen and (max-width: 1175px) {
-            margin-left: 17%;
-        }
-
-        .about-company__decoration-line {
-            border-top: 10px solid $turquoise-color;
-            width: 100%;
-        }
-
-        .about-company__headline {
-            color: white;
-            font-size: 5rem;
-            font-family: "Roboto", sans-serif;
-            font-weight: normal;
-            margin: 1.3rem 0;
-
-            @media screen and (max-width: 1175px) {
-                font-size: 3.5rem;
-            }
-        }
-
-        .about-company__slogan {
-            color: white;
-            font-size: 2rem;
-            font-family: "Roboto", sans-serif;
-            font-weight: normal;
-            margin: 1.3rem 0;
-        }
-    }
-}
-
-element.style {
-    height: 751px;
-}
-
-/*end of first page*/
 @media screen and (max-width: 2000px) and (min-width: 1152px) {
 
     .about-company__mobile-nav {
@@ -199,14 +142,14 @@ element.style {
             display: block;
             position: fixed;
             visibility: hidden;
-            top: 0;
+            top: 6.2rem;
             right: -200px;
 
-            width: 200px;
-            height: 350px; //высота выезжающего меню
+            width: 12.5rem;//200px;
+            height: 16.8rem;//270px; //высота выезжающего меню
             z-index: 7; //чтобы были видны пункты мобильного меню
 
-            padding: 80px 0;
+            padding: 0.6rem 0;
             margin: 0;
             box-sizing: border-box;
 
@@ -228,12 +171,12 @@ element.style {
 
                 &:hover {
                     color: white;
+                    //z-index: 7;
                 }
 
                 &:hover {
-
                     background-color: black;
-
+                //z-index: 7;
                 }
             }
         }
@@ -258,11 +201,78 @@ element.style {
         .about-company__input:checked~.about-company__mobile-menu {
             visibility: visible;
             right: 0;
-            z-index: 8;
+            z-index: 5;//когда больше крестик на закрытие меню не видно
         }
     }
 }
 
+//end of fixed top menu
+
+/*first page of presentation*/
+.about-company__wrapper__first-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.75) url(../images/photo-first-page-light.jpg) no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    margin-bottom: 0.5rem;
+
+    .about-company__content {
+        width: 82%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 22%;
+        height: 84.5vh;
+        padding-top: 10rem;
+
+        @media screen and (max-width: 1175px) {
+            margin-left: 17%;
+        }
+
+        @media screen and (max-width: 1038px) {
+            margin-left: 10%;
+            width: 100%;
+        }
+
+        .about-company__decoration-line {
+            border-top: 10px solid $turquoise-color;
+            width: 100%;
+        }
+
+        .about-company__headline {
+            color: white;
+            font-size: 5rem;
+            font-family: "Roboto", sans-serif;
+            font-weight: normal;
+            margin: 1.3rem 0;
+
+            @media screen and (max-width: 1175px) {
+                font-size: 3.5rem;
+            }
+        }
+
+        .about-company__slogan {
+            color: white;
+            font-size: 2rem;
+            font-family: "Roboto", sans-serif;
+            font-weight: normal;
+            margin: 1.3rem 0;
+
+            // @media screen and (max-width: 1027px) {
+            //    font-size: 1.8rem;
+            // }
+        }
+    }
+}
+
+element.style {
+    height: 751px;
+}
+
+/*end of first page*/
 
 @media screen and (max-width: 701px) {
     .about-company__wrapper__first-page {
@@ -390,7 +400,7 @@ element.style {
     color: $gray-color;
     text-align: center;
 
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 1098px) {
         font-size: 1.2rem;
     }
 }
@@ -466,19 +476,28 @@ element.style {
                     font-size: 1.4rem;
                     color: $gray-color;
                     border-left: 0.7rem solid $turquoise-color;
-                    align-self: flex-start;
+                    margin: auto 0;
                     padding-left: 0.5rem;
 
                     @media screen and (max-width: 1024px) {
                         font-size: 1.2rem;
                     }
                 }
+
+                .item-alignment{
+                    line-height: 3.5rem;
+                }
+
+                .item-alignment-mini{
+                    line-height: 2.3rem;
+                }
             }
         }
 
         .topics__wrapper__img {
             width: 100%;
-            height: 100%;
+            height: 20rem;
+            margin-top: 5.5rem;
             // @media screen and (max-width: 1097px) {
             //          height: 100%;
             //      }
@@ -486,6 +505,7 @@ element.style {
 
             .topics__img {
                 max-width: 100%;
+                max-height: 100%;
                 // height: 22rem;
 
                 // @media screen and (max-width: 776px) {
