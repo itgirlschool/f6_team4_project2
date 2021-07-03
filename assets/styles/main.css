@@ -644,16 +644,13 @@ element.style {
 }
 
 * {
+  outline: darkcyan 2px solid;
   font-family: "Roboto", sans-serif;
 }
 
 @font-face {
   font-family: Roboto;
   src: url(../fonts/roboto-fonts/Roboto-Medium.ttf);
-}
-
-.page-break__4-5-6 {
-  height: 17vh;
 }
 
 .why-important__wrapper {
@@ -666,7 +663,7 @@ element.style {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 0 2% 2% 2%;
+  margin: 17vh 2%;
 }
 
 .why-important__wrapper .why-important__title {
@@ -742,7 +739,7 @@ element.style {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 0 2% 2% 2%;
+  margin: 0 2% 17vh 2%;
 }
 
 .our-offer__wrapper .our-offer__content {
@@ -825,7 +822,7 @@ element.style {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 0 2%;
+  margin: 0 2% 17vh 2%;
 }
 
 .book-quest__wrapper .book-quest__content {
@@ -839,7 +836,7 @@ element.style {
 }
 
 .book-quest__wrapper .book-quest__content .book-quest__img-area {
-  width: 40%;
+  width: 36%;
   -webkit-transition-duration: 2s;
           transition-duration: 2s;
 }
