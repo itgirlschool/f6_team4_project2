@@ -1,7 +1,7 @@
 // global styles
 
 * {
-    // border: darkcyan 2px solid;
+    outline: darkcyan 2px solid;
     font-family: "Roboto", sans-serif;
     //overflow: hidden;
 }
@@ -11,11 +11,6 @@
     src: url(../fonts/roboto-fonts/Roboto-Medium.ttf);
 }
 
-// расстояния между страницами
-.page-break__4-5-6 {
-    height: 17vh;
-}
-
 // page 4 styles start
 
 .why-important__wrapper {
@@ -23,7 +18,7 @@
     width: 96%;
     display: flex;
     flex-direction: column;
-    margin: 0 2% 2% 2%;
+    margin: 17vh 2%;
 
     .why-important__title {
         color: $gray-color;
@@ -84,7 +79,7 @@
     width: 96%;
     display: flex;
     flex-direction: column;
-    margin: 0 2% 2% 2%;
+    margin: 0 2% 17vh 2%;
 
     .our-offer__content {
         display: flex;
@@ -149,7 +144,7 @@
     width: 96%;
     display: flex;
     flex-direction: column;
-    margin: 0 2%;
+    margin: 0 2% 17vh 2%;
 
 
     .book-quest__content {
@@ -157,7 +152,9 @@
         flex-direction: row;
 
         .book-quest__img-area {
-            width: 40%;
+            width: 36%;
+
+
 
 
             // animation
