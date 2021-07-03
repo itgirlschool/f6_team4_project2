@@ -1,7 +1,7 @@
 // global styles
 
 * {
-    border: darkcyan 2px solid;
+    // border: darkcyan 2px solid;
     font-family: "Roboto", sans-serif;
     //overflow: hidden;
 }
@@ -133,6 +133,8 @@
 
             .our-offer__img {
                 border-radius: 10rem;
+                max-width: 100%;
+                max-height: 100%;
             }
         }
     }
@@ -155,7 +157,8 @@
         flex-direction: row;
 
         .book-quest__img-area {
-            width: 45%;
+            width: 40%;
+
 
             // animation
             transition-duration: 2s;
@@ -168,10 +171,15 @@
 
             .book-quest__img-top {
                 border-radius: 10rem 10rem 0 0;
+                max-width: 100%;
+                max-height: 100%;
+                margin-bottom: -0.3rem;
             }
 
             .book-quest__img-bottom {
                 border-radius: 0 0 10rem 10rem;
+                max-width: 100%;
+                max-height: 100%;
             }
         }
 
@@ -445,7 +453,8 @@
 
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1289px) {
+@media screen and (min-width: 1024px) and (max-width: 1082px) {
+
     .our-offer__wrapper {
 
         .our-offer__content {
@@ -456,6 +465,7 @@
             }
 
             .our-offer__img-area {
+                justify-content: center;
                 align-items: center;
                 width: 35%;
 
@@ -467,7 +477,37 @@
                 }
 
                 .our-offer__img {
-                    max-height: 70%;
+                    max-height: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1083px) and (max-width: 1289px) {
+    .our-offer__wrapper {
+
+        .our-offer__content {
+
+            .our-offer__text-area {
+                width: 65%;
+                margin-right: 3rem;
+            }
+
+            .our-offer__img-area {
+                justify-content: center;
+                align-items: center;
+                width: 35%;
+
+                // animation
+                transition-duration: 2s;
+
+                &:hover {
+                    transform: translate(-3rem, 0);
+                }
+
+                .our-offer__img {
+                    max-height: 100%;
                 }
             }
         }

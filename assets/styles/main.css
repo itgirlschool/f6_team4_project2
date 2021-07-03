@@ -644,7 +644,6 @@ element.style {
 }
 
 * {
-  border: darkcyan 2px solid;
   font-family: "Roboto", sans-serif;
 }
 
@@ -812,6 +811,8 @@ element.style {
 
 .our-offer__wrapper .our-offer__content .our-offer__img-area .our-offer__img {
   border-radius: 10rem;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .book-quest__wrapper {
@@ -838,7 +839,7 @@ element.style {
 }
 
 .book-quest__wrapper .book-quest__content .book-quest__img-area {
-  width: 45%;
+  width: 40%;
   -webkit-transition-duration: 2s;
           transition-duration: 2s;
 }
@@ -854,10 +855,15 @@ element.style {
 
 .book-quest__wrapper .book-quest__content .book-quest__img-area .book-quest__img-top {
   border-radius: 10rem 10rem 0 0;
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: -0.3rem;
 }
 
 .book-quest__wrapper .book-quest__content .book-quest__img-area .book-quest__img-bottom {
   border-radius: 0 0 10rem 10rem;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .book-quest__wrapper .book-quest__content .book-quest__text-area {
@@ -1033,12 +1039,15 @@ element.style {
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1289px) {
+@media screen and (min-width: 1024px) and (max-width: 1082px) {
   .our-offer__wrapper .our-offer__content .our-offer__text-area {
     width: 65%;
     margin-right: 3rem;
   }
   .our-offer__wrapper .our-offer__content .our-offer__img-area {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1051,7 +1060,32 @@ element.style {
             transform: translate(-3rem, 0);
   }
   .our-offer__wrapper .our-offer__content .our-offer__img-area .our-offer__img {
-    max-height: 70%;
+    max-height: 100%;
+  }
+}
+
+@media screen and (min-width: 1083px) and (max-width: 1289px) {
+  .our-offer__wrapper .our-offer__content .our-offer__text-area {
+    width: 65%;
+    margin-right: 3rem;
+  }
+  .our-offer__wrapper .our-offer__content .our-offer__img-area {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 35%;
+    -webkit-transition-duration: 2s;
+            transition-duration: 2s;
+  }
+  .our-offer__wrapper .our-offer__content .our-offer__img-area:hover {
+    -webkit-transform: translate(-3rem, 0);
+            transform: translate(-3rem, 0);
+  }
+  .our-offer__wrapper .our-offer__content .our-offer__img-area .our-offer__img {
+    max-height: 100%;
   }
 }
 
