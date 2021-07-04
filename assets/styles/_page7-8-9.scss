@@ -1,5 +1,8 @@
 .wrapper-7 {
-    grid-template-columns: 1fr 35%;
+    @media screen and (min-width: 1024px) {
+        grid-template-columns: 1fr 35%;
+    }
+
 
 
     .container-7-left {
@@ -68,7 +71,7 @@
     height: 98%;
     display: grid;
 
-    margin: 0 2% 17vh 2%;
+    margin: 0 2% 6.5rem 2%;
 
     @media screen and (max-width: 767px) {
         grid-template-columns: 100%;
@@ -86,7 +89,7 @@
     }
 
 
-    @media screen and (min-width: 767px) {
+    @media screen and (min-width: 1023px) {
         margin: 0 2rem 2rem 2rem;
         transition-duration: 2s;
 

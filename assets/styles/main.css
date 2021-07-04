@@ -1055,9 +1055,11 @@ element.style {
   }
 }
 
-.wrapper-7 {
-  -ms-grid-columns: 1fr 35%;
-      grid-template-columns: 1fr 35%;
+@media screen and (min-width: 1024px) {
+  .wrapper-7 {
+    -ms-grid-columns: 1fr 35%;
+        grid-template-columns: 1fr 35%;
+  }
 }
 
 .wrapper-7 .container-7-left {
@@ -1133,7 +1135,7 @@ element.style {
   height: 98%;
   display: -ms-grid;
   display: grid;
-  margin: 0 2% 17vh 2%;
+  margin: 0 2% 6.5rem 2%;
 }
 
 @media screen and (max-width: 767px) {
@@ -1153,7 +1155,7 @@ element.style {
   }
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 1023px) {
   .container-7-right,
   .container-9-right {
     margin: 0 2rem 2rem 2rem;
