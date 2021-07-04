@@ -1,4 +1,6 @@
 .wrapper-7 {
+    grid-template-columns: 1fr 1fr;
+
     @media screen and (min-width: 1024px) {
         grid-template-columns: 1fr 35%;
     }
@@ -8,6 +10,10 @@
     .container-7-left {
         margin: 8rem 6rem 0 0;
         text-align: justify;
+
+        @media screen and (min-width: 767px) and (max-width: 1023px) {
+            margin: auto;
+        }
 
         @media screen and (max-width: 767px) {
             margin: 0 2rem 2rem 2rem;
@@ -20,6 +26,8 @@
     grid-template-columns: 35% 1fr;
 
     .container-8-left {
+        justify-self: center;
+        align-self: center;
         transition-duration: 2s;
 
         &:hover {
@@ -43,6 +51,10 @@
         margin: 8rem 0 0 5rem;
         text-align: justify;
 
+        @media screen and (min-width: 767px) and (max-width: 1023px) {
+            margin: auto;
+        }
+
         @media screen and (max-width: 767px) {
             margin: 0 2rem 2rem 2rem;
         }
@@ -57,6 +69,10 @@
     .container-9-left {
         margin: 8rem 6rem 0 0;
         text-align: justify;
+
+        @media screen and (min-width: 767px) and (max-width: 1023px) {
+            margin: auto;
+        }
 
         @media screen and (max-width: 767px) {
             margin: 0 2rem 2rem 2rem;
@@ -83,6 +99,8 @@
 .container-7-right,
 .container-9-right {
 
+    justify-self: center;
+    align-self: center;
 
     @media screen and (max-width: 767px) {
         margin: 0 2rem 2rem 2rem;
@@ -106,13 +124,16 @@
         max-width: 100%;
         max-height: 100%;
 
-        @media screen and (min-width: 767px) and (max-width: 1023px) {
-            float: right;
-        }
-
-
     }
 }
+
+/*@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .wrapper-7 {}
+
+    .container-7-right {
+        float: right;
+    }
+}*/
 
 .container-p {
     font-size: 1.3rem;
