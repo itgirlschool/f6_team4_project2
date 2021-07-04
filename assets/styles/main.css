@@ -1132,13 +1132,26 @@ element.style {
 }
 
 .wrapper-7 {
-  -ms-grid-columns: 1fr 35%;
-      grid-template-columns: 1fr 35%;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (min-width: 1024px) {
+  .wrapper-7 {
+    -ms-grid-columns: 1fr 35%;
+        grid-template-columns: 1fr 35%;
+  }
 }
 
 .wrapper-7 .container-7-left {
   margin: 8rem 6rem 0 0;
   text-align: justify;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .wrapper-7 .container-7-left {
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1153,6 +1166,11 @@ element.style {
 }
 
 .wrapper-8 .container-8-left {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   -webkit-transition-duration: 2s;
           transition-duration: 2s;
 }
@@ -1181,6 +1199,12 @@ element.style {
   text-align: justify;
 }
 
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .wrapper-8 .container-8-right {
+    margin: auto;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .wrapper-8 .container-8-right {
     margin: 0 2rem 2rem 2rem;
@@ -1197,6 +1221,12 @@ element.style {
   text-align: justify;
 }
 
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .wrapper-9 .container-9-left {
+    margin: auto;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .wrapper-9 .container-9-left {
     margin: 0 2rem 2rem 2rem;
@@ -1209,7 +1239,7 @@ element.style {
   height: 98%;
   display: -ms-grid;
   display: grid;
-  margin: 0 2% 17vh 2%;
+  margin: 0 2% 6.5rem 2%;
 }
 
 @media screen and (max-width: 767px) {
@@ -1222,6 +1252,15 @@ element.style {
   }
 }
 
+.container-7-right,
+.container-9-right {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
 @media screen and (max-width: 767px) {
   .container-7-right,
   .container-9-right {
@@ -1229,7 +1268,7 @@ element.style {
   }
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 1023px) {
   .container-7-right,
   .container-9-right {
     margin: 0 2rem 2rem 2rem;
@@ -1256,15 +1295,13 @@ element.style {
   max-height: 100%;
 }
 
-@media screen and (min-width: 767px) and (max-width: 1023px) {
-  .container-7-right .img_7p,
-  .container-7-right .img_9p,
-  .container-9-right .img_7p,
-  .container-9-right .img_9p {
-    float: right;
-  }
-}
+/*@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .wrapper-7 {}
 
+    .container-7-right {
+        float: right;
+    }
+}*/
 .container-p {
   font-size: 1.3rem;
 }
