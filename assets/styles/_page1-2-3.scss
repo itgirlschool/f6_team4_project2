@@ -49,7 +49,6 @@
     }
 
     .about-company__nav1 {
-        //position: fixed;
         grid-row: 1/2;
         grid-column: 2/3;
         display: flex;
@@ -161,8 +160,8 @@
             top: 6.2rem;
             right: -200px;
 
-            width: 12.5rem; //200px;
-            height: 16.8rem; //270px; //высота выезжающего меню
+            width: 12.5rem; 
+            height: 16.8rem; 
             z-index: 7; //чтобы были видны пункты мобильного меню
 
             padding: 0.6rem 0;
@@ -187,12 +186,10 @@
 
                 &:hover {
                     color: white;
-                    //z-index: 7;
                 }
 
                 &:hover {
-                    background-color: black;
-                    //z-index: 7;
+                    background-color: rgba(44, 43, 43, 0.4);
                 }
             }
         }
@@ -552,6 +549,152 @@ element.style {
 
 }
 
+@media screen and (max-width: 895px) {
+    .requests-us__wrapper__two-page {
+        display: grid;
+        grid-template-columns: 45% 55%;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        place-items: center; //align и justify-items
+        height: 100vh;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.8);
+
+        .requests-us__wrapper__circle {
+            display: flex;
+            width: 2.5rem;
+            height: 2.5rem;
+            border: 0.25rem solid $turquoise-color;
+            border-radius: 50%;
+            color: $turquoise-color;
+            font-size: 1.5rem;
+            margin-right: 1rem;
+            margin-bottom: 1rem;
+
+            .requests-us__circle {
+                margin: auto;
+            }
+        }
+
+        .requests-us__one-thesis {
+            display: flex;
+            align-items: center;
+            grid-row: 3/4;
+            grid-column: 1/2;
+            margin-left: 0;
+        }
+
+        .requests-us__two-thesis {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            grid-row: 4/5;
+            grid-column: 1/3;
+            margin-right: 5rem;
+        }
+
+
+        .requests-us__three-thesis {
+            display: flex;
+            align-items: center;
+            grid-row: 3/4;
+            grid-column: 2/3;
+            justify-self: flex-start;
+        }
+
+        .requests-us__four-thesis {
+            display: flex;
+            align-items: center;
+            grid-row: 5/6;
+            grid-column: 1/2;
+            margin-left: 0;
+        }
+
+        .requests-us__five-thesis {
+            display: flex;
+            align-items: center;
+            justify-self: flex-start;
+            grid-row: 5/6;
+            grid-column: 2/3;
+        }
+    }
+}
+
+@media screen and (max-width: 895px) {
+    .requests-us__wrapper__two-page {
+        display: grid;
+        grid-template-columns: 98%;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        place-items: center; //align и justify-items
+        height: 100vh;
+        width: 100%;
+        
+        background: rgba(255, 255, 255, 0.8);
+
+        .requests-us__one-thesis {
+            display: flex;
+            align-items: center;
+            justify-self: flex-start;
+            grid-row: 3/4;
+            grid-column: 1/2;
+            margin-left: 2%;
+        }
+
+        .requests-us__two-thesis {
+            display: flex;
+            align-items: center;
+            justify-self: flex-start;
+            grid-row: 4/5;
+            grid-column: 1/2;
+            margin-left: 2%;
+        }
+
+
+        .requests-us__three-thesis {
+            display: flex;
+            align-items: center;
+            justify-self: flex-start;
+            justify-self: flex-start;
+            grid-row: 5/6;
+            grid-column: 1/2;
+            margin-left: 2%;
+        }
+
+        .requests-us__four-thesis {
+            display: flex;
+            align-items: center;
+            justify-self: flex-start;
+            grid-row: 6/7;
+            grid-column: 1/2;
+            margin-left: 2%;
+        }
+
+        .requests-us__five-thesis {
+            display: flex;
+            align-items: center;
+            justify-self: flex-start;
+            grid-row: 7/8;
+            grid-column: 1/2;
+            margin-left: 2%;
+        }
+    }
+
+    .requests-us__text {
+        font-size: 1.6rem;
+        font-family: "Roboto", sans-serif;
+        font-weight: normal;
+        color: $gray-color;
+        text-align: start;
+    
+        @media screen and (max-width: 1098px) {
+            font-size: 1.2rem;
+        }
+
+        @media screen and (max-width: 769px) {
+            font-size: 1.1rem;
+        }
+    }
+}
+
 /*end two page of presentation*/
 
 
@@ -576,13 +719,17 @@ element.style {
             margin-top: 0;
             margin-bottom: 0;
 
-            @media screen and (max-width: 1036px) {
-                margin-left: 3.1rem;
+            @media screen and (max-width: 426px) {
+                font-size: 2rem;
             }
 
             @media screen and (max-width: 769px) {
                 margin-left: 2.3rem;
                 font-size: 2.2rem;
+            }
+
+            @media screen and (max-width: 1036px) {
+                margin-left: 3.1rem;
             }
         }
 
@@ -713,6 +860,14 @@ element.style {
                 margin-top: 4.2rem;
             }
 
+            @media screen and (max-width: 670px) {
+                margin-top: 2.2rem;
+            }
+
+            @media screen and (max-width: 475px) {
+                display: none;
+            }
+
             .topics__img {
                 max-width: 100%;
                 max-height: 100%;
@@ -720,7 +875,6 @@ element.style {
         }
     }
 }
-
 
 @media screen and (max-width: 674px) {
     .topics__wrapper__three-page {
@@ -744,6 +898,24 @@ element.style {
     }
 }
 
+@media screen and (min-width: 426px) {
+    .topics__wrapper__img-big{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .topics__wrapper__img-big{
+        display: block;
+        height: 15rem;
+
+        .topics__img-big {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+}
+
 // @media screen and (max-width: 1029px) {
 //     .topics__wrapper__three-page {
 
@@ -762,151 +934,3 @@ element.style {
 //     }
 // }
 
-@media screen and (max-width: 895px) {
-    .requests-us__wrapper__two-page {
-        display: grid;
-        grid-template-columns: 45% 55%;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-        place-items: center; //align и justify-items
-        height: 100vh;
-        width: 100%;
-        background: rgba(255, 255, 255, 0.8);
-
-        .requests-us__wrapper__circle {
-            display: flex;
-            width: 2.5rem;
-            height: 2.5rem;
-            border: 0.25rem solid $turquoise-color;
-            border-radius: 50%;
-            color: $turquoise-color;
-            font-size: 1.5rem;
-            margin-right: 1rem;
-            margin-bottom: 1rem;
-
-            .requests-us__circle {
-                margin: auto;
-            }
-        }
-
-        .requests-us__one-thesis {
-            display: flex;
-            align-items: center;
-            grid-row: 3/4;
-            grid-column: 1/2;
-            margin-left: 0;
-        }
-
-        .requests-us__two-thesis {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            grid-row: 4/5;
-            grid-column: 1/3;
-            margin-right: 5rem;
-        }
-
-
-        .requests-us__three-thesis {
-            display: flex;
-            align-items: center;
-            grid-row: 3/4;
-            grid-column: 2/3;
-            justify-self: flex-start;
-        }
-
-        .requests-us__four-thesis {
-            display: flex;
-            align-items: center;
-            grid-row: 5/6;
-            grid-column: 1/2;
-            margin-left: 0;
-        }
-
-        .requests-us__five-thesis {
-            display: flex;
-            align-items: center;
-            justify-self: flex-start;
-            grid-row: 5/6;
-            grid-column: 2/3;
-        }
-    }
-}
-
-@media screen and (max-width: 895px) {
-    .requests-us__wrapper__two-page {
-        display: grid;
-        grid-template-columns: 98%;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        place-items: center; //align и justify-items
-        height: 100vh;
-        width: 100%;
-        
-        background: rgba(255, 255, 255, 0.8);
-
-        .requests-us__one-thesis {
-            display: flex;
-            align-items: center;
-            justify-self: flex-start;
-            grid-row: 3/4;
-            grid-column: 1/2;
-            margin-left: 2%;
-        }
-
-        .requests-us__two-thesis {
-            display: flex;
-            align-items: center;
-            justify-self: flex-start;
-            grid-row: 4/5;
-            grid-column: 1/2;
-           // margin-left: 6%;
-            margin-left: 2%;
-            // margin-right: 5rem;
-        }
-
-
-        .requests-us__three-thesis {
-            display: flex;
-            align-items: center;
-            justify-self: flex-start;
-            justify-self: flex-start;
-            grid-row: 5/6;
-            grid-column: 1/2;
-            //margin-left: 6%;
-            margin-left: 2%;
-        }
-
-        .requests-us__four-thesis {
-            display: flex;
-            align-items: center;
-            justify-self: flex-start;
-            grid-row: 6/7;
-            grid-column: 1/2;
-            margin-left: 2%;
-        }
-
-        .requests-us__five-thesis {
-            display: flex;
-            align-items: center;
-            justify-self: flex-start;
-            grid-row: 7/8;
-            grid-column: 1/2;
-            margin-left: 2%;
-        }
-    }
-
-    .requests-us__text {
-        font-size: 1.6rem;
-        font-family: "Roboto", sans-serif;
-        font-weight: normal;
-        color: $gray-color;
-        text-align: start;
-    
-        @media screen and (max-width: 1098px) {
-            font-size: 1.2rem;
-        }
-
-        @media screen and (max-width: 769px) {
-            font-size: 1.1rem;
-        }
-    }
-}
