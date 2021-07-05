@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: Roboto;
   src: url(../fonts/roboto-fonts/Roboto-Medium.ttf);
@@ -1608,25 +1609,18 @@ element.style {
 }
 
 .wrapper-7 {
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-}
-
-@media screen and (min-width: 1024px) {
-  .wrapper-7 {
-    -ms-grid-columns: 1fr 35%;
-        grid-template-columns: 1fr 35%;
-  }
+  -ms-grid-columns: 3fr 2fr;
+      grid-template-columns: 3fr 2fr;
 }
 
 .wrapper-7 .container-7-left {
-  margin: 8rem 6rem 0 0;
+  margin: 1rem 6rem 0 0;
   text-align: justify;
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
   .wrapper-7 .container-7-left {
-    margin: auto;
+    margin: 0 1rem 0 0;
   }
 }
 
@@ -1652,8 +1646,8 @@ element.style {
 }
 
 .wrapper-8 .container-8-left:hover {
-  -webkit-transform: translate(5rem, 0);
-          transform: translate(5rem, 0);
+  -webkit-transform: translate(4.5rem, 0);
+          transform: translate(4.5rem, 0);
   -webkit-transition-duration: 2s;
           transition-duration: 2s;
 }
@@ -1671,13 +1665,13 @@ element.style {
 }
 
 .wrapper-8 .container-8-right {
-  margin: 8rem 0 0 5rem;
+  margin: 1rem 0 0 5rem;
   text-align: justify;
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
   .wrapper-8 .container-8-right {
-    margin: auto;
+    margin: 0 0 0 1rem;
   }
 }
 
@@ -1690,16 +1684,20 @@ element.style {
 .wrapper-9 {
   -ms-grid-columns: 1fr 35%;
       grid-template-columns: 1fr 35%;
+  /* @media screen and (min-width: 767px) and (max-width: 1023px) {
+        grid-template-columns: 1fr 1f;
+    }*/
+  /*не срабатывает*/
 }
 
 .wrapper-9 .container-9-left {
-  margin: 8rem 6rem 0 0;
+  margin: 1rem 6rem 0 0;
   text-align: justify;
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
   .wrapper-9 .container-9-left {
-    margin: auto;
+    margin: 0 1rem 0 0;
   }
 }
 
@@ -1771,13 +1769,6 @@ element.style {
   max-height: 100%;
 }
 
-/*@media screen and (min-width: 767px) and (max-width: 1023px) {
-    .wrapper-7 {}
-
-    .container-7-right {
-        float: right;
-    }
-}*/
 .container-p {
   font-size: 1.3rem;
 }
