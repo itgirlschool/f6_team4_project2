@@ -1137,7 +1137,7 @@ element.style {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 425px) and (max-width: 767px) {
   .our-offer__wrapper {
     height: 98%;
     width: 96%;
@@ -1151,15 +1151,32 @@ element.style {
     margin: 0 2% 17vh 2%;
   }
   .our-offer__wrapper .our-offer__content {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
   .our-offer__wrapper .our-offer__content .our-offer__text-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 60%;
     margin-right: 4rem;
   }
   .our-offer__wrapper .our-offer__content .our-offer__text-area .our-offer__title {
     color: #424243;
     font-size: 2.5rem;
     margin: 0.1rem 0;
+  }
+  .our-offer__wrapper .our-offer__content .our-offer__text-area .bold {
+    font-weight: bold;
   }
   .our-offer__wrapper .our-offer__content .our-offer__text-area .our-offer__section {
     padding: 0;
@@ -1169,14 +1186,67 @@ element.style {
     margin: 0;
   }
   .our-offer__wrapper .our-offer__content .our-offer__img-area {
-    float: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    justify-items: flex-end;
+    width: 35%;
+    -webkit-transition-duration: 2s;
+            transition-duration: 2s;
+  }
+  .our-offer__wrapper .our-offer__content .our-offer__img-area:hover {
+    -webkit-transform: translate(-4rem, 0);
+            transform: translate(-4rem, 0);
+    -webkit-transition-duration: 2s;
+            transition-duration: 2s;
+    -webkit-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+            transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .our-offer__wrapper .our-offer__content .our-offer__img-area .our-offer__img {
+    border-radius: 10rem;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 868px) {
+  .our-offer__wrapper .our-offer__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .our-offer__wrapper .our-offer__content .our-offer__text-area .our-offer__section .our-offer__long {
+    width: 175%;
+  }
+  .our-offer__wrapper .our-offer__content .our-offer__img-area {
+    justify-items: flex-end;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
   }
-  .our-offer__wrapper .our-offer__content .our-offer__img-area .our-offer__img {
-    border-radius: 10rem;
-    max-height: 100%;
+  .our-offer__wrapper .our-offer__content .no-hover456 {
+    pointer-events: none;
+  }
+}
+
+@media screen and (min-width: 869px) and (max-width: 1023px) {
+  .our-offer__wrapper .our-offer__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .our-offer__wrapper .our-offer__content .our-offer__text-area .our-offer__section .our-offer__long {
+    width: 124%;
+  }
+  .our-offer__wrapper .our-offer__content .our-offer__img-area {
+    justify-items: flex-end;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   .our-offer__wrapper .our-offer__content .no-hover456 {
     pointer-events: none;
@@ -1234,13 +1304,26 @@ element.style {
 }
 
 .wrapper-7 {
-  -ms-grid-columns: 1fr 35%;
-      grid-template-columns: 1fr 35%;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (min-width: 1024px) {
+  .wrapper-7 {
+    -ms-grid-columns: 1fr 35%;
+        grid-template-columns: 1fr 35%;
+  }
 }
 
 .wrapper-7 .container-7-left {
   margin: 8rem 6rem 0 0;
   text-align: justify;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .wrapper-7 .container-7-left {
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1255,6 +1338,11 @@ element.style {
 }
 
 .wrapper-8 .container-8-left {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   -webkit-transition-duration: 2s;
           transition-duration: 2s;
 }
@@ -1283,6 +1371,12 @@ element.style {
   text-align: justify;
 }
 
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .wrapper-8 .container-8-right {
+    margin: auto;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .wrapper-8 .container-8-right {
     margin: 0 2rem 2rem 2rem;
@@ -1299,6 +1393,12 @@ element.style {
   text-align: justify;
 }
 
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .wrapper-9 .container-9-left {
+    margin: auto;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .wrapper-9 .container-9-left {
     margin: 0 2rem 2rem 2rem;
@@ -1311,7 +1411,7 @@ element.style {
   height: 98%;
   display: -ms-grid;
   display: grid;
-  margin: 0 2% 17vh 2%;
+  margin: 0 2% 6.5rem 2%;
 }
 
 @media screen and (max-width: 767px) {
@@ -1324,6 +1424,15 @@ element.style {
   }
 }
 
+.container-7-right,
+.container-9-right {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
 @media screen and (max-width: 767px) {
   .container-7-right,
   .container-9-right {
@@ -1331,7 +1440,7 @@ element.style {
   }
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 1023px) {
   .container-7-right,
   .container-9-right {
     margin: 0 2rem 2rem 2rem;
@@ -1358,15 +1467,13 @@ element.style {
   max-height: 100%;
 }
 
-@media screen and (min-width: 767px) and (max-width: 1023px) {
-  .container-7-right .img_7p,
-  .container-7-right .img_9p,
-  .container-9-right .img_7p,
-  .container-9-right .img_9p {
-    float: right;
-  }
-}
+/*@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .wrapper-7 {}
 
+    .container-7-right {
+        float: right;
+    }
+}*/
 .container-p {
   font-size: 1.3rem;
 }
