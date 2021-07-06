@@ -1307,17 +1307,17 @@ element.style {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 55%;
-  margin-left: 4rem;
+  width: 58%;
+  margin-left: 5rem;
 }
 
 .book-quest__wrapper .book-quest__content .book-quest__text-area .book-quest__section {
-  padding: 0 1.5rem;
+  padding: 0;
   font-size: 1.25rem;
 }
 
 .book-quest__wrapper .book-quest__content .book-quest__text-area .book-quest__section .book-quest__section-title {
-  margin-top: 5rem;
+  margin-top: 1rem;
 }
 
 .book-quest__wrapper .book-quest__content .book-quest__text-area .book-quest__section .bold {
@@ -1683,6 +1683,100 @@ element.style {
   }
   .book-quest__wrapper .book-quest__content .book-quest__text-area .book-quest__section .book-quest__section-title {
     margin: 0;
+  }
+  .book-quest__wrapper .book-quest__content .book-quest__text-area .book-quest__section .bold {
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 868px) {
+  .book-quest__wrapper {
+    margin: 0 2% 2% 2%;
+  }
+  .book-quest__wrapper .book-quest__content .book-quest__img-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 36%;
+  }
+  .book-quest__wrapper .book-quest__content .book-quest__img-area .book-quest__img-top {
+    border-radius: 10rem 10rem 0 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: -0.3rem;
+  }
+  .book-quest__wrapper .book-quest__content .book-quest__img-area .book-quest__img-bottom {
+    border-radius: 0 0 10rem 10rem;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .book-quest__wrapper .book-quest__content .no-hover456 {
+    pointer-events: none;
+  }
+  .book-quest__wrapper .book-quest__content .book-quest__text-area {
+    width: 60%;
+    margin-left: 2rem;
+  }
+  .book-quest__wrapper .book-quest__content .book-quest__text-area .book-quest__section {
+    padding: 0;
+    font-size: 1.25rem;
+  }
+  .book-quest__wrapper .book-quest__content .book-quest__text-area .book-quest__section .book-quest__section-title {
+    margin-top: 0;
+  }
+  .book-quest__wrapper .book-quest__content .book-quest__text-area .book-quest__section .bold {
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 869px) and (max-width: 1023px) {
+  .book-quest__wrapper {
+    margin: 0 2% 2% 2%;
+  }
+  .book-quest__wrapper .book-quest__content .book-quest__img-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 36%;
+  }
+  .book-quest__wrapper .book-quest__content .book-quest__img-area .book-quest__img-top {
+    border-radius: 10rem 10rem 0 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: -0.3rem;
+  }
+  .book-quest__wrapper .book-quest__content .book-quest__img-area .book-quest__img-bottom {
+    border-radius: 0 0 10rem 10rem;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .book-quest__wrapper .book-quest__content .no-hover456 {
+    pointer-events: none;
+  }
+  .book-quest__wrapper .book-quest__content .book-quest__text-area {
+    width: 60%;
+    margin-left: 2rem;
+  }
+  .book-quest__wrapper .book-quest__content .book-quest__text-area .book-quest__section {
+    padding: 0;
+    font-size: 1.25rem;
+  }
+  .book-quest__wrapper .book-quest__content .book-quest__text-area .book-quest__section .book-quest__section-title {
+    margin-top: 0;
   }
   .book-quest__wrapper .book-quest__content .book-quest__text-area .book-quest__section .bold {
     font-weight: bold;
