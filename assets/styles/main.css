@@ -1324,6 +1324,9 @@ element.style {
 }
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
+  .why-important__wrapper {
+    margin: 0 2% 2% 2%;
+  }
   .why-important__wrapper .why-important__title {
     text-align: center;
     font-size: 1.5rem;
@@ -1364,6 +1367,9 @@ element.style {
 }
 
 @media screen and (min-width: 375px) and (max-width: 424px) {
+  .why-important__wrapper {
+    margin: 0 2% 2% 2%;
+  }
   .why-important__wrapper .why-important__title {
     font-size: 1.5rem;
     margin: 0.5rem 0 0.5rem 2rem;
@@ -1403,6 +1409,9 @@ element.style {
 }
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
+  .why-important__wrapper {
+    margin: 0 2% 2% 2%;
+  }
   .why-important__wrapper .why-important__title {
     font-size: 1.5rem;
     margin: 0.5rem 0 0.5rem 3rem;
@@ -1442,6 +1451,9 @@ element.style {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+  .why-important__wrapper {
+    margin: 0 2% 2% 2%;
+  }
   .why-important__wrapper .why-important__card-set .why-important__card {
     padding-top: 2rem;
   }
@@ -1472,6 +1484,9 @@ element.style {
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  .our-offer__wrapper {
+    margin: 0 2% 2% 2%;
+  }
   .our-offer__wrapper .our-offer__content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1518,6 +1533,9 @@ element.style {
 }
 
 @media screen and (min-width: 768px) and (max-width: 868px) {
+  .our-offer__wrapper {
+    margin: 0 2% 2% 2%;
+  }
   .our-offer__wrapper .our-offer__content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1538,6 +1556,9 @@ element.style {
 }
 
 @media screen and (min-width: 869px) and (max-width: 1023px) {
+  .our-offer__wrapper {
+    margin: 0 2% 2% 2%;
+  }
   .our-offer__wrapper .our-offer__content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1604,6 +1625,66 @@ element.style {
   }
   .our-offer__wrapper .our-offer__content .our-offer__img-area .our-offer__img {
     max-height: 100%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .book-quest__wrapper {
+    height: 98%;
+    width: 96%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 2% 2% 2%;
+  }
+  .book-quest__wrapper .book-quest__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .book-quest__wrapper .book-quest__content .book-quest__img-area {
+    width: 100%;
+  }
+  .book-quest__wrapper .book-quest__content .book-quest__img-area .book-quest__img-top {
+    border-radius: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: -0.3rem;
+  }
+  .book-quest__wrapper .book-quest__content .book-quest__img-area .book-quest__img-bottom {
+    display: none;
+  }
+  .book-quest__wrapper .book-quest__content .no-hover456 {
+    pointer-events: none;
+  }
+  .book-quest__wrapper .book-quest__content .book-quest__text-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+  .book-quest__wrapper .book-quest__content .book-quest__text-area .book-quest__section {
+    padding: 0;
+    font-size: 1rem;
+  }
+  .book-quest__wrapper .book-quest__content .book-quest__text-area .book-quest__section .book-quest__section-title {
+    margin: 0;
+  }
+  .book-quest__wrapper .book-quest__content .book-quest__text-area .book-quest__section .bold {
+    font-weight: bold;
   }
 }
 
