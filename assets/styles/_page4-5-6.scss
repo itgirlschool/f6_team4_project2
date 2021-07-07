@@ -3,7 +3,7 @@
 * {
     // border: darkcyan 2px solid;
     font-family: "Roboto", sans-serif;
-    //overflow: hidden;
+
 }
 
 @font-face {
@@ -137,6 +137,7 @@
 
 // page 5 styles end
 
+
 // page 6 styles start
 
 .book-quest__wrapper {
@@ -180,15 +181,15 @@
         .book-quest__text-area {
             display: flex;
             flex-direction: column;
-            width: 55%;
-            margin-left: 4rem;
+            width: 58%;
+            margin-left: 5rem;
 
             .book-quest__section {
-                padding: 0 1.5rem;
+                padding: 0;
                 font-size: 1.25rem;
 
                 .book-quest__section-title {
-                    margin-top: 5rem;
+                    margin-top: 1rem;
                 }
 
                 .bold {
@@ -200,6 +201,7 @@
 }
 
 // page 6 styles end
+
 
 // page 4 adaptivity start
 @media screen and (min-width: 320px) and (max-width: 374px) {
@@ -565,6 +567,7 @@
 
 // page 5 adaptivity end
 
+
 // page 6 adaptivity start
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
@@ -592,9 +595,6 @@
 
                 .book-quest__img-bottom {
                     display: none;
-                    // border-radius: 0;
-                    // max-width: 100%;
-                    // max-height: 100%;
                 }
             }
 
@@ -625,12 +625,110 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 868px) {}
+@media screen and (min-width: 768px) and (max-width: 868px) {
 
-@media screen and (min-width: 869px) and (max-width: 1023px) {}
+    .book-quest__wrapper {
+        margin: 0 2% 2% 2%;
 
-@media screen and (min-width: 1024px) and (max-width: 1082px) {}
+        .book-quest__content {
 
-@media screen and (min-width: 1083px) and (max-width: 1289px) {}
+            .book-quest__img-area {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 36%;
+
+                .book-quest__img-top {
+                    border-radius: 10rem 10rem 0 0;
+                    max-width: 100%;
+                    max-height: 100%;
+                    margin-bottom: -0.3rem;
+                }
+
+                .book-quest__img-bottom {
+                    border-radius: 0 0 10rem 10rem;
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+            }
+
+            // animation concealed
+            .no-hover456 {
+                pointer-events: none;
+            }
+
+            .book-quest__text-area {
+                width: 60%;
+                margin-left: 2rem;
+
+                .book-quest__section {
+                    padding: 0;
+                    font-size: 1.25rem;
+
+                    .book-quest__section-title {
+                        margin-top: 0;
+                    }
+
+                    .bold {
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 869px) and (max-width: 1023px) {
+
+    .book-quest__wrapper {
+        margin: 0 2% 2% 2%;
+
+        .book-quest__content {
+
+            .book-quest__img-area {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 36%;
+
+                .book-quest__img-top {
+                    border-radius: 10rem 10rem 0 0;
+                    max-width: 100%;
+                    max-height: 100%;
+                    margin-bottom: -0.3rem;
+                }
+
+                .book-quest__img-bottom {
+                    border-radius: 0 0 10rem 10rem;
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+            }
+
+            // animation concealed
+            .no-hover456 {
+                pointer-events: none;
+            }
+
+            .book-quest__text-area {
+                width: 60%;
+                margin-left: 2rem;
+
+                .book-quest__section {
+                    padding: 0;
+                    font-size: 1.25rem;
+
+                    .book-quest__section-title {
+                        margin-top: 0;
+                    }
+
+                    .bold {
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
 
 // page 6 adaptivity end
