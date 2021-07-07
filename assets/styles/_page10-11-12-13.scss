@@ -3,12 +3,16 @@
     src: url(../fonts/roboto-fonts/Roboto-Medium.ttf);
 }
 
+
+
 /*start page 10*/
 
 .wrapper-intelclub {
+    box-sizing: border-box;
     overflow: hidden;
     height: 99vh;
-    max-width: 99vw;
+    width: 100%;
+    max-width: 100vw;
     background: rgba(39, 35, 35, 0.85) url(../images/img-bg_p10.jpg) no-repeat;
     background-size: cover;
     background-blend-mode: darken;
@@ -40,8 +44,10 @@
 
 .wrapper-results {
     height: 99vh;
-    max-width: 99vw;
+    width: 100%;
+    max-width: 100vw;
     overflow: hidden;
+    box-sizing: border-box;
 
     .results-main {
         display: grid;
@@ -56,6 +62,7 @@
             overflow: hidden;
             justify-content: center;
             width: 100%;
+            max-width: 33vw;
             margin-top: 5px;
             transition-duration: 2s;
 
@@ -96,8 +103,10 @@
 /*start page 12*/
 
 .wrapper-mission {
+    box-sizing: border-box;
     height: 99vh;
-    max-width: 99vw;
+    width: 100vw;
+    max-width: 100%;
     background: rgba(255, 255, 255, 0.75) url(../images/img-bg_p12.jpg) no-repeat;
     background-size: cover;
     background-blend-mode: lighten;
@@ -136,9 +145,11 @@
 /*start page 13*/
 
 .wrapper-advantages {
+    box-sizing: border-box;
     display: grid;
     height: 99vh;
-    max-width: 99vw;
+    width: 100%;
+    max-width: 100vw;
     overflow: hidden;
 
     .advantages-main {
@@ -190,6 +201,7 @@
             .advantages-main__img {
                 border-radius: 10rem;
                 max-width: 100%;
+                max-height: 99vh;
                 overflow: hidden;
                 width: 33vw;
 
@@ -274,6 +286,7 @@
 
             .intelclub-main__title {
                 font-size: 1.5rem;
+                line-height: 1.5rem;
             }
 
             .intelclub-main__text {
@@ -289,26 +302,29 @@
             height: fit-content;
             display: grid;
             grid-template-columns: 1fr;
-            grid-template-rows: 40% 1fr;
+            grid-template-rows: 40vh 1fr;
 
             .results-main__img-area {
                 grid-row: 1/2;
                 grid-column: 1/2;
+                max-width: 100vw;
 
                 .no-hover {
                     pointer-events: none;
                 }
+
+                .results-main__img {
+                    border-radius: 0rem;
+                }
             }
 
-            .results-main__img {
-                clip-path: inset(25% 0 25% 0);
-                margin: -37% 0;
-            }
+
 
             .results-main__text-area {
                 height: fit-content;
+                max-height: fit-content;
                 width: 97vw;
-                margin: 2% 4% 2% 2%;
+                margin: 2% 4% 0 2%;
                 grid-row: 2/3;
                 grid-column: 1/2;
                 line-height: 1rem;
