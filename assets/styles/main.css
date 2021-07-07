@@ -2005,34 +2005,33 @@ element.style {
   }
 }
 
-.wrapper-7 {
-  -ms-grid-columns: 3fr 2fr;
-  grid-template-columns: 3fr 2fr;
+.sinemalogy_wrapper {
+  -ms-grid-columns: 1fr 40%;
+  grid-template-columns: 1fr 40%;
 }
 
-.wrapper-7 .container-7-left {
+.sinemalogy_wrapper .sinemalogy_text {
   margin: 1rem 6rem 0 0;
-  text-align: justify;
 }
 
-@media screen and (min-width: 767px) and (max-width: 1023px) {
-  .wrapper-7 .container-7-left {
+@media screen and (max-width: 1023px) {
+  .sinemalogy_wrapper .sinemalogy_text {
     margin: 0 1rem 0 0;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .wrapper-7 .container-7-left {
-    margin: 0 2rem 2rem 2rem;
+  .sinemalogy_wrapper .sinemalogy_text {
+    margin: 0;
   }
 }
 
-.wrapper-8 {
+.role-game_wrapper {
   -ms-grid-columns: 35% 1fr;
   grid-template-columns: 35% 1fr;
 }
 
-.wrapper-8 .container-8-left {
+.role-game_wrapper .role-game_img {
   -ms-grid-column-align: center;
   justify-self: center;
   -ms-flex-item-align: center;
@@ -2042,90 +2041,93 @@ element.style {
   transition-duration: 2s;
 }
 
-.wrapper-8 .container-8-left:hover {
+.role-game_wrapper .role-game_img:hover {
   -webkit-transform: translate(4.5rem, 0);
   transform: translate(4.5rem, 0);
   -webkit-transition-duration: 2s;
   transition-duration: 2s;
 }
 
-.wrapper-8 .container-8-left .img_8p {
+.role-game_wrapper .role-game_img .role-game_img_item {
   border-radius: 10rem;
   max-width: 100%;
   max-height: 100%;
 }
 
 @media screen and (max-width: 767px) {
-  .wrapper-8 .container-8-left .img_8p {
+  .role-game_wrapper .role-game_img .role-game_img_item {
     display: none;
   }
 }
 
-.wrapper-8 .container-8-right {
+.role-game_wrapper .role-game_text {
   margin: 1rem 0 0 5rem;
-  text-align: justify;
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
-  .wrapper-8 .container-8-right {
+  .role-game_wrapper .role-game_text {
     margin: 0 0 0 1rem;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .wrapper-8 .container-8-right {
-    margin: 0 2rem 2rem 2rem;
+  .role-game_wrapper .role-game_text {
+    margin: 0;
   }
 }
 
-.wrapper-9 {
+.mastermind_wrapper {
   -ms-grid-columns: 1fr 35%;
   grid-template-columns: 1fr 35%;
-  /* @media screen and (min-width: 767px) and (max-width: 1023px) {
-        grid-template-columns: 1fr 1f;
-    }*/
-  /*не срабатывает*/
 }
 
-.wrapper-9 .container-9-left {
+.mastermind_wrapper .mastermind_text {
   margin: 1rem 6rem 0 0;
-  text-align: justify;
 }
 
-@media screen and (min-width: 767px) and (max-width: 1023px) {
-  .wrapper-9 .container-9-left {
+@media screen and (max-width: 1023px) {
+  .mastermind_wrapper .mastermind_text {
     margin: 0 1rem 0 0;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .wrapper-9 .container-9-left {
-    margin: 0 2rem 2rem 2rem;
+  .mastermind_wrapper .mastermind_text {
+    margin: 0;
   }
 }
 
-.wrapper-7,
-.wrapper-8,
-.wrapper-9 {
+.sinemalogy_wrapper,
+.role-game_wrapper,
+.mastermind_wrapper {
   height: 98%;
   display: -ms-grid;
   display: grid;
   margin: 0 2% 6.5rem 2%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
 
-  .wrapper-7,
-  .wrapper-8,
-  .wrapper-9 {
-    -ms-grid-columns: 100%;
-    grid-template-columns: 100%;
-    margin: 0;
+  .sinemalogy_wrapper,
+  .role-game_wrapper,
+  .mastermind_wrapper {
+    margin: 0 2% 1.5rem 2%;
   }
 }
 
-.container-7-right,
-.container-9-right {
+@media screen and (max-width: 767px) {
+
+  .sinemalogy_wrapper,
+  .role-game_wrapper,
+  .mastermind_wrapper {
+    -ms-grid-columns: 100%;
+    grid-template-columns: 100%;
+    margin: 1rem;
+  }
+}
+
+.sinemalogy_img,
+.mastermind_img {
   -ms-grid-column-align: center;
   justify-self: center;
   -ms-flex-item-align: center;
@@ -2135,23 +2137,23 @@ element.style {
 
 @media screen and (max-width: 767px) {
 
-  .container-7-right,
-  .container-9-right {
-    margin: 0 2rem 2rem 2rem;
+  .sinemalogy_img,
+  .mastermind_img {
+    margin: 0;
   }
 }
 
 @media screen and (min-width: 1023px) {
 
-  .container-7-right,
-  .container-9-right {
+  .sinemalogy_img,
+  .mastermind_img {
     margin: 0 2rem 2rem 2rem;
     -webkit-transition-duration: 2s;
     transition-duration: 2s;
   }
 
-  .container-7-right:hover,
-  .container-9-right:hover {
+  .sinemalogy_img:hover,
+  .mastermind_img:hover {
     -webkit-transform: translate(-5rem, 0);
     transform: translate(-5rem, 0);
     -webkit-transition-duration: 2s;
@@ -2161,17 +2163,39 @@ element.style {
   }
 }
 
-.container-7-right .img_7p,
-.container-7-right .img_9p,
-.container-9-right .img_7p,
-.container-9-right .img_9p {
+.sinemalogy_img .sinemalogy_img_item,
+.sinemalogy_img .mastermind_img_item,
+.mastermind_img .sinemalogy_img_item,
+.mastermind_img .mastermind_img_item {
   border-radius: 10rem;
   max-width: 100%;
   max-height: 100%;
 }
 
-.container-p {
+@media screen and (max-width: 767px) {
+
+  .sinemalogy_img .sinemalogy_img_item,
+  .sinemalogy_img .mastermind_img_item,
+  .mastermind_img .sinemalogy_img_item,
+  .mastermind_img .mastermind_img_item {
+    border-radius: 0;
+  }
+}
+
+.text_item {
   font-size: 1.3rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .text_item {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .h1 {
+    font-size: 1.5rem;
+  }
 }
 
 .bold {
