@@ -1986,7 +1986,7 @@ element.style {
   height: 98%;
   display: -ms-grid;
   display: grid;
-  margin: 0 2% 6.5rem 2%;
+  margin: 10rem 2% 0 2%;
 }
 
 @media screen and (max-width: 1023px) {
