@@ -1894,7 +1894,7 @@ element.style {
 }
 
 .sinemalogy_wrapper .sinemalogy_text {
-  margin: 1rem 6rem 0 0;
+  margin: 10rem 6rem 0 0;
 }
 
 @media screen and (max-width: 1023px) {
@@ -1915,20 +1915,20 @@ element.style {
 }
 
 .role-game_wrapper .role-game_img {
-  -ms-grid-column-align: center;
-      justify-self: center;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  -webkit-transition-duration: 2s;
-          transition-duration: 2s;
+  margin-top: 9rem;
 }
 
-.role-game_wrapper .role-game_img:hover {
-  -webkit-transform: translate(4.5rem, 0);
-          transform: translate(4.5rem, 0);
-  -webkit-transition-duration: 2s;
-          transition-duration: 2s;
+@media screen and (min-width: 1023px) {
+  .role-game_wrapper .role-game_img {
+    -webkit-transition-duration: 2s;
+            transition-duration: 2s;
+  }
+  .role-game_wrapper .role-game_img:hover {
+    -webkit-transform: translate(4.5rem, 0);
+            transform: translate(4.5rem, 0);
+    -webkit-transition-duration: 2s;
+            transition-duration: 2s;
+  }
 }
 
 .role-game_wrapper .role-game_img .role-game_img_item {
@@ -1944,7 +1944,7 @@ element.style {
 }
 
 .role-game_wrapper .role-game_text {
-  margin: 1rem 0 0 5rem;
+  margin: 10rem 0 0 5rem;
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
@@ -1965,7 +1965,7 @@ element.style {
 }
 
 .mastermind_wrapper .mastermind_text {
-  margin: 1rem 6rem 0 0;
+  margin: 10rem 6rem 0 0;
 }
 
 @media screen and (max-width: 1023px) {
@@ -1986,7 +1986,7 @@ element.style {
   height: 98%;
   display: -ms-grid;
   display: grid;
-  margin: 10rem 2% 0 2%;
+  margin: 0 2% 0 2%;
 }
 
 @media screen and (max-width: 1023px) {
@@ -2007,15 +2007,6 @@ element.style {
   }
 }
 
-.sinemalogy_img,
-.mastermind_img {
-  -ms-grid-column-align: center;
-      justify-self: center;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-
 @media screen and (max-width: 767px) {
   .sinemalogy_img,
   .mastermind_img {
@@ -2026,7 +2017,7 @@ element.style {
 @media screen and (min-width: 1023px) {
   .sinemalogy_img,
   .mastermind_img {
-    margin: 0 2rem 2rem 2rem;
+    margin: 8rem 2rem 2rem 2rem;
     -webkit-transition-duration: 2s;
             transition-duration: 2s;
   }
