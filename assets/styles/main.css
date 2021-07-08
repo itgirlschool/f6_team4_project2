@@ -2519,13 +2519,7 @@ element.style {
   src: url(../fonts/roboto-fonts/Roboto-Medium.ttf);
 }
 
-.wrapper-14-16 {
-  min-width: 320px;
-  max-width: 90rem;
-  margin: 0 auto;
-}
-
-.wrapper-14-16 .page-14 {
+.page-14 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2542,7 +2536,7 @@ element.style {
   background-size: cover;
 }
 
-.wrapper-14-16 .page-14 .review-header {
+.page-14 .review-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2554,13 +2548,13 @@ element.style {
   padding-left: 2rem;
 }
 
-.wrapper-14-16 .page-14 .review-line {
+.page-14 .review-line {
   width: 70rem;
   height: 0.5rem;
   background-color: #00C7C2;
 }
 
-.wrapper-14-16 .page-14 .review-logo {
+.page-14 .review-logo {
   background-image: url(../../assets/images/logo-light.png);
   background-size: cover;
   background-position: center;
@@ -2568,7 +2562,7 @@ element.style {
   height: 5rem;
 }
 
-.wrapper-14-16 .page-14 .section-title {
+.page-14 .section-title {
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
@@ -2577,19 +2571,19 @@ element.style {
   padding-top: 6.5rem;
 }
 
-.wrapper-14-16 .page-14 .review {
+.page-14 .review {
   font-size: 1.3rem;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   line-height: 2.5rem;
 }
 
-.wrapper-14-16 .page-14 .review-item {
+.page-14 .review-item {
   border-left: #464242 solid 0.5rem;
   padding-left: 2rem;
 }
 
-.wrapper-14-16 .page-14 .review .review-sub-text {
+.page-14 .review .review-sub-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2602,7 +2596,7 @@ element.style {
   font-style: italic;
 }
 
-.wrapper-14-16 .page-14 .review .review-text .review-1 .review-text-1 {
+.page-14 .review .review-text .review-1 .review-text-1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2611,7 +2605,7 @@ element.style {
           justify-content: flex-end;
 }
 
-.wrapper-14-16 .page-14 .review-2 .review-text-2 {
+.page-14 .review-2 .review-text-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2620,7 +2614,7 @@ element.style {
           justify-content: flex-end;
 }
 
-.wrapper-14-16 .page-14 .review-3 .review-text-3 {
+.page-14 .review-3 .review-text-3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2629,7 +2623,7 @@ element.style {
           justify-content: flex-end;
 }
 
-.wrapper-14-16 .page-15 {
+.page-15 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2644,7 +2638,7 @@ element.style {
   padding: 0 2rem;
 }
 
-.wrapper-14-16 .page-15 .review-header {
+.page-15 .review-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2656,13 +2650,13 @@ element.style {
   padding-left: 2rem;
 }
 
-.wrapper-14-16 .page-15 .review-line {
+.page-15 .review-line {
   width: 70rem;
   height: 0.5rem;
   background-color: #00C7C2;
 }
 
-.wrapper-14-16 .page-15 .review-logo {
+.page-15 .review-logo {
   background-image: url(../../assets/images/logo-light.png);
   background-size: cover;
   background-position: center;
@@ -2670,7 +2664,7 @@ element.style {
   height: 5rem;
 }
 
-.wrapper-14-16 .page-15 .section-title {
+.page-15 .section-title {
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
@@ -2679,7 +2673,7 @@ element.style {
   padding-top: 6.5rem;
 }
 
-.wrapper-14-16 .page-15 .team {
+.page-15 .team {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2693,7 +2687,7 @@ element.style {
           justify-content: space-evenly;
 }
 
-.wrapper-14-16 .page-15 .team-item {
+.page-15 .team-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2705,7 +2699,7 @@ element.style {
   margin-top: 10rem;
 }
 
-.wrapper-14-16 .page-15 .team .team-text {
+.page-15 .team .team-text {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
@@ -2713,21 +2707,21 @@ element.style {
   width: 12rem;
 }
 
-.wrapper-14-16 .page-15 .team h2 {
+.page-15 .team h2 {
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   color: #464242;
 }
 
-.wrapper-14-16 .page-15 .team p {
+.page-15 .team p {
   font-size: 1.3rem;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   line-height: 2.5rem;
 }
 
-.wrapper-14-16 .page-15 .team .team-item-1 .team-img-1 {
+.page-15 .team .team-item-1 .team-img-1 {
   background-image: url(../../assets/images/img_p15_1.png);
   width: 12rem;
   height: 12rem;
@@ -2735,7 +2729,7 @@ element.style {
   background-position: center;
 }
 
-.wrapper-14-16 .page-15 .team .team-item-2 .team-img-2 {
+.page-15 .team .team-item-2 .team-img-2 {
   background-image: url(../../assets/images/img_p15_2.png);
   width: 12rem;
   height: 12rem;
@@ -2743,7 +2737,7 @@ element.style {
   background-position: center;
 }
 
-.wrapper-14-16 .page-15 .team .team-item-3 .team-img-3 {
+.page-15 .team .team-item-3 .team-img-3 {
   background-image: url(../../assets/images/img_p15_3.png);
   width: 12rem;
   height: 12rem;
@@ -2751,7 +2745,7 @@ element.style {
   background-position: center;
 }
 
-.wrapper-14-16 .page-15 .team .team-item-4 .team-img-4 {
+.page-15 .team .team-item-4 .team-img-4 {
   background-image: url(../../assets/images/img_p15_4.png);
   width: 12rem;
   height: 12rem;
@@ -2759,7 +2753,7 @@ element.style {
   background-position: center;
 }
 
-.wrapper-14-16 .page-16 {
+.page-16 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2774,7 +2768,7 @@ element.style {
   padding: 0 2rem;
 }
 
-.wrapper-14-16 .page-16 .review-header {
+.page-16 .review-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2786,13 +2780,13 @@ element.style {
   padding-left: 2rem;
 }
 
-.wrapper-14-16 .page-16 .review-line {
+.page-16 .review-line {
   width: 70rem;
   height: 0.5rem;
   background-color: #00C7C2;
 }
 
-.wrapper-14-16 .page-16 .review-logo {
+.page-16 .review-logo {
   background-image: url(../../assets/images/logo-light.png);
   background-size: cover;
   background-position: center;
@@ -2800,7 +2794,7 @@ element.style {
   height: 5rem;
 }
 
-.wrapper-14-16 .page-16 .form {
+.page-16 .form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2814,11 +2808,11 @@ element.style {
   text-align: center;
 }
 
-.wrapper-14-16 .page-16 .form-title {
+.page-16 .form-title {
   width: 100%;
 }
 
-.wrapper-14-16 .page-16 .form-title h1 {
+.page-16 .form-title h1 {
   font-size: 4rem;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
@@ -2826,14 +2820,14 @@ element.style {
   padding-top: 6.5rem;
 }
 
-.wrapper-14-16 .page-16 .form-item-1 {
+.page-16 .form-item-1 {
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   color: #464242;
 }
 
-.wrapper-14-16 .page-16 .form-item-2 {
+.page-16 .form-item-2 {
   font-size: 3rem;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
@@ -2841,7 +2835,7 @@ element.style {
   margin-top: 3rem;
 }
 
-.wrapper-14-16 .page-16 .form-item-3 {
+.page-16 .form-item-3 {
   font-size: 3rem;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
@@ -2849,7 +2843,7 @@ element.style {
   margin-top: 3rem;
 }
 
-.wrapper-14-16 .page-16 .form-button {
+.page-16 .form-button {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -2864,7 +2858,7 @@ element.style {
   transition: 0.3s;
 }
 
-.wrapper-14-16 .page-16 .form-button::after {
+.page-16 .form-button::after {
   background-image: url(../../assets/images/img_p16.png);
   background-size: cover;
   width: 50px;
@@ -2876,42 +2870,38 @@ element.style {
   bottom: -20px;
 }
 
-.wrapper-14-16 .page-16 .form-button a {
+.page-16 .form-button a {
   text-decoration: none;
   color: #00C7C2;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-.wrapper-14-16 .page-16 .form-button:hover {
+.page-16 .form-button:hover {
   background-color: #00C7C2;
 }
 
-.wrapper-14-16 .page-16 .form-button:hover a {
+.page-16 .form-button:hover a {
   color: #fff;
 }
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
-  .wrapper-14-16 {
-    min-width: 320px;
-    max-width: 320px;
-  }
-  .wrapper-14-16 .page-14 {
+  .page-14 {
     padding: 0;
     height: auto;
     background-image: none;
     background-color: #fff;
   }
-  .wrapper-14-16 .page-14 .section-title {
+  .page-14 .section-title {
     padding-top: 0;
   }
-  .wrapper-14-16 .page-14 h1 {
+  .page-14 h1 {
     margin-top: 0;
   }
-  .wrapper-14-16 .page-14 .review {
+  .page-14 .review {
     line-height: 1.75;
   }
-  .wrapper-14-16 .review-sub-text {
+  .review-sub-text {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2920,16 +2910,16 @@ element.style {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .wrapper-14-16 .page-15 {
+  .page-15 {
     padding: 0;
     height: auto;
     margin: 0;
   }
-  .wrapper-14-16 .page-15 .section-title {
+  .page-15 .section-title {
     padding: 0;
     text-align: center;
   }
-  .wrapper-14-16 .page-15 .team {
+  .page-15 .team {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2938,13 +2928,13 @@ element.style {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .wrapper-14-16 .page-15 .team h2 {
+  .page-15 .team h2 {
     font-size: 1rem;
   }
-  .wrapper-14-16 .page-15 .team p {
+  .page-15 .team p {
     font-size: 1rem;
   }
-  .wrapper-14-16 .page-15 .team-item {
+  .page-15 .team-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2959,64 +2949,60 @@ element.style {
             align-items: center;
     width: 100%;
   }
-  .wrapper-14-16 .page-16 {
+  .page-16 {
     padding: 0 0.5rem;
     height: auto;
   }
-  .wrapper-14-16 .page-16 .form {
+  .page-16 .form {
     line-height: 1.8rem;
   }
-  .wrapper-14-16 .page-16 .form-title h1 {
+  .page-16 .form-title h1 {
     font-size: 1.5rem;
     padding: 0;
     margin-top: 3rem;
   }
-  .wrapper-14-16 .page-16 .form-item-1 {
+  .page-16 .form-item-1 {
     width: 100%;
   }
-  .wrapper-14-16 .page-16 .form-item-1 h2 {
+  .page-16 .form-item-1 h2 {
     font-size: 1.2rem;
     margin-top: 2rem;
   }
-  .wrapper-14-16 .page-16 .form-item-2 {
+  .page-16 .form-item-2 {
     width: 100%;
     font-size: 1.3rem;
   }
-  .wrapper-14-16 .page-16 .form-item-3 {
+  .page-16 .form-item-3 {
     width: 100%;
     font-size: 1.3rem;
   }
-  .wrapper-14-16 .page-16 .form-button {
+  .page-16 .form-button {
     width: 250px;
     padding: 12px;
     font-size: 1.5rem;
   }
-  .wrapper-14-16 .page-16 .form-button::after {
+  .page-16 .form-button::after {
     display: none;
   }
 }
 
 @media screen and (min-width: 375px) and (max-width: 424px) {
-  .wrapper-14-16 {
-    min-width: 320px;
-    max-width: 320px;
-  }
-  .wrapper-14-16 .page-14 {
+  .page-14 {
     padding: 0;
     height: auto;
     background-image: none;
     background-color: #fff;
   }
-  .wrapper-14-16 .page-14 .section-title {
+  .page-14 .section-title {
     padding-top: 0;
   }
-  .wrapper-14-16 .page-14 h1 {
+  .page-14 h1 {
     margin-top: 0;
   }
-  .wrapper-14-16 .page-14 .review {
+  .page-14 .review {
     line-height: 1.75;
   }
-  .wrapper-14-16 .review-sub-text {
+  .review-sub-text {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3025,16 +3011,16 @@ element.style {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .wrapper-14-16 .page-15 {
+  .page-15 {
     padding: 0;
     height: auto;
     margin: 0;
   }
-  .wrapper-14-16 .page-15 .section-title {
+  .page-15 .section-title {
     padding: 0;
     text-align: center;
   }
-  .wrapper-14-16 .page-15 .team {
+  .page-15 .team {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3043,7 +3029,7 @@ element.style {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .wrapper-14-16 .page-15 .team-item {
+  .page-15 .team-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3058,64 +3044,60 @@ element.style {
             align-items: center;
     width: 100%;
   }
-  .wrapper-14-16 .page-16 {
+  .page-16 {
     padding: 0 0.5rem;
     height: auto;
   }
-  .wrapper-14-16 .page-16 .form {
+  .page-16 .form {
     line-height: 1.8rem;
   }
-  .wrapper-14-16 .page-16 .form-title h1 {
+  .page-16 .form-title h1 {
     font-size: 1.5rem;
     padding: 0;
     margin-top: 3rem;
   }
-  .wrapper-14-16 .page-16 .form-item-1 {
+  .page-16 .form-item-1 {
     width: 100%;
   }
-  .wrapper-14-16 .page-16 .form-item-1 h2 {
+  .page-16 .form-item-1 h2 {
     font-size: 1.2rem;
     margin-top: 2rem;
   }
-  .wrapper-14-16 .page-16 .form-item-2 {
+  .page-16 .form-item-2 {
     width: 100%;
     font-size: 1.3rem;
   }
-  .wrapper-14-16 .page-16 .form-item-3 {
+  .page-16 .form-item-3 {
     width: 100%;
     font-size: 1.3rem;
   }
-  .wrapper-14-16 .page-16 .form-button {
+  .page-16 .form-button {
     width: 250px;
     padding: 12px;
     font-size: 1.5rem;
   }
-  .wrapper-14-16 .page-16 .form-button::after {
+  .page-16 .form-button::after {
     display: none;
   }
 }
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
-  .wrapper-14-16 {
-    min-width: 425px;
-    max-width: 425px;
-  }
-  .wrapper-14-16 .page-14 {
+  .page-14 {
     padding: 0 0.5rem;
     height: auto;
     background-image: none;
     background-color: #fff;
   }
-  .wrapper-14-16 .page-14 .section-title {
+  .page-14 .section-title {
     padding-top: 0;
   }
-  .wrapper-14-16 .page-14 h1 {
+  .page-14 h1 {
     margin-top: 0;
   }
-  .wrapper-14-16 .page-14 .review {
+  .page-14 .review {
     line-height: 1.75;
   }
-  .wrapper-14-16 .review-sub-text {
+  .review-sub-text {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3124,12 +3106,12 @@ element.style {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .wrapper-14-16 .page-15 {
+  .page-15 {
     padding: 0;
     height: auto;
     margin: 0;
   }
-  .wrapper-14-16 .page-15 .team {
+  .page-15 .team {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3138,7 +3120,7 @@ element.style {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .wrapper-14-16 .page-15 .team-item {
+  .page-15 .team-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3153,30 +3135,30 @@ element.style {
             align-items: center;
     width: 100%;
   }
-  .wrapper-14-16 .page-16 {
+  .page-16 {
     padding: 0 0.5rem;
     height: auto;
   }
-  .wrapper-14-16 .page-16 .form-title h1 {
+  .page-16 .form-title h1 {
     font-size: 2rem;
     padding: 0;
   }
-  .wrapper-14-16 .page-16 .form-item-1 {
+  .page-16 .form-item-1 {
     width: 100%;
   }
-  .wrapper-14-16 .page-16 .form-item-1 h2 {
+  .page-16 .form-item-1 h2 {
     font-size: 1.6rem;
   }
-  .wrapper-14-16 .page-16 .form-item-2 {
+  .page-16 .form-item-2 {
     width: 100%;
     font-size: 1.7rem;
     margin-top: 2rem;
   }
-  .wrapper-14-16 .page-16 .form-item-3 {
+  .page-16 .form-item-3 {
     width: 100%;
     font-size: 1.3rem;
   }
-  .wrapper-14-16 .page-16 .form-button {
+  .page-16 .form-button {
     width: 250px;
     padding: 2rem 2rem;
     font-size: 1.7rem;
@@ -3184,26 +3166,22 @@ element.style {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .wrapper-14-16 {
-    min-width: 768px;
-    max-width: 768px;
-  }
-  .wrapper-14-16 .page-14 {
+  .page-14 {
     padding: 0 0.5rem;
     height: auto;
     background-image: none;
     background-color: #fff;
   }
-  .wrapper-14-16 .page-14 .section-title {
+  .page-14 .section-title {
     padding-top: 0;
   }
-  .wrapper-14-16 .page-14 h1 {
+  .page-14 h1 {
     margin-top: 0;
   }
-  .wrapper-14-16 .page-14 .review {
+  .page-14 .review {
     line-height: 1.75;
   }
-  .wrapper-14-16 .review-sub-text {
+  .review-sub-text {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3212,12 +3190,12 @@ element.style {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .wrapper-14-16 .page-15 {
+  .page-15 {
     padding: 0;
     height: auto;
     margin: 0;
   }
-  .wrapper-14-16 .page-15 .team {
+  .page-15 .team {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3226,7 +3204,7 @@ element.style {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .wrapper-14-16 .page-15 .team-item {
+  .page-15 .team-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3239,29 +3217,29 @@ element.style {
             align-items: center;
     width: 100%;
   }
-  .wrapper-14-16 .page-16 {
+  .page-16 {
     padding: 0 0.5rem;
     height: auto;
   }
-  .wrapper-14-16 .page-16 .form-title h1 {
+  .page-16 .form-title h1 {
     font-size: 2.5rem;
     padding: 0;
   }
-  .wrapper-14-16 .page-16 .form-item-1 {
+  .page-16 .form-item-1 {
     width: 100%;
   }
-  .wrapper-14-16 .page-16 .form-item-1 h2 {
+  .page-16 .form-item-1 h2 {
     font-size: 2rem;
   }
-  .wrapper-14-16 .page-16 .form-item-2 {
+  .page-16 .form-item-2 {
     width: 100%;
     font-size: 1.3rem;
   }
-  .wrapper-14-16 .page-16 .form-item-3 {
+  .page-16 .form-item-3 {
     width: 100%;
     font-size: 1.3rem;
   }
-  .wrapper-14-16 .page-16 .form-button {
+  .page-16 .form-button {
     width: 250px;
     padding: 2rem 4rem;
     font-size: 1.5rem;
@@ -3269,26 +3247,22 @@ element.style {
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
-  .wrapper-14-16 {
-    min-width: 1024px;
-    max-width: 1024px;
-  }
-  .wrapper-14-16 .page-14 {
+  .page-14 {
     padding: 0 0.5rem;
     height: auto;
     background-image: none;
     background-color: #fff;
   }
-  .wrapper-14-16 .page-14 .section-title {
+  .page-14 .section-title {
     padding-top: 0;
   }
-  .wrapper-14-16 .page-14 h1 {
+  .page-14 h1 {
     margin-top: 0;
   }
-  .wrapper-14-16 .page-14 .review {
+  .page-14 .review {
     line-height: 1.75;
   }
-  .wrapper-14-16 .review-sub-text {
+  .review-sub-text {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3297,12 +3271,12 @@ element.style {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .wrapper-14-16 .page-15 {
+  .page-15 {
     padding: 0;
     height: auto;
     margin: 0;
   }
-  .wrapper-14-16 .page-15 .team {
+  .page-15 .team {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3311,7 +3285,7 @@ element.style {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .wrapper-14-16 .page-15 .team-item {
+  .page-15 .team-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3324,29 +3298,29 @@ element.style {
             align-items: center;
     width: 100%;
   }
-  .wrapper-14-16 .page-16 {
+  .page-16 {
     padding: 0 0.5rem;
     height: auto;
   }
-  .wrapper-14-16 .page-16 .form-title h1 {
+  .page-16 .form-title h1 {
     font-size: 2.5rem;
     padding: 0;
   }
-  .wrapper-14-16 .page-16 .form-item-1 {
+  .page-16 .form-item-1 {
     width: 100%;
   }
-  .wrapper-14-16 .page-16 .form-item-1 h2 {
+  .page-16 .form-item-1 h2 {
     font-size: 2.0rem;
   }
-  .wrapper-14-16 .page-16 .form-item-2 {
+  .page-16 .form-item-2 {
     width: 100%;
     font-size: 2rem;
   }
-  .wrapper-14-16 .page-16 .form-item-3 {
+  .page-16 .form-item-3 {
     width: 100%;
     font-size: 2rem;
   }
-  .wrapper-14-16 .page-16 .form-button {
+  .page-16 .form-button {
     width: 250px;
     padding: 2rem 4rem;
     font-size: 1.8rem;
@@ -3355,30 +3329,26 @@ element.style {
 }
 
 @media screen and (min-width: 1440px) and (max-width: 2000px) {
-  .wrapper-14-16 {
-    min-width: 1440px;
-    max-width: 1440px;
-  }
-  .wrapper-14-16 .page-14 {
+  .page-14 {
     padding: 0 0.5rem;
     height: auto;
     background-image: url(../images/img_p14_bg.jpg);
     background-color: #fff;
     height: 56rem;
   }
-  .wrapper-14-16 .page-14 .section-title {
+  .page-14 .section-title {
     padding-top: 6.5rem;
   }
-  .wrapper-14-16 .page-14 h1 {
+  .page-14 h1 {
     margin-top: 0;
   }
-  .wrapper-14-16 .page-14 .review {
+  .page-14 .review {
     line-height: 1.3rem;
     font-size: 1.1rem;
     height: 45rem;
     font-size: 1.1rem;
   }
-  .wrapper-14-16 .page-14 .review .review-sub-text {
+  .page-14 .review .review-sub-text {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3391,15 +3361,15 @@ element.style {
             align-items: flex-end;
     margin-right: 7rem;
   }
-  .wrapper-14-16 .page-15 {
+  .page-15 {
     padding: 0;
     height: auto;
     margin: 0;
   }
-  .wrapper-14-16 .page-15 .section-title {
+  .page-15 .section-title {
     padding-top: 0rem;
   }
-  .wrapper-14-16 .page-15 .team {
+  .page-15 .team {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3413,7 +3383,7 @@ element.style {
             justify-content: space-evenly;
     margin-top: 6.5rem;
   }
-  .wrapper-14-16 .page-15 .team-item {
+  .page-15 .team-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3426,29 +3396,29 @@ element.style {
             align-items: center;
     width: 50%;
   }
-  .wrapper-14-16 .page-16 {
+  .page-16 {
     padding: 0 0.5rem;
     height: auto;
   }
-  .wrapper-14-16 .page-16 .form-title h1 {
+  .page-16 .form-title h1 {
     font-size: 3.5rem;
     padding: 0;
   }
-  .wrapper-14-16 .page-16 .form-item-1 {
+  .page-16 .form-item-1 {
     width: 100%;
   }
-  .wrapper-14-16 .page-16 .form-item-1 h2 {
+  .page-16 .form-item-1 h2 {
     font-size: 3.0rem;
   }
-  .wrapper-14-16 .page-16 .form-item-2 {
+  .page-16 .form-item-2 {
     width: 100%;
     font-size: 2rem;
   }
-  .wrapper-14-16 .page-16 .form-item-3 {
+  .page-16 .form-item-3 {
     width: 100%;
     font-size: 2rem;
   }
-  .wrapper-14-16 .page-16 .form-button {
+  .page-16 .form-button {
     width: 350px;
     padding: 2rem 4rem;
     font-size: 1.8rem;
