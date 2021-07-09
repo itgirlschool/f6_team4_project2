@@ -1186,6 +1186,7 @@ element.style {
 }
 
 * {
+  border: darkcyan 2px solid;
   font-family: "Roboto", sans-serif;
 }
 
@@ -2520,6 +2521,9 @@ element.style {
 }
 
 .page-14 {
+  height: 98%;
+  width: 96%;
+  margin: 0 2% 17vh 2%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2529,46 +2533,17 @@ element.style {
           flex-direction: column;
   -ms-flex-line-pack: center;
       align-content: center;
-  width: 100%;
-  min-height: 100vh;
-  padding: 0 2rem;
   background: rgba(0, 0, 0, 0.1) url(../images/img_p14_bg.jpg) no-repeat;
   background-size: cover;
 }
 
-.page-14 .review-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 5rem;
-  margin-top: 2rem;
-  padding-left: 2rem;
-}
-
-.page-14 .review-line {
-  width: 70rem;
-  height: 0.5rem;
-  background-color: #00C7C2;
-}
-
-.page-14 .review-logo {
-  background-image: url(../../assets/images/logo-light.png);
-  background-size: cover;
-  background-position: center;
-  width: 300px;
-  height: 5rem;
-}
-
 .page-14 .section-title {
+  width: 100%;
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   color: #464242;
   padding-left: 2rem;
-  padding-top: 6.5rem;
 }
 
 .page-14 .review {
@@ -2624,6 +2599,9 @@ element.style {
 }
 
 .page-15 {
+  height: 98%;
+  width: 96%;
+  margin: 0 2% 17vh 2%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2633,35 +2611,6 @@ element.style {
           flex-direction: column;
   -ms-flex-line-pack: center;
       align-content: center;
-  width: 100%;
-  min-height: 100vh;
-  padding: 0 2rem;
-}
-
-.page-15 .review-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 5rem;
-  margin-top: 3rem;
-  padding-left: 2rem;
-}
-
-.page-15 .review-line {
-  width: 70rem;
-  height: 0.5rem;
-  background-color: #00C7C2;
-}
-
-.page-15 .review-logo {
-  background-image: url(../../assets/images/logo-light.png);
-  background-size: cover;
-  background-position: center;
-  width: 300px;
-  height: 5rem;
 }
 
 .page-15 .section-title {
@@ -2722,7 +2671,7 @@ element.style {
 }
 
 .page-15 .team .team-item-1 .team-img-1 {
-  background-image: url(../../assets/images/img_p15_1.png);
+  background-image: url(../images/img_p15_1.png);
   width: 12rem;
   height: 12rem;
   background-size: cover;
@@ -2730,7 +2679,7 @@ element.style {
 }
 
 .page-15 .team .team-item-2 .team-img-2 {
-  background-image: url(../../assets/images/img_p15_2.png);
+  background-image: url(../images/img_p15_2.png);
   width: 12rem;
   height: 12rem;
   background-size: cover;
@@ -2738,7 +2687,7 @@ element.style {
 }
 
 .page-15 .team .team-item-3 .team-img-3 {
-  background-image: url(../../assets/images/img_p15_3.png);
+  background-image: url(../images/img_p15_3.png);
   width: 12rem;
   height: 12rem;
   background-size: cover;
@@ -2746,7 +2695,7 @@ element.style {
 }
 
 .page-15 .team .team-item-4 .team-img-4 {
-  background-image: url(../../assets/images/img_p15_4.png);
+  background-image: url(../images/img_p15_4.png);
   width: 12rem;
   height: 12rem;
   background-size: cover;
@@ -2754,6 +2703,9 @@ element.style {
 }
 
 .page-16 {
+  height: 98%;
+  width: 96%;
+  margin: 0 2% 17vh 2%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2763,35 +2715,6 @@ element.style {
           flex-direction: column;
   -ms-flex-line-pack: center;
       align-content: center;
-  width: 100%;
-  min-height: 100vh;
-  padding: 0 2rem;
-}
-
-.page-16 .review-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 5rem;
-  margin-top: 3rem;
-  padding-left: 2rem;
-}
-
-.page-16 .review-line {
-  width: 70rem;
-  height: 0.5rem;
-  background-color: #00C7C2;
-}
-
-.page-16 .review-logo {
-  background-image: url(../../assets/images/logo-light.png);
-  background-size: cover;
-  background-position: center;
-  width: 300px;
-  height: 5rem;
 }
 
 .page-16 .form {
@@ -2810,14 +2733,6 @@ element.style {
 
 .page-16 .form-title {
   width: 100%;
-}
-
-.page-16 .form-title h1 {
-  font-size: 4rem;
-  font-family: "Roboto", sans-serif;
-  font-weight: normal;
-  color: #464242;
-  padding-top: 6.5rem;
 }
 
 .page-16 .form-item-1 {
@@ -2889,14 +2804,9 @@ element.style {
   .page-14 {
     padding: 0;
     height: auto;
-    background-image: none;
-    background-color: #fff;
   }
   .page-14 .section-title {
     padding-top: 0;
-  }
-  .page-14 h1 {
-    margin-top: 0;
   }
   .page-14 .review {
     line-height: 1.75;
@@ -2956,11 +2866,6 @@ element.style {
   .page-16 .form {
     line-height: 1.8rem;
   }
-  .page-16 .form-title h1 {
-    font-size: 1.5rem;
-    padding: 0;
-    margin-top: 3rem;
-  }
   .page-16 .form-item-1 {
     width: 100%;
   }
@@ -2990,14 +2895,9 @@ element.style {
   .page-14 {
     padding: 0;
     height: auto;
-    background-image: none;
-    background-color: #fff;
   }
   .page-14 .section-title {
     padding-top: 0;
-  }
-  .page-14 h1 {
-    margin-top: 0;
   }
   .page-14 .review {
     line-height: 1.75;
@@ -3051,11 +2951,6 @@ element.style {
   .page-16 .form {
     line-height: 1.8rem;
   }
-  .page-16 .form-title h1 {
-    font-size: 1.5rem;
-    padding: 0;
-    margin-top: 3rem;
-  }
   .page-16 .form-item-1 {
     width: 100%;
   }
@@ -3085,14 +2980,9 @@ element.style {
   .page-14 {
     padding: 0 0.5rem;
     height: auto;
-    background-image: none;
-    background-color: #fff;
   }
   .page-14 .section-title {
     padding-top: 0;
-  }
-  .page-14 h1 {
-    margin-top: 0;
   }
   .page-14 .review {
     line-height: 1.75;
@@ -3138,10 +3028,6 @@ element.style {
   .page-16 {
     padding: 0 0.5rem;
     height: auto;
-  }
-  .page-16 .form-title h1 {
-    font-size: 2rem;
-    padding: 0;
   }
   .page-16 .form-item-1 {
     width: 100%;
@@ -3169,14 +3055,9 @@ element.style {
   .page-14 {
     padding: 0 0.5rem;
     height: auto;
-    background-image: none;
-    background-color: #fff;
   }
   .page-14 .section-title {
     padding-top: 0;
-  }
-  .page-14 h1 {
-    margin-top: 0;
   }
   .page-14 .review {
     line-height: 1.75;
@@ -3220,10 +3101,6 @@ element.style {
   .page-16 {
     padding: 0 0.5rem;
     height: auto;
-  }
-  .page-16 .form-title h1 {
-    font-size: 2.5rem;
-    padding: 0;
   }
   .page-16 .form-item-1 {
     width: 100%;
@@ -3250,14 +3127,9 @@ element.style {
   .page-14 {
     padding: 0 0.5rem;
     height: auto;
-    background-image: none;
-    background-color: #fff;
   }
   .page-14 .section-title {
     padding-top: 0;
-  }
-  .page-14 h1 {
-    margin-top: 0;
   }
   .page-14 .review {
     line-height: 1.75;
@@ -3301,10 +3173,6 @@ element.style {
   .page-16 {
     padding: 0 0.5rem;
     height: auto;
-  }
-  .page-16 .form-title h1 {
-    font-size: 2.5rem;
-    padding: 0;
   }
   .page-16 .form-item-1 {
     width: 100%;
@@ -3332,15 +3200,10 @@ element.style {
   .page-14 {
     padding: 0 0.5rem;
     height: auto;
-    background-image: url(../images/img_p14_bg.jpg);
-    background-color: #fff;
     height: 56rem;
   }
   .page-14 .section-title {
     padding-top: 6.5rem;
-  }
-  .page-14 h1 {
-    margin-top: 0;
   }
   .page-14 .review {
     line-height: 1.3rem;
@@ -3399,10 +3262,6 @@ element.style {
   .page-16 {
     padding: 0 0.5rem;
     height: auto;
-  }
-  .page-16 .form-title h1 {
-    font-size: 3.5rem;
-    padding: 0;
   }
   .page-16 .form-item-1 {
     width: 100%;
