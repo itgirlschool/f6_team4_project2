@@ -2702,78 +2702,79 @@ element.style {
   background-position: center;
 }
 
-.page-16 {
-  height: 98%;
-  width: 96%;
-  margin: 0 2% 17vh 2%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-line-pack: center;
-      align-content: center;
+.wrapper-contacts {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-height: 99vh;
+  max-width: 99vw;
 }
 
-.page-16 .form {
+.wrapper-contacts .contacts-main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  height: 95%;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin: 6.5rem 2% 3rem 2%;
   text-align: center;
 }
 
-.page-16 .form-title {
-  width: 100%;
-}
-
-.page-16 .form-item-1 {
+.wrapper-contacts .contacts-main .contacts-main__title {
+  color: #424243;
   font-size: 2rem;
-  font-family: "Roboto", sans-serif;
-  font-weight: normal;
-  color: #464242;
 }
 
-.page-16 .form-item-2 {
-  font-size: 3rem;
+.wrapper-contacts .contacts-main .contacts-main__button-head {
+  font-size: 1.5rem;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
-  color: #464242;
-  margin-top: 3rem;
+  color: #424243;
 }
 
-.page-16 .form-item-3 {
-  font-size: 3rem;
+.wrapper-contacts .contacts-main .contacts-main__mail-head {
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: #424243;
+  margin-top: 2rem;
+}
+
+.wrapper-contacts .contacts-main .contacts-main__mail {
+  font-size: 2.5rem;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   color: #00C7C2;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
-.page-16 .form-button {
+.wrapper-contacts .contacts-main__button {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  position: relative;
   border: solid 1px #00C7C2;
-  padding: 2rem 4rem;
+  padding: 1.5rem 3rem;
   border-radius: 25px;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-.page-16 .form-button::after {
+.wrapper-contacts .contacts-main__button:hover {
+  background-color: #00C7C2;
+}
+
+.wrapper-contacts .contacts-main__button:hover a {
+  color: #fff;
+}
+
+.wrapper-contacts .contacts-main__button::after {
   background-image: url(../../assets/images/img_p16.png);
   background-size: cover;
   width: 50px;
@@ -2783,20 +2784,72 @@ element.style {
   position: absolute;
   right: -20px;
   bottom: -20px;
+  display: none;
 }
 
-.page-16 .form-button a {
+.wrapper-contacts .contacts-main__button .contacts-main__button-link {
   text-decoration: none;
   color: #00C7C2;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-.page-16 .form-button:hover {
-  background-color: #00C7C2;
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .wrapper-contacts {
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+  }
+  .wrapper-contacts .contacts-main {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 6.5rem 2%;
+  }
+  .wrapper-contacts .contacts-main .contacts-main__title {
+    font-size: 1.5rem;
+  }
+  .wrapper-contacts .contacts-main .contacts-main__button-head {
+    font-size: 1rem;
+  }
+  .wrapper-contacts .contacts-main .contacts-main__button {
+    font-size: 1.5rem;
+    border-radius: 15px;
+    padding: 1rem 2rem;
+  }
+  .wrapper-contacts .contacts-main .contacts-main__mail-head {
+    margin-top: 1rem;
+  }
+  .wrapper-contacts .contacts-main .contacts-main__mail {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
 }
 
-.page-16 .form-button:hover a {
-  color: #fff;
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .wrapper-contacts .contacts-main {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 6.5rem 2%;
+  }
+  .wrapper-contacts .contacts-main .contacts-main__title {
+    font-size: 1.8rem;
+  }
+  .wrapper-contacts .contacts-main .contacts-main__button-head {
+    font-size: 1.3rem;
+  }
+  .wrapper-contacts .contacts-main .contacts-main__button {
+    font-size: 1.8rem;
+    border-radius: 20px;
+    padding: 1.5rem 2.5rem;
+  }
+  .wrapper-contacts .contacts-main .contacts-main__mail-head {
+    margin-top: 1.5rem;
+  }
+  .wrapper-contacts .contacts-main .contacts-main__mail {
+    margin-top: 1.5rem;
+    font-size: 1.8rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */

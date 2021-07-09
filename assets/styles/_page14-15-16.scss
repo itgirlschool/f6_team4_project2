@@ -184,66 +184,66 @@
 
 
 // Page 16 STYLES Valeria-4-Kotish start
-.page-16 {
-    height: 98%;
-    width: 96%;
-    margin: 0 2% 17vh 2%;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+.wrapper-contacts {
+    box-sizing: border-box;
+    max-height: 99vh;
+    max-width: 99vw;
 
-    .form {
+    .contacts-main {
         display: flex;
-        width: 100%;
-        flex-wrap: wrap;
+        height: 95%;
+        flex-wrap: nowrap;
         flex-direction: column;
+        margin: 6.5rem 2% 3rem 2%;
         text-align: center;
 
-        &-title {
-            width: 100%;
-
-            // h1 {
-            //     font-size: 4rem;
-            //     font-family: "Roboto", sans-serif;
-            //     font-weight: normal;
-            //     color: rgb(70, 66, 66);
-            //     padding-top: 6.5rem;
-            // }
-
-
-        }
-
-        &-item-1 {
+        .contacts-main__title {
+            color: $gray-color;
             font-size: 2rem;
-            font-family: "Roboto", sans-serif;
-            font-weight: normal;
-            color: rgb(70, 66, 66);
         }
 
-        &-item-2 {
-            font-size: 3rem;
+        .contacts-main__button-head {
+            font-size: 1.5rem;
             font-family: "Roboto", sans-serif;
             font-weight: normal;
-            color: rgb(70, 66, 66);
-            margin-top: 3rem;
+            color: $gray-color;
         }
 
-        &-item-3 {
-            font-size: 3rem;
+        .contacts-main__mail-head {
+            font-size: 1.5rem;
             font-family: "Roboto", sans-serif;
             font-weight: normal;
-            color: #00C7C2;
-            margin-top: 3rem;
+            color: $gray-color;
+            margin-top: 2rem;
         }
 
-
-
-
+        .contacts-main__mail {
+            font-size: 2.5rem;
+            font-family: "Roboto", sans-serif;
+            font-weight: normal;
+            color: $turquoise-color;
+            margin-top: 2rem;
+        }
     }
 
-    .form-button {
+    .contacts-main__button {
         align-self: center;
-        position: relative;
+        border: solid 1px $turquoise-color;
+        padding: 1.5rem 3rem;
+        border-radius: 25px;
+        font-size: 2.5rem;
+        font-weight: bold;
+        font-family: "Roboto",
+            sans-serif;
+        transition: 0.3s;
+
+        &:hover {
+            background-color: $turquoise-color;
+
+            a {
+                color: #fff;
+            }
+        }
 
         &::after {
             background-image: url(../../assets/images/img_p16.png);
@@ -255,31 +255,14 @@
             position: absolute;
             right: -20px;
             bottom: -20px;
+            display: none;
 
         }
 
-
-        a {
+        .contacts-main__button-link {
             text-decoration: none;
-            color: #00C7C2;
+            color: $turquoise-color;
             transition: 0.3s;
-        }
-
-        border: solid 1px #00C7C2;
-        padding: 2rem 4rem;
-        border-radius: 25px;
-        font-size: 3.5rem;
-        font-weight: bold;
-        font-family: "Roboto",
-        sans-serif;
-        transition: 0.3s;
-
-        &:hover {
-            background-color: #00C7C2;
-
-            a {
-                color: #fff;
-            }
         }
     }
 }
@@ -302,7 +285,74 @@
 
 
 // Page 16 ADAPTIVITY Valeria-4-Kotish start
-@media screen and (min-width: 320px) and (max-width: 374px) {}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .wrapper-contacts {
+        max-height: fit-content;
+
+        .contacts-main {
+            height: fit-content;
+            margin: 6.5rem 2%;
+
+            .contacts-main__title {
+                font-size: 1.5rem;
+            }
+
+            .contacts-main__button-head {
+                font-size: 1rem;
+            }
+
+            .contacts-main__button {
+                font-size: 1.5rem;
+                border-radius: 15px;
+                padding: 1rem 2rem;
+            }
+
+            .contacts-main__mail-head {
+                margin-top: 1rem;
+            }
+
+            .contacts-main__mail {
+                margin-top: 1rem;
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .wrapper-contacts {
+
+        .contacts-main {
+            height: fit-content;
+            margin: 6.5rem 2%;
+
+            .contacts-main__title {
+                font-size: 1.8rem;
+            }
+
+            .contacts-main__button-head {
+                font-size: 1.3rem;
+            }
+
+            .contacts-main__button {
+                font-size: 1.8rem;
+                border-radius: 20px;
+                padding: 1.5rem 2.5rem;
+            }
+
+            .contacts-main__mail-head {
+                margin-top: 1.5rem;
+            }
+
+            .contacts-main__mail {
+                margin-top: 1.5rem;
+                font-size: 1.8rem;
+            }
+        }
+    }
+
+}
 
 // Page 16 ADAPTIVITY Valeria-4-Kotish end
 
