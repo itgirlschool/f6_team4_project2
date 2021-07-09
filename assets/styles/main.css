@@ -2652,7 +2652,7 @@ element.style {
 }
 
 .page-15 {
-  height: 98%;
+  height: 98vh;
   width: 96%;
   margin: 0 2% 0 2%;
 }
@@ -2661,7 +2661,10 @@ element.style {
   font-size: 2.7rem;
   color: #424243;
   padding-left: 2rem;
-  padding-top: 6.5rem;
+
+  padding-top: 6rem;
+=======
+
   margin-bottom: 0;
 }
 
@@ -2885,7 +2888,8 @@ element.style {
   border-radius: 25px;
   font-size: 2.5rem;
   font-weight: bold;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto",
+ sans-serif;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
