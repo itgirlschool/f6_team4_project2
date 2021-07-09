@@ -330,7 +330,6 @@
   background: rgba(0, 0, 0, 0.75) url(../images/photo-first-page-light.jpg) no-repeat;
   background-size: cover;
   background-blend-mode: darken;
-  margin-bottom: 0.5rem;
 }
 
 .about-company__wrapper__first-page .about-company__content {
@@ -2655,25 +2654,34 @@ element.style {
 .page-15 {
   height: 98%;
   width: 96%;
-  margin: 0 2% 17vh 2%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  margin: 0 2% 0 2%;
 }
 
 .page-15 .section-title {
-  font-size: 2rem;
-  font-family: "Roboto", sans-serif;
-  font-weight: normal;
-  color: #464242;
+  font-size: 2.7rem;
+  color: #424243;
   padding-left: 2rem;
   padding-top: 6.5rem;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .page-15 .section-title {
+    font-size: 2.3rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .page-15 .section-title {
+    font-size: 2rem;
+    padding-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .page-15 .section-title {
+    margin-bottom: 2rem;
+  }
 }
 
 .page-15 .team {
@@ -2685,75 +2693,137 @@ element.style {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .page-15 .team-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 31rem;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-bottom: 10rem;
-  margin-top: 10rem;
+  width: 41%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .page-15 .team-item {
+    width: 100%;
+  }
+}
+
+.page-15 .team-item .team-div-img {
+  width: 12rem;
+  height: 12rem;
+}
+
+.page-15 .team-item .team-div-img .team-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.page-15 .team .team-item-top {
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .page-15 .team .team-item-top {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .page-15 .team .team-item-top {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .page-15 .team .team-item-top {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+}
+
+.page-15 .team .team-item-lower {
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .page-15 .team .team-item-lower {
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page-15 .team .team-item-lower {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .page-15 .team .team-item-lower {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .page-15 .team .team-item-lower {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
 }
 
 .page-15 .team .team-text {
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
   margin-left: 1.8rem;
-  width: 12rem;
+  width: 13rem;
 }
 
-.page-15 .team h2 {
+.page-15 .team .name {
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
-  font-weight: normal;
-  color: #464242;
+  color: #424243;
 }
 
-.page-15 .team p {
+@media screen and (max-width: 1024px) {
+  .page-15 .team .name {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .page-15 .team .name {
+    font-size: 1.4rem;
+  }
+}
+
+.page-15 .team .post {
   font-size: 1.3rem;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
-  line-height: 2.5rem;
+  line-height: 2.2rem;
+  color: #424243;
 }
 
-.page-15 .team .team-item-1 .team-img-1 {
-  background-image: url(../images/img_p15_1.png);
-  width: 12rem;
-  height: 12rem;
-  background-size: cover;
-  background-position: center;
+@media screen and (max-width: 1024px) {
+  .page-15 .team .post {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
 }
 
-.page-15 .team .team-item-2 .team-img-2 {
-  background-image: url(../images/img_p15_2.png);
-  width: 12rem;
-  height: 12rem;
-  background-size: cover;
-  background-position: center;
-}
-
-.page-15 .team .team-item-3 .team-img-3 {
-  background-image: url(../images/img_p15_3.png);
-  width: 12rem;
-  height: 12rem;
-  background-size: cover;
-  background-position: center;
-}
-
-.page-15 .team .team-item-4 .team-img-4 {
-  background-image: url(../images/img_p15_4.png);
-  width: 12rem;
-  height: 12rem;
-  background-size: cover;
-  background-position: center;
+@media screen and (max-width: 425px) {
+  .page-15 .team .post {
+    font-size: 1rem;
+  }
 }
 
 .wrapper-contacts {

@@ -71,112 +71,136 @@
 .page-15 {
     height: 98%;
     width: 96%;
-    margin: 0 2% 17vh 2%;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+    margin: 0 2% 0 2%; //0 2% 17vh 2%;
 
     .section-title {
-        font-size: 2rem;
-        font-family: "Roboto", sans-serif;
-        font-weight: normal;
-        color: rgb(70, 66, 66);
+        font-size: 2.7rem;
+        color: $gray-color;
         padding-left: 2rem;
         padding-top: 6.5rem;
+        margin-bottom: 0;
+
+        @media screen and (max-width: 1024px) {
+            font-size: 2.3rem;
+        }
+
+        @media screen and (max-width: 425px) {
+            font-size: 2rem;
+            padding-left: 1rem;
+        }
+
+        @media screen and (max-width: 376px) {
+            margin-bottom: 2rem;
+        }
     }
 
     .team {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-around;
 
         &-item {
             display: flex;
-            width: 31rem;
-            justify-content: space-between;
-            margin-bottom: 10rem;
-            margin-top: 10rem;
+            width: 41%;
+            justify-content: center;
+
+            @media screen and (max-width: 767px) {
+                width: 100%;
+            }
+
+            .team-div-img {
+                width: 12rem;
+                height: 12rem;
+
+                .team-img {
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+            }
         }
 
+        .team-item-top {
+            margin-bottom: 4rem;
+            margin-top: 4rem;
 
+            @media screen and (max-width: 1024px) {
+                margin-bottom: 3rem;
+                margin-top: 3rem;
+            }
+
+            @media screen and (max-width: 426px) {
+                margin-bottom: 2rem;
+                margin-top: 2rem;
+            }
+
+            @media screen and (max-width: 376px) {
+                margin-bottom: 0;
+                margin-top: 0;
+            }
+        }
+
+        .team-item-lower {
+            margin-bottom: 2rem;
+            margin-top: 3rem;
+
+            @media screen and (max-width: 1024px) {
+                margin-bottom: 1rem;
+                margin-top: 0;
+            }
+
+            @media screen and (max-width: 767px) {
+                margin-bottom: 3rem;
+                margin-top: 3rem;
+            }
+
+            @media screen and (max-width: 426px) {
+                margin-bottom: 2rem;
+                margin-top: 2rem;
+            }
+
+            @media screen and (max-width: 376px) {
+                margin-bottom: 0;
+                margin-top: 0;
+            }
+        }
 
         .team-text {
-            justify-content: start;
             margin-left: 1.8rem;
-            width: 12rem;
+            width: 13rem;
         }
 
-
-
-        h2 {
+        .name {
             font-size: 2rem;
             font-family: "Roboto", sans-serif;
-            font-weight: normal;
-            color: rgb(70, 66, 66);
+            color: $gray-color;
 
+            @media screen and (max-width: 1024px) {
+                font-size: 1.6rem;
+            }
+
+            @media screen and (max-width: 425px) {
+                font-size: 1.4rem;
+            }
         }
 
-        p {
+        .post {
             font-size: 1.3rem;
             font-family: "Roboto", sans-serif;
             font-weight: normal;
-            line-height: 2.5rem;
-        }
+            line-height: 2.2rem;
+            color: $gray-color;
 
+            @media screen and (max-width: 1024px) {
+                font-size: 1.2rem;
+                line-height: 1.5rem;
+            }
 
-        .team-item-1 {
-
-
-
-            .team-img-1 {
-                background-image: url(../images/img_p15_1.png);
-                width: 12rem;
-                height: 12rem;
-                background-size: cover;
-                background-position: center;
+            @media screen and (max-width: 425px) {
+                font-size: 1rem;
             }
         }
-
-        .team-item-2 {
-
-
-            .team-img-2 {
-                background-image: url(../images/img_p15_2.png);
-                width: 12rem;
-                height: 12rem;
-                background-size: cover;
-                background-position: center;
-            }
-        }
-
-        .team-item-3 {
-
-
-            .team-img-3 {
-                background-image: url(../images/img_p15_3.png);
-                width: 12rem;
-                height: 12rem;
-                background-size: cover;
-                background-position: center;
-            }
-        }
-
-        .team-item-4 {
-
-
-            .team-img-4 {
-                background-image: url(../images/img_p15_4.png);
-                width: 12rem;
-                height: 12rem;
-                background-size: cover;
-                background-position: center;
-            }
-        }
-
-
     }
-
 }
 
 // Page 15 STYLES Tatsiana-4-Kotish end

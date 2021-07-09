@@ -323,7 +323,7 @@
     background: rgba(0, 0, 0, 0.75) url(../images/photo-first-page-light.jpg) no-repeat;
     background-size: cover;
     background-blend-mode: darken;
-    margin-bottom: 0.5rem;
+    // margin-bottom: 0.5rem;
 
     .about-company__content {
         width: 78%;
@@ -363,11 +363,6 @@
             @media screen and (max-width: 1175px) {
                 font-size: 3.5rem;
             }
-
-            // @media screen and (max-width: 376px){
-            //     font-size: 2.7rem;
-            // }
-
         }
 
         .about-company__slogan {
