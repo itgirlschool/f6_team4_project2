@@ -19,9 +19,10 @@
     grid-template-columns: 35% 1fr;
 
     .role-game_img {
-        margin-top: 9rem;
+        margin-top: 0;
 
         @media screen and (min-width: 1023px) {
+            margin-top: 9rem;
             transition-duration: 2s;
 
             &:hover {
