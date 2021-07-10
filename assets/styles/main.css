@@ -494,19 +494,10 @@ element.style {
 
 .requests-us__wrapper__two-page .requests-us__div__headline .requests-us__headline {
   margin-left: -6rem;
-  font-family: "Roboto", sans-serif;
-  font-weight: normal;
   font-size: 1.8rem;
   color: #424243;
   margin-top: 0;
   margin-bottom: 0;
-}
-
-@media screen and (max-width: 427px) {
-  .requests-us__wrapper__two-page .requests-us__div__headline .requests-us__headline {
-    margin-left: 0;
-    font-size: 1.6rem;
-  }
 }
 
 .requests-us__wrapper__two-page .requests-us__wrapper__circle {
@@ -652,8 +643,6 @@ element.style {
   }
   .requests-us__wrapper__two-page .requests-us__div__headline .requests-us__headline {
     margin-left: -6rem;
-    font-family: "Roboto", sans-serif;
-    font-weight: normal;
     font-size: 1.8rem;
     color: #424243;
     margin-top: 3rem;
@@ -911,24 +900,19 @@ element.style {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   max-width: 100%;
-  height: 100vh;
 }
 
-@media screen and (max-width: 674px) {
-  .topics__wrapper__three-page .topics__wrapper__content {
-    margin-top: 9.5rem;
-  }
+.topics__wrapper__three-page .topics__wrapper__content {
+  margin-top: 3rem;
 }
 
 @media screen and (max-width: 376px) {
   .topics__wrapper__three-page .topics__wrapper__content {
-    margin-top: 3.5rem;
+    margin-top: 2rem;
   }
 }
 
 .topics__wrapper__three-page .topics__wrapper__content .topics__headline {
-  font-family: "Roboto", sans-serif;
-  font-weight: normal;
   font-size: 2.5rem;
   color: #424243;
   margin-left: 4.5rem;
@@ -946,14 +930,13 @@ element.style {
   .topics__wrapper__three-page .topics__wrapper__content .topics__headline {
     margin-left: 2.3rem;
     font-size: 2.2rem;
-    margin-top: 2rem;
     margin-bottom: 1rem;
   }
 }
 
 @media screen and (max-width: 426px) {
   .topics__wrapper__three-page .topics__wrapper__content .topics__headline {
-    font-size: 1.9rem;
+    font-size: 1.7rem;
   }
 }
 
@@ -990,7 +973,6 @@ element.style {
 }
 
 .topics__wrapper__three-page .topics__wrapper__content .topics__list .topics__div__item .topics__item {
-  font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-size: 1.4rem;
   color: #424243;
@@ -2654,7 +2636,6 @@ element.style {
 }
 
 .page-15 {
-  height: 98vh;
   width: 96%;
   margin: 0 2% 0 2%;
 }
@@ -2739,7 +2720,7 @@ element.style {
 
 @media screen and (max-width: 426px) {
   .page-15 .team .team-item-top {
-    margin-bottom: 2rem;
+    margin-bottom: 0;
     margin-top: 2rem;
   }
 }
@@ -2759,7 +2740,7 @@ element.style {
 @media screen and (max-width: 1024px) {
   .page-15 .team .team-item-lower {
     margin-bottom: 1rem;
-    margin-top: 0;
+    margin-top: 2rem;
   }
 }
 
@@ -2772,7 +2753,7 @@ element.style {
 
 @media screen and (max-width: 426px) {
   .page-15 .team .team-item-lower {
-    margin-bottom: 2rem;
+    margin-bottom: 0;
     margin-top: 2rem;
   }
 }

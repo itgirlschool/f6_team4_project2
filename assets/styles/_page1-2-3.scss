@@ -471,17 +471,12 @@ element.style {
 
         .requests-us__headline {
             margin-left: -6rem;
-            font-family: "Roboto", sans-serif;
-            font-weight: normal;
+            // font-family: "Roboto", sans-serif;
+            // font-weight: normal;
             font-size: 1.8rem; //calc(16px + 1vw);
             color: $gray-color;
             margin-top: 0;
             margin-bottom: 0;
-
-            @media screen and (max-width: 427px) {
-                margin-left: 0;
-                font-size: 1.6rem;
-            }
         }
     }
 
@@ -573,8 +568,6 @@ element.style {
 
             .requests-us__headline {
                 margin-left: -6rem;
-                font-family: "Roboto", sans-serif;
-                font-weight: normal;
                 font-size: 1.8rem; //calc(16px + 1vw);
                 color: $gray-color;
                 margin-top: 3rem;
@@ -732,9 +725,6 @@ element.style {
 }
 
 /*end two page of presentation*/
-// *{
-//     border: 1px solid red;
-// }
 
 /*start three page*/
 .topics__wrapper__three-page {
@@ -743,22 +733,15 @@ element.style {
     align-content: flex-end;
     justify-content: space-around;
     max-width: 100%;
-    height: 100vh;
 
     .topics__wrapper__content {
-        // margin-top: 9.5rem;
-
-        @media screen and (max-width: 674px) {
-            margin-top: 9.5rem;
-        }
+        margin-top: 3rem;
 
         @media screen and (max-width: 376px) {
-            margin-top: 3.5rem;
+            margin-top: 2rem;
         }
 
         .topics__headline {
-            font-family: "Roboto", sans-serif;
-            font-weight: normal;
             font-size: 2.5rem;
             color: $gray-color;
             margin-left: 4.5rem;
@@ -772,12 +755,12 @@ element.style {
             @media screen and (max-width: 769px) {
                 margin-left: 2.3rem;
                 font-size: 2.2rem;
-                margin-top: 2rem;
+                // margin-top: 0;
                 margin-bottom: 1rem;
             }
 
             @media screen and (max-width: 426px) {
-                font-size: 1.9rem;
+                font-size: 1.7rem;
             }
         }
 
@@ -804,7 +787,7 @@ element.style {
                 }
 
                 .topics__item {
-                    font-family: "Roboto", sans-serif;
+                    // font-family: "Roboto", sans-serif;
                     font-weight: normal;
                     font-size: 1.4rem;
                     color: $gray-color;
