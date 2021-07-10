@@ -2518,7 +2518,7 @@ element.style {
     height: fit-content;
   }
   .wrapper-results .results-main .results-main__img-area {
-    margin: 2rem 1rem 0 0;
+    margin: 0 1rem 0 0;
   }
   .wrapper-results .results-main .results-main__img-area .no-hover {
     pointer-events: none;
@@ -2527,13 +2527,14 @@ element.style {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-    margin: 20% 1rem 0 1rem;
+    margin: 2rem 1rem 0 1rem;
   }
   .wrapper-results .results-main .results-main__title {
     margin: 0;
   }
   .wrapper-mission {
     height: 80vh;
+    margin: 0;
   }
   .wrapper-mission .mission-main__text-area {
     margin: 6.5rem 0;
@@ -2542,6 +2543,7 @@ element.style {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+    margin: 0;
   }
   .wrapper-advantages .advantages-main {
     height: -webkit-fit-content;
