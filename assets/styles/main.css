@@ -2022,7 +2022,7 @@ element.style {
   height: 98%;
   display: -ms-grid;
   display: grid;
-  margin: 3rem 2% 0 2%;
+  margin: 0 2% 3rem 2%;
 }
 
 @media screen and (max-width: 1023px) {
