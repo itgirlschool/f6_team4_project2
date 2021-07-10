@@ -2141,10 +2141,11 @@ element.style {
   background-size: cover;
   background-blend-mode: darken;
   background-position: center;
+  margin-bottom: 3rem;
 }
 
 .wrapper-intelclub .intelclub-main {
-  margin: 6.5rem 10rem 1rem 5rem;
+  margin: 6.5rem 10rem 0 5rem;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   color: white;
@@ -2171,7 +2172,7 @@ element.style {
   overflow: hidden;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  margin: 0 2%;
+  margin: 0 2% 3rem 2%;
 }
 
 .wrapper-results .results-main {
@@ -2201,7 +2202,7 @@ element.style {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  margin-top: 3rem;
+  margin-top: 0;
   -webkit-transition-duration: 2s;
           transition-duration: 2s;
 }
@@ -2227,7 +2228,7 @@ element.style {
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
   grid-column: 2/4;
-  margin: 3rem 5rem 0 8rem;
+  margin: 0 5rem 0 8rem;
   text-align: justify;
   line-height: 1.7rem;
 }
@@ -2253,7 +2254,7 @@ element.style {
   background-size: cover;
   background-blend-mode: lighten;
   background-position: center;
-  margin-top: 10px;
+  margin-bottom: 3rem;
   overflow: hidden;
 }
 
@@ -2301,7 +2302,7 @@ element.style {
   height: 99vh;
   width: 98%;
   max-width: 100vw;
-  margin: 0 4% 0 0;
+  margin: 0 4% 3rem 0;
   overflow: hidden;
 }
 
@@ -2321,7 +2322,7 @@ element.style {
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-column: 1/4;
-  margin: 3rem 6rem 0 2rem;
+  margin: 0 6rem 0 2rem;
 }
 
 .wrapper-advantages .advantages-main .advantages-main__title {
@@ -2362,7 +2363,7 @@ element.style {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  margin: 3rem 0 0 0;
+  margin: 0;
   -webkit-transition-duration: 2s;
           transition-duration: 2s;
 }
@@ -2381,6 +2382,7 @@ element.style {
 .wrapper-advantages .advantages-main .advantages-main__img-area .advantages-main__img {
   border-radius: 10rem;
   max-width: 100%;
+  max-height: 100%;
   overflow: hidden;
   width: 33vw;
 }
@@ -2831,28 +2833,36 @@ element.style {
 .wrapper-contacts {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  max-height: 99vh;
-  max-width: 99vw;
+  height: 99vh;
+  width: 100vw;
+  max-width: 100%;
+  padding-top: 5rem;
 }
 
 .wrapper-contacts .contacts-main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 95%;
+  max-height: 100%;
+  max-width: 100%;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 6.5rem 2% 3rem 2%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5rem 2% 3rem 2%;
   text-align: center;
 }
 
 .wrapper-contacts .contacts-main .contacts-main__title {
+  margin: 0;
+  padding: 0;
   color: #424243;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .wrapper-contacts .contacts-main .contacts-main__button-head {
@@ -2875,7 +2885,7 @@ element.style {
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   color: #00C7C2;
-  margin-top: 2rem;
+  margin-bottom: 3rem;
 }
 
 .wrapper-contacts .contacts-main__button {
@@ -2925,12 +2935,18 @@ element.style {
     max-height: -webkit-fit-content;
     max-height: -moz-fit-content;
     max-height: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    max-width: 99vw;
+    margin-top: 6rem;
   }
   .wrapper-contacts .contacts-main {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-    margin: 6.5rem 2%;
+    width: 98%;
+    margin: 0 1%;
   }
   .wrapper-contacts .contacts-main .contacts-main__title {
     font-size: 1.5rem;
@@ -2939,25 +2955,34 @@ element.style {
     font-size: 1rem;
   }
   .wrapper-contacts .contacts-main .contacts-main__button {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     border-radius: 15px;
     padding: 1rem 2rem;
   }
   .wrapper-contacts .contacts-main .contacts-main__mail-head {
     margin-top: 1rem;
+    font-size: 1.2rem;
   }
   .wrapper-contacts .contacts-main .contacts-main__mail {
-    margin-top: 1rem;
-    font-size: 1.5rem;
+    margin: 1rem 0;
+    font-size: 1.3rem;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+  .wrapper-contacts {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    max-width: 99vw;
+    margin-top: 6rem;
+  }
   .wrapper-contacts .contacts-main {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-    margin: 6.5rem 2%;
+    width: 98%;
+    margin: 0 1%;
   }
   .wrapper-contacts .contacts-main .contacts-main__title {
     font-size: 1.8rem;
@@ -2974,7 +2999,7 @@ element.style {
     margin-top: 1.5rem;
   }
   .wrapper-contacts .contacts-main .contacts-main__mail {
-    margin-top: 1.5rem;
+    margin: 1.5rem 0 2rem 0;
     font-size: 1.8rem;
   }
 }
