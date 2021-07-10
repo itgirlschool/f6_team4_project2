@@ -1948,7 +1948,7 @@ element.style {
 }
 
 .sinemalogy_wrapper .sinemalogy_text {
-  margin: 10rem 6rem 0 0;
+  margin: 0 6rem 0 0;
 }
 
 @media screen and (max-width: 1023px) {
@@ -1969,7 +1969,7 @@ element.style {
 }
 
 .role-game_wrapper .role-game_img {
-  margin-top: 9rem;
+  margin-top: 0;
 }
 
 @media screen and (min-width: 1023px) {
@@ -1998,7 +1998,7 @@ element.style {
 }
 
 .role-game_wrapper .role-game_text {
-  margin: 10rem 0 0 5rem;
+  margin: 0 0 0 5rem;
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
@@ -2019,7 +2019,7 @@ element.style {
 }
 
 .mastermind_wrapper .mastermind_text {
-  margin: 10rem 6rem 0 0;
+  margin: 0 6rem 0 0;
 }
 
 @media screen and (max-width: 1023px) {
@@ -2040,7 +2040,7 @@ element.style {
   height: 98%;
   display: -ms-grid;
   display: grid;
-  margin: 0 2% 0 2%;
+  margin: 3rem 2% 0 2%;
 }
 
 @media screen and (max-width: 1023px) {
@@ -2071,7 +2071,7 @@ element.style {
 @media screen and (min-width: 1023px) {
   .sinemalogy_img,
   .mastermind_img {
-    margin: 8rem 2rem 2rem 2rem;
+    margin: 0 2rem 2rem 2rem;
     -webkit-transition-duration: 2s;
             transition-duration: 2s;
   }
@@ -2918,5 +2918,64 @@ element.style {
   color: #00C7C2;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .wrapper-contacts {
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+  }
+  .wrapper-contacts .contacts-main {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 6.5rem 2%;
+  }
+  .wrapper-contacts .contacts-main .contacts-main__title {
+    font-size: 1.5rem;
+  }
+  .wrapper-contacts .contacts-main .contacts-main__button-head {
+    font-size: 1rem;
+  }
+  .wrapper-contacts .contacts-main .contacts-main__button {
+    font-size: 1.5rem;
+    border-radius: 15px;
+    padding: 1rem 2rem;
+  }
+  .wrapper-contacts .contacts-main .contacts-main__mail-head {
+    margin-top: 1rem;
+  }
+  .wrapper-contacts .contacts-main .contacts-main__mail {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .wrapper-contacts .contacts-main {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 6.5rem 2%;
+  }
+  .wrapper-contacts .contacts-main .contacts-main__title {
+    font-size: 1.8rem;
+  }
+  .wrapper-contacts .contacts-main .contacts-main__button-head {
+    font-size: 1.3rem;
+  }
+  .wrapper-contacts .contacts-main .contacts-main__button {
+    font-size: 1.8rem;
+    border-radius: 20px;
+    padding: 1.5rem 2.5rem;
+  }
+  .wrapper-contacts .contacts-main .contacts-main__mail-head {
+    margin-top: 1.5rem;
+  }
+  .wrapper-contacts .contacts-main .contacts-main__mail {
+    margin-top: 1.5rem;
+    font-size: 1.8rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */
