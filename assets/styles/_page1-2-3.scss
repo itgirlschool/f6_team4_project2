@@ -440,7 +440,7 @@ element.style {
 /*start two page*/
 .requests-us__phon {
     background: url(../images/phon-two-page2.jpg) rgba(192, 192, 192, 0.5) no-repeat;
-    height: 100vh;
+    // height: 100vh;
     width: 100%;
     background-size: cover;
     margin-bottom: 0.5rem;
@@ -451,7 +451,7 @@ element.style {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     place-items: center; //align и justify-items
-    height: 100vh;
+    // height: 100vh;
     width: 100%;
     background: rgba(255, 255, 255, 0.8);
 
@@ -492,7 +492,6 @@ element.style {
         align-items: center;
         grid-row: 2/3;
         grid-column: 1/2;
-        // margin-left: -9rem;
     }
 
     .requests-us__three-thesis {
@@ -538,7 +537,7 @@ element.style {
 }
 
 .requests-us__text {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-family: "Roboto", sans-serif;
     font-weight: normal;
     color: $gray-color;
@@ -550,9 +549,9 @@ element.style {
     .requests-us__wrapper__two-page {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         place-items: center; //align и justify-items
-        height: 100vh;
+        // height: 100vh;
         width: 100%;
         background: rgba(255, 255, 255, 0.8);
 
@@ -620,14 +619,14 @@ element.style {
         .requests-us__four-thesis {
             display: flex;
             align-items: center;
-            grid-row: 4/5;
+            grid-row: 4/6;
             grid-column: 1/2;
         }
 
         .requests-us__five-thesis {
             display: flex;
             align-items: center;
-            grid-row: 4/5;
+            grid-row: 4/6;
             grid-column: 2/3;
         }
     }
@@ -706,13 +705,13 @@ element.style {
             margin-left: 2%;
 
             .requests-us__text__5item{
-                width: 40%;
+                width: 50%;
 
-                @media screen and (max-width: 600px) {
+                @media screen and (max-width: 605px) {
                     width: 60%;
                 }
 
-                @media screen and (max-width: 376px) {
+                @media screen and (max-width: 517px) {
                     width: 66%;
                 }
     
@@ -821,7 +820,7 @@ element.style {
                     }
 
                     @media screen and (max-width: 729px) {
-                        font-size: 1.1rem;
+                        font-size: 1rem;
                     }
                 }
 
@@ -946,7 +945,7 @@ element.style {
     }
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 476px) {
     .topics__wrapper__img-medium {
         display: none;
     }
