@@ -466,8 +466,8 @@ element.style {
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: 1fr 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 20% 1fr 1fr 1fr;
+      grid-template-rows: 20% 1fr 1fr 1fr;
   place-items: center;
   width: 100%;
   background: rgba(255, 255, 255, 0.8);
@@ -623,8 +623,8 @@ element.style {
     display: grid;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: 8% 1fr 1fr 1fr 1fr;
+        grid-template-rows: 8% 1fr 1fr 1fr 1fr;
     place-items: center;
     width: 100%;
     background: rgba(255, 255, 255, 0.8);
@@ -770,8 +770,8 @@ element.style {
     display: grid;
     -ms-grid-columns: 98%;
         grid-template-columns: 98%;
-    -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: 8% 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 8% 1fr 1fr 1fr 1fr 1fr;
     place-items: center;
     width: 100%;
     background: rgba(255, 255, 255, 0.8);
@@ -1054,7 +1054,7 @@ element.style {
   }
 }
 
-@media screen and (max-width: 442px) {
+@media screen and (max-width: 400px) {
   .topics__wrapper__three-page .topics__wrapper__content .topics__list .topics__div__item .item-alignment-1 {
     line-height: 1.7rem;
   }
