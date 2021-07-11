@@ -471,9 +471,7 @@ element.style {
 
         .requests-us__headline {
             margin-left: -6rem;
-            // font-family: "Roboto", sans-serif;
-            // font-weight: normal;
-            font-size: 2.5rem; //calc(16px + 1vw);
+            font-size: 2.5rem; 
             color: $gray-color;
             margin-top: 0;
             margin-bottom: 0;
@@ -541,10 +539,6 @@ element.style {
     font-weight: normal;
     color: $gray-color;
     text-align: center;
-
-    @media screen and (max-width: 1098px) {
-        font-size: 1.2rem;
-    }
 
 }
 
@@ -720,6 +714,14 @@ element.style {
 
         @media screen and (max-width: 769px) {
             font-size: 1.1rem;
+        }
+
+        @media screen and (max-width: 401px) {
+            font-size: 1rem;
+        }
+
+        @media screen and (max-width: 354px) {
+            font-size: 0.99rem;
         }
     }
 }
