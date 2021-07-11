@@ -623,8 +623,8 @@ element.style {
     display: grid;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: 8% 1fr 1fr 1fr 1fr;
-        grid-template-rows: 8% 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: 10% 1fr 1fr 1fr;
+        grid-template-rows: 10% 1fr 1fr 1fr;
     place-items: center;
     width: 100%;
     background: rgba(255, 255, 255, 0.8);
@@ -770,8 +770,8 @@ element.style {
     display: grid;
     -ms-grid-columns: 98%;
         grid-template-columns: 98%;
-    -ms-grid-rows: 8% 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 8% 1fr 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: 11% 1fr 1fr 1fr 1fr 24%;
+        grid-template-rows: 11% 1fr 1fr 1fr 1fr 24%;
     place-items: center;
     width: 100%;
     background: rgba(255, 255, 255, 0.8);
