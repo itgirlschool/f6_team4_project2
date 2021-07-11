@@ -456,7 +456,6 @@ element.style {
 /*start two page*/
 .requests-us__phon {
   background: url(../images/phon-two-page2.jpg) rgba(192, 192, 192, 0.5) no-repeat;
-  height: 100vh;
   width: 100%;
   background-size: cover;
   margin-bottom: 0.5rem;
@@ -470,7 +469,6 @@ element.style {
   -ms-grid-rows: 1fr 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr 1fr;
   place-items: center;
-  height: 100vh;
   width: 100%;
   background: rgba(255, 255, 255, 0.8);
 }
@@ -612,7 +610,7 @@ element.style {
 }
 
 .requests-us__text {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   color: #424243;
@@ -625,10 +623,9 @@ element.style {
     display: grid;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     place-items: center;
-    height: 100vh;
     width: 100%;
     background: rgba(255, 255, 255, 0.8);
   }
@@ -745,8 +742,8 @@ element.style {
         -ms-flex-align: center;
             align-items: center;
     -ms-grid-row: 4;
-    -ms-grid-row-span: 1;
-    grid-row: 4/5;
+    -ms-grid-row-span: 2;
+    grid-row: 4/6;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1/2;
@@ -759,8 +756,8 @@ element.style {
         -ms-flex-align: center;
             align-items: center;
     -ms-grid-row: 4;
-    -ms-grid-row-span: 1;
-    grid-row: 4/5;
+    -ms-grid-row-span: 2;
+    grid-row: 4/6;
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
     grid-column: 2/3;
@@ -877,17 +874,17 @@ element.style {
     margin-left: 2%;
   }
   .requests-us__wrapper__two-page .requests-us__five-thesis .requests-us__text__5item {
-    width: 40%;
+    width: 50%;
   }
 }
 
-@media screen and (max-width: 895px) and (max-width: 600px) {
+@media screen and (max-width: 895px) and (max-width: 605px) {
   .requests-us__wrapper__two-page .requests-us__five-thesis .requests-us__text__5item {
     width: 60%;
   }
 }
 
-@media screen and (max-width: 895px) and (max-width: 376px) {
+@media screen and (max-width: 895px) and (max-width: 517px) {
   .requests-us__wrapper__two-page .requests-us__five-thesis .requests-us__text__5item {
     width: 66%;
   }
@@ -1031,7 +1028,7 @@ element.style {
 
 @media screen and (max-width: 729px) {
   .topics__wrapper__three-page .topics__wrapper__content .topics__list .topics__div__item .topics__item {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
@@ -1175,7 +1172,7 @@ element.style {
   }
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 476px) {
   .topics__wrapper__img-medium {
     display: none;
   }
