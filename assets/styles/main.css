@@ -362,7 +362,7 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1042px) {
   .about-company__wrapper__first-page .about-company__content {
     margin-left: 1%;
     width: 98%;
@@ -483,7 +483,7 @@ element.style {
   -ms-grid-column-span: 2;
   grid-column: 1/3;
   width: 100%;
-  height: 4rem;
+  height: 6rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -493,10 +493,9 @@ element.style {
 }
 
 .requests-us__wrapper__two-page .requests-us__div__headline .requests-us__headline {
-  margin-left: -6rem;
   font-size: 2.5rem;
   color: #424243;
-  margin-top: 0;
+  margin-top: 3rem;
   margin-bottom: 0;
 }
 
@@ -531,7 +530,6 @@ element.style {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1/2;
-  margin-left: -10rem;
 }
 
 .requests-us__wrapper__two-page .requests-us__three-thesis {
@@ -580,7 +578,6 @@ element.style {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1/2;
-  margin-left: -8rem;
 }
 
 .requests-us__wrapper__two-page .requests-us__five-thesis {
@@ -596,6 +593,22 @@ element.style {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
+}
+
+.requests-us__wrapper__two-page .requests-us__five-thesis .requests-us__text__5item {
+  width: 64%;
+}
+
+@media screen and (max-width: 1260px) {
+  .requests-us__wrapper__two-page .requests-us__five-thesis .requests-us__text__5item {
+    width: 67%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .requests-us__wrapper__two-page .requests-us__five-thesis .requests-us__text__5item {
+    width: 81%;
+  }
 }
 
 .requests-us__text {
@@ -627,7 +640,7 @@ element.style {
     -ms-grid-column-span: 2;
     grid-column: 1/3;
     width: 100%;
-    height: 4rem;
+    height: 6rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -635,8 +648,16 @@ element.style {
         -ms-flex-pack: center;
             justify-content: center;
   }
+}
+
+@media screen and (max-width: 1023px) and (max-width: 895px) {
+  .requests-us__wrapper__two-page .requests-us__div__headline {
+    height: 4rem;
+  }
+}
+
+@media screen and (max-width: 1023px) {
   .requests-us__wrapper__two-page .requests-us__div__headline .requests-us__headline {
-    margin-left: -6rem;
     font-size: 2.1rem;
     color: #424243;
     margin-top: 3rem;
@@ -663,10 +684,10 @@ element.style {
   }
 }
 
-@media screen and (max-width: 1023px) and (max-width: 365px) {
+@media screen and (max-width: 1023px) and (max-width: 370px) {
   .requests-us__wrapper__two-page .requests-us__div__headline .requests-us__headline {
     margin-left: 0;
-    font-size: 1.35rem;
+    font-size: 1.33rem;
   }
 }
 
@@ -684,7 +705,6 @@ element.style {
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1/2;
-    margin-left: -10rem;
   }
   .requests-us__wrapper__two-page .requests-us__three-thesis {
     display: -webkit-box;
@@ -730,7 +750,6 @@ element.style {
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1/2;
-    margin-left: -8rem;
   }
   .requests-us__wrapper__two-page .requests-us__five-thesis {
     display: -webkit-box;
@@ -757,7 +776,6 @@ element.style {
     -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     place-items: center;
-    height: 100vh;
     width: 100%;
     background: rgba(255, 255, 255, 0.8);
   }
@@ -858,6 +876,24 @@ element.style {
     grid-column: 1/2;
     margin-left: 2%;
   }
+  .requests-us__wrapper__two-page .requests-us__five-thesis .requests-us__text__5item {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 895px) and (max-width: 600px) {
+  .requests-us__wrapper__two-page .requests-us__five-thesis .requests-us__text__5item {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 895px) and (max-width: 376px) {
+  .requests-us__wrapper__two-page .requests-us__five-thesis .requests-us__text__5item {
+    width: 66%;
+  }
+}
+
+@media screen and (max-width: 895px) {
   .requests-us__text {
     font-size: 1.6rem;
     font-family: "Roboto", sans-serif;
