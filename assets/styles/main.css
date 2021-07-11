@@ -2453,6 +2453,7 @@ element.style {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+    margin: 0;
   }
   .wrapper-mission .mission-main .mission-main__title {
     font-size: 2rem;
@@ -2464,6 +2465,7 @@ element.style {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+    margin: 0;
   }
   .wrapper-advantages .advantages-main {
     display: -ms-grid;
