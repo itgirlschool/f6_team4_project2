@@ -2385,7 +2385,7 @@ element.style {
     height: -moz-fit-content;
     height: fit-content;
     width: 97vw;
-    margin: 2% 5% 2% 2%;
+    margin: 2% 5% 0 2%;
     line-height: 1rem;
   }
   .wrapper-intelclub .intelclub-main .intelclub-main__title {
@@ -2416,7 +2416,7 @@ element.style {
             flex-direction: column;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
-    margin: 2% 4% 2% 2%;
+    margin: 0 4% 2% 2%;
   }
   .wrapper-results .results-main .results-main__img-area {
     margin: 0;
@@ -2805,8 +2805,8 @@ element.style {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 99vh;
-  width: 100vw;
-  max-width: 100%;
+  width: 98%;
+  max-width: 99vw;
   padding-top: 5rem;
 }
 
@@ -2868,8 +2868,7 @@ element.style {
   border-radius: 25px;
   font-size: 2.5rem;
   font-weight: bold;
-  font-family: "Roboto",
- sans-serif;
+  font-family: "Roboto", sans-serif;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -2977,7 +2976,7 @@ element.style {
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .wrapper-contacts {
     max-height: -webkit-fit-content;
     max-height: -moz-fit-content;
@@ -2985,8 +2984,9 @@ element.style {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+    width: 98%;
     max-width: 99vw;
-    margin-top: 5rem;
+    margin-bottom: 5rem;
   }
   .wrapper-contacts .contacts-main {
     height: -webkit-fit-content;
@@ -3022,7 +3022,7 @@ element.style {
     height: -moz-fit-content;
     height: fit-content;
     max-width: 99vw;
-    margin-top: 6rem;
+    margin: 1rem 0 5rem 0;
   }
   .wrapper-contacts .contacts-main {
     height: -webkit-fit-content;
