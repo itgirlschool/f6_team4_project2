@@ -606,12 +606,6 @@ element.style {
   text-align: center;
 }
 
-@media screen and (max-width: 1098px) {
-  .requests-us__text {
-    font-size: 1.2rem;
-  }
-}
-
 @media screen and (max-width: 1023px) {
   .requests-us__wrapper__two-page {
     display: -ms-grid;
@@ -882,6 +876,18 @@ element.style {
 @media screen and (max-width: 895px) and (max-width: 769px) {
   .requests-us__text {
     font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 895px) and (max-width: 401px) {
+  .requests-us__text {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 895px) and (max-width: 354px) {
+  .requests-us__text {
+    font-size: 0.99rem;
   }
 }
 
