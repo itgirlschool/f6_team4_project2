@@ -42,12 +42,12 @@
 /*start page 11*/
 
 .wrapper-results {
-    height: 99vh;
+    height: fit-content;
     width: 98%;
     max-width: 100vw;
     overflow: hidden;
     box-sizing: border-box;
-    margin: 0 2% 3rem 2%;
+    margin: 3rem 2% 3rem 2%;
 
     .results-main {
         display: grid;
@@ -61,8 +61,7 @@
             flex-direction: column;
             justify-content: center;
             width: 100%;
-            margin-top: 0;
-
+            margin: 1rem 0;
             transition-duration: 2s;
 
             @media screen and (min-width:1023px) {
@@ -75,7 +74,6 @@
             .results-main__img {
                 border-radius: 10rem;
                 max-width: 100%;
-
             }
         }
 
@@ -111,7 +109,6 @@
     background-size: cover;
     background-blend-mode: lighten;
     background-position: center;
-    //margin-top: 10px;
     margin-bottom: 3rem;
     overflow: hidden;
 
@@ -138,7 +135,6 @@
         font-size: 2rem;
         line-height: 3rem;
     }
-
 }
 
 /*end page 12*/
@@ -148,10 +144,10 @@
 .wrapper-advantages {
     box-sizing: border-box;
     display: grid;
-    height: 99vh;
+    height: fit-content;
     width: 98%;
     max-width: 100vw;
-    margin: 0 4% 3rem 0;
+    margin: 3rem 4% 3rem 0;
     overflow: hidden;
 
     .advantages-main {
@@ -173,7 +169,7 @@
         }
 
         .advantages-main__list {
-            font-size: 1rem;
+            font-size: 1.1rem;
 
             .advantages-main__list-item {
                 line-height: 1rem;
@@ -188,8 +184,7 @@
             flex-direction: column;
             overflow: hidden;
             justify-content: center;
-            align-items: center;
-            //max-height: 3500px;
+            align-content: center;
             width: 100%;
             margin: 0;
             transition-duration: 2s;
@@ -225,7 +220,7 @@
         .intelclub-main {
             height: fit-content;
             width: 97vw;
-            margin: 2% 5% 2% 2%;
+            margin: 2% 5% 0 2%;
             line-height: 1rem;
 
             .intelclub-main__title {
@@ -254,7 +249,7 @@
             display: flex;
             flex-direction: column;
             flex-wrap: nowrap;
-            margin: 2% 4% 2% 2%;
+            margin: 0 4% 2% 2%;
 
             .results-main__img-area {
                 margin: 0;
@@ -268,8 +263,6 @@
                     border-radius: 0rem;
                 }
             }
-
-
 
             .results-main__text-area {
                 height: fit-content;
@@ -301,7 +294,6 @@
                 font-size: 1.5rem;
             }
         }
-
     }
 
     .wrapper-advantages {
@@ -356,6 +348,7 @@
 
     .wrapper-results {
         height: fit-content;
+        width: 95%;
 
         .results-main {
             height: fit-content;
@@ -384,7 +377,6 @@
         margin: 0;
 
         .mission-main__text-area {
-
             margin: 6.5rem 0;
         }
     }
@@ -392,6 +384,7 @@
     .wrapper-advantages {
         height: fit-content;
         margin: 0;
+        width: 95vw;
 
         .advantages-main {
             height: fit-content;

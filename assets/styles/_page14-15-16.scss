@@ -202,8 +202,8 @@
 .wrapper-contacts {
     box-sizing: border-box;
     height: 99vh;
-    width: 100vw;
-    max-width: 100%;
+    width: 98%;
+    max-width: 99vw;
 
     padding-top: 5rem;
 
@@ -396,12 +396,13 @@
 
 // Page 16 ADAPTIVITY Valeria-4-Kotish start
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .wrapper-contacts {
         max-height: fit-content;
         height: fit-content;
+        width: 98%;
         max-width: 99vw;
-        margin-top: 6rem;
+        margin-bottom: 5rem;
 
         .contacts-main {
             height: fit-content;
@@ -409,7 +410,6 @@
             margin: 0 1%;
 
             .contacts-main__title {
-
                 font-size: 1.5rem;
             }
 
@@ -441,7 +441,7 @@
     .wrapper-contacts {
         height: fit-content;
         max-width: 99vw;
-        margin-top: 6rem;
+        margin: 1rem 0 5rem 0;
 
         .contacts-main {
 
