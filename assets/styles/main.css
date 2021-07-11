@@ -1225,7 +1225,7 @@ element.style {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 3rem 2%;
+  margin: 0 2%;
 }
 
 .why-important__wrapper .why-important__title {
@@ -2614,7 +2614,7 @@ element.style {
 .page-14 {
   height: 98%;
   width: 96%;
-  margin: 0 2% 3rem 2%;
+  margin: 0 2%;
   padding-top: 6.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
