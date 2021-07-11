@@ -494,7 +494,7 @@ element.style {
 
 .requests-us__wrapper__two-page .requests-us__div__headline .requests-us__headline {
   margin-left: -6rem;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   color: #424243;
   margin-top: 0;
   margin-bottom: 0;
@@ -643,7 +643,7 @@ element.style {
   }
   .requests-us__wrapper__two-page .requests-us__div__headline .requests-us__headline {
     margin-left: -6rem;
-    font-size: 1.8rem;
+    font-size: 2.1rem;
     color: #424243;
     margin-top: 3rem;
     margin-bottom: 0;
@@ -917,7 +917,7 @@ element.style {
   color: #424243;
   margin-left: 4.5rem;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 1036px) {
@@ -955,7 +955,7 @@ element.style {
   display: -ms-flexbox;
   display: flex;
   width: 40%;
-  height: 5rem;
+  height: 6rem;
 }
 
 .topics__wrapper__three-page .topics__wrapper__content .topics__list .topics__div__item .item-big {
@@ -2631,7 +2631,7 @@ element.style {
   font-size: 2.7rem;
   color: #424243;
   padding-left: 2rem;
-  padding-top: 6rem;
+  padding-top: 6.5rem;
   margin-bottom: 0;
 }
 
