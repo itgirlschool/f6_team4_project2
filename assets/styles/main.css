@@ -1104,7 +1104,7 @@ element.style {
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 411px) {
   .topics__wrapper__three-page .topics__wrapper__content .topics__list .topics__div__item .item-alignment-3 {
     line-height: 1.7rem;
   }
