@@ -2578,11 +2578,12 @@ element.style {
     margin: 0;
   }
   .wrapper-mission {
-    height: 80vh;
+    height: 95vh;
     margin: 0;
+    padding-top: 7rem;
   }
   .wrapper-mission .mission-main__text-area {
-    margin: 6.5rem 0;
+    margin: 0;
   }
   .wrapper-advantages {
     height: -webkit-fit-content;
@@ -3064,6 +3065,7 @@ element.style {
     height: fit-content;
     max-width: 99vw;
     margin: 1rem 0 5rem 0;
+    padding-top: 6rem;
   }
   .wrapper-contacts .contacts-main {
     height: -webkit-fit-content;
