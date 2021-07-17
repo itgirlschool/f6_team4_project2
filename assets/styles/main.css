@@ -1970,8 +1970,8 @@ element.style {
 }
 
 .role-game_wrapper {
-  -ms-grid-columns: 35% 1fr;
-      grid-template-columns: 35% 1fr;
+  -ms-grid-columns: 30% 1fr;
+      grid-template-columns: 30% 1fr;
 }
 
 .role-game_wrapper .role-game_img {
@@ -1995,6 +1995,7 @@ element.style {
   border-radius: 10rem;
   max-width: 100%;
   max-height: 100%;
+  height: 80vh;
 }
 
 @media screen and (max-width: 767px) {
@@ -2020,8 +2021,8 @@ element.style {
 }
 
 .mastermind_wrapper {
-  -ms-grid-columns: 1fr 35%;
-      grid-template-columns: 1fr 35%;
+  -ms-grid-columns: 1fr 30%;
+      grid-template-columns: 1fr 30%;
 }
 
 .mastermind_wrapper .mastermind_text {
@@ -2099,6 +2100,7 @@ element.style {
   border-radius: 10rem;
   max-width: 100%;
   max-height: 100%;
+  height: 80vh;
 }
 
 @media screen and (max-width: 767px) {
