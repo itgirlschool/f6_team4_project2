@@ -115,7 +115,8 @@
         .our-offer__img-area {
             display: flex;
             flex-direction: row;
-            justify-items: flex-end;
+            // justify-items: flex-start;
+            justify-content: center;
             width: 35%;
 
             // animation
@@ -153,7 +154,7 @@
         flex-direction: row;
 
         .book-quest__img-area {
-            width: 36%;
+            width: 33%;
 
             // animation
             transition-duration: 2s;
