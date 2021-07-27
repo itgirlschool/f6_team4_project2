@@ -2091,7 +2091,7 @@ element.style {
   .mastermind_wrapper {
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
-    /* margin: 1rem;*/
+    margin: 1rem;
   }
 }
 
