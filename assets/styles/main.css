@@ -2995,6 +2995,7 @@ element.style {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
+    margin: 0.5rem 0 0.5rem 0.6rem;
   }
   .page-14 .review .review__block .review__pic-text .review__name-job {
     font-size: 0.9rem;
@@ -3022,6 +3023,7 @@ element.style {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
+    margin: 0.5rem 0 0.5rem 0.6rem;
   }
   .page-14 .review .review__pic-text .review__name-job-2 {
     padding: 1rem 2rem 0 0.5rem;
