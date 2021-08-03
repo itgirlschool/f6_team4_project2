@@ -2686,6 +2686,7 @@ element.style {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  padding: 0.5rem 0;
 }
 
 .page-14 .review .review__pic-text .review__pic {
