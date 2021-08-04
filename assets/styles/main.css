@@ -1359,7 +1359,7 @@ element.style {
 .our-offer__wrapper .our-offer__content .our-offer__img-area .our-offer__img {
   border-radius: 10rem;
   max-width: 100%;
-  max-height: 85%;
+  max-height: 82%;
 }
 
 .book-quest__wrapper {
@@ -2690,6 +2690,7 @@ element.style {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  padding: 0.5rem 0;
 }
 
 .page-14 .review .review__pic-text .review__pic {
@@ -2777,8 +2778,8 @@ element.style {
 }
 
 .page-15 .team .team-item-top {
-  margin-bottom: 4rem;
-  margin-top: 4rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 @media screen and (max-width: 1024px) {
@@ -2998,6 +2999,7 @@ element.style {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
+    margin: 0.5rem 0 0.5rem 0.6rem;
   }
   .page-14 .review .review__block .review__pic-text .review__name-job {
     font-size: 0.9rem;
@@ -3025,6 +3027,7 @@ element.style {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
+    margin: 0.5rem 0 0.5rem 0.6rem;
   }
   .page-14 .review .review__pic-text .review__name-job-2 {
     padding: 1rem 2rem 0 0.5rem;
