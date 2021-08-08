@@ -338,6 +338,13 @@
   padding-bottom: 2rem;
 }
 
+@media screen and (max-width: 1367px) {
+  .about-company__wrapper__first-page .about-company__content {
+    height: 100vh;
+    padding-bottom: 0;
+  }
+}
+
 @media screen and (max-width: 1175px) {
   .about-company__wrapper__first-page .about-company__content {
     margin-left: 17%;
